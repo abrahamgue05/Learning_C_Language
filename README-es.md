@@ -42,7 +42,7 @@ Este repositorio es un espacio para:
 - Soluciones a desafíos de programación.
 - Una lista creciente de recursos y herramientas útiles.
 
-¡Mantente al tanto mientras me adentro más en el mundo de la programación en C!
+¡Mantente al tanto mientras me adentro más en el mundo de la programación en C!.
 
 ---
 
