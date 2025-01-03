@@ -15,7 +15,6 @@ Here are the platforms and materials I'm using to learn C programming:
 ### 🎥 YouTube
 
 - [C Programming Tutorial for beginners](https://www.youtube.com/watch?v=KJgsSFOSQv0&ab_channel=freeCodeCamp.org) - This course will give you a full introduction into all of the core concepts in the C programming language.
- programming.
 
 - [CS50x 2024 - Lecture 1 - C](https://www.youtube.com/watch?v=cwtpLIWylAw&t=1233s&ab_channel=CS50) - This is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.
 
@@ -30,6 +29,7 @@ Here are the platforms and materials I'm using to learn C programming:
 
 - [The Complete C Programming Bootcamp](https://mercadolibre-betahub.udemy.com/course/the-complete-c-programming-bootcamp/) - Master C programming in Visual Studio Code. Learn pointers, macro and low level data manipulation. Embedded ready.
 
+**Note**: All code examples and projects are written in **English**.
 
 ## 📝 What's This About?
 This repository is a space for:
