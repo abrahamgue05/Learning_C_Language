@@ -1,3 +1,4 @@
+[Español](README-es.md) | [English](README-en.md)
 # Aprendiendo Programación en C 💻
 
 ¡Bienvenido a mi repositorio! Aquí documento mi camino aprendiendo el **lenguaje de programación C**. El objetivo es simple: aprender, experimentar y compartir mis avances.
@@ -45,5 +46,3 @@ Este repositorio es un espacio para:
 ¡Mantente al tanto mientras me adentro más en el mundo de la programación en C!.
 
 ---
-
-[Español](README-es.md) | [English](README-en.md)

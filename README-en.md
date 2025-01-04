@@ -1,3 +1,4 @@
+[Español](README-es.md) | [English](README-en.md)
 # Learning C Programming 💻
 
 Welcome to my repository! This is where I document my journey of learning the **C programming language**. The goal is simple: learn, experiment, and share my progress.
@@ -45,5 +46,3 @@ This repository is a space for:
 Stay tuned as I dive deeper into the world of C programming!
 
 ---
-
-[Español](README-es.md) | [English](README-en.md)
