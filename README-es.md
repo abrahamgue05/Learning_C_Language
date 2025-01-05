@@ -4,6 +4,7 @@
 ¡Bienvenido a mi repositorio! Aquí documento mi camino aprendiendo el **lenguaje de programación C**. El objetivo es simple: aprender, experimentar y compartir mis avances.
 
 ## 🛠️ Herramientas que estoy usando
+
 - **IDE/Editor**: VS Code
 - **Compilador**: GCC
 - **Sistema Operativo**: Windows
@@ -31,6 +32,7 @@ Aquí están las plataformas y materiales que estoy utilizando para aprender C:
 - [The Complete C Programming Bootcamp](https://mercadolibre-betahub.udemy.com/course/the-complete-c-programming-bootcamp/) - Domina la programación en C en Visual Studio Code. Aprende punteros, macros y manipulación de datos de bajo nivel. Listo para sistemas embebidos. 
 
 ## 📝 ¿De qué trata esto?
+
 Este repositorio es un espacio para:
 - Mantener un registro y seguimiento de lo que aprendo.
 - Practicar conceptos fundamentales y avanzados de programación en C.
@@ -39,6 +41,7 @@ Este repositorio es un espacio para:
 **Nota**: Todos los ejemplos de código y proyectos están escritos en **inglés**.
 
 ## 🔍 ¿Qué viene después?
+
 - Mini proyectos para aplicar conceptos.
 - Soluciones a desafíos de programación.
 - Una lista creciente de recursos y herramientas útiles.
@@ -46,3 +49,13 @@ Este repositorio es un espacio para:
 ¡Mantente al tanto mientras me adentro más en el mundo de la programación en C!.
 
 ---
+
+## 📝 Notas
+
+Aquí están algunas cosas importantes que he aprendido en el camino:
+
+- Los archivos de C no pueden tener espacios.  
+  ❌ Hola Mundo  
+  ✔ Hola_mundo.c / holamundo.c
+
+¡Añadiré más conforme a mi progreso!

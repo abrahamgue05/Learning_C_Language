@@ -46,3 +46,13 @@ This repository is a space for:
 Stay tuned as I dive deeper into the world of C programming!
 
 ---
+
+## 📝 Notes
+
+Here are some important things I've learned along the way:
+
+- C file names can't have spaces.  
+  ❌ Hello World.c  
+  ✔ Hello_world.c / helloworld.c
+
+I’ll keep adding more as I progress!
