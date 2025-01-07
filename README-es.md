@@ -54,8 +54,12 @@ Este repositorio es un espacio para:
 
 Aquí están algunas cosas importantes que he aprendido en el camino:
 
-- Los archivos de C no pueden tener espacios.  
-  ❌ Hola Mundo  
-  ✔ Hola_mundo.c / holamundo.c
+- Los archivos de C no pueden tener espacios:  
+  ❌ Hola Mundo.
+  ✔ Hola_mundo.c / holamundo.c.
+
+- Cuando queremos correr un programa en C:
+  1️⃣ **Compilar**: Convierte el codigo C a codigo maquina usando un compilador. 
+  2️⃣ **Correr**: Corre el codigo.
 
 ¡Añadiré más conforme a mi progreso!

@@ -55,5 +55,9 @@ Here are some important things I've learned along the way:
   ❌ Hello World.c  
   ✔ Hello_world.c / helloworld.c
 
+- When we want to run a C program:
+  1️⃣ **Compile**: Converts the C into machine code using a compiler.
+  2️⃣ **Run**: Execute the compiled machine code.
+
 
 I’ll keep adding more as I progress!
