@@ -51,7 +51,7 @@ Stay tuned as I dive deeper into the world of C programming!
 
 Here are some important things I've learned along the way:
 
-- C file names can't have spaces.  
+- C file names can't have spaces or special characters.  
   ❌ Hello World.c  
   ✔ Hello_world.c / helloworld.c
 
