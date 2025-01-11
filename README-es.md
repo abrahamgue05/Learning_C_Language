@@ -54,7 +54,7 @@ Este repositorio es un espacio para:
 
 Aquí están algunas cosas importantes que he aprendido en el camino:
 
-- Los archivos de C no pueden tener espacios:  
+- Los archivos de C no pueden tener espacios o caracteres especiales:  
   ❌ Hola Mundo.
   ✔ Hola_mundo.c / holamundo.c.
 
