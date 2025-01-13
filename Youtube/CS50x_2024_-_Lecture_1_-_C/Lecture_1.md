@@ -40,4 +40,19 @@
 
 ## CS50 Library
 
-- 
+- #include <stdio.h>: A lot of functionalities come in separete files,
+like printf();.
+
+- header file: Represent a library(code that someone else wrote) 
+like #include <stdio.h>.
+
+- Manual pages: Documentation of how somethings work in code https://manual.cs50.io.
+
+- cs50.h: Library made by cs50 https://manual.cs50.io.h(Documentation).
+
+- Return value: Return a value for you to use it how ever you want.
+
+## Format code
+
+- Functions work as you past an argument, and for a second argument 
+goes after a coma(,).
