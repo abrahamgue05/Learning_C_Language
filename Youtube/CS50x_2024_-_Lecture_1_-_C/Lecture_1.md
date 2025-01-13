@@ -56,3 +56,9 @@ like #include <stdio.h>.
 
 - Functions work as you past an argument, and for a second argument 
 goes after a coma(,).
+
+## Types
+
+- Types of data:  bool, char, double, float, int, long, string ...
+
+- Format codes: %c, %f, %i, %li, %s.
