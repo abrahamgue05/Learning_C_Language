@@ -59,6 +59,22 @@ goes after a coma(,).
 
 ## Types
 
-- Types of data:  bool, char, double, float, int, long, string ...
+- Types of data: bool, char, double, float, int, long, string ...
 
 - Format codes: %c, %f, %i, %li, %s.
+
+## Conditionals
+
+- Way of making desicions on a program.
+
+- if, else if, if.
+
+- If you have one line of code you can leave the {} appart.
+
+- ==: Equality of two values.
+
+## Variables 
+
+- += 1 / ++: Adds one to a variable.
+
+- --: Take one to a variable.
