@@ -78,3 +78,81 @@ goes after a coma(,).
 - += 1 / ++: Adds one to a variable.
 
 - --: Take one to a variable.
+
+
+## Loops 
+
+- While.
+
+- For.
+
+- Do while.
+
+## Functions
+
+- void: Use void to make own functions, void, function name, (parameters), {code}
+
+- Call a function: function name().
+
+## Linux
+
+- Operative sistem.
+
+- Textual interface(CLI).
+ 
+- *cp*: Copy.
+ 
+- *rmdir*: Remove directory.
+
+- *cd*: Change directory.
+
+- *mkdir*: Make directory.
+
+- *ls*: list all files. 
+
+- *mv*: move files.
+
+- *rm*: remove file.
+
+## Integer overflow
+
+- RAM: Random Access Memory is where data is stored.
+
+- Integer overflow: If you don't have enough memory, if you count high enough,
+the number will wrap around to 0 or negative number.
+
+- 32 bits can count up to 4294967295 if negatives are used half of them most be
+save for negatives and the other half for positives.
+
+## Truncation
+
+- If you take an integer and divide it by an integer even if you get a 
+  fractional value the fraction just get trown away
+
+## Type casting 
+
+- Treat a type as if it was another
+
+## Floating-point impresicion
+
+- You cant represent the infinit number that exist in the universe.
+      
+## Y2K 
+
+- Back in late XX century they used only 2 digits to represent years,
+  so in 2038 32 bits computers will wrap around to 0 in time.
+
+## Video games
+
+- In pacman if you get to level 256 the game will "crash" due to an
+  integer that counts to 256.
+
+- In Donkey Kong the further the level you get more time to compleat
+  each level, but in level 22 you will "crash".
+
+## Boing
+
+- 2015 BOING 787, a software counter will overflow after 248 days of 
+  continuous power.
+
+- The solution restart the plane until a new software came.
