@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <cs50.h>
+//#include <cs50.h>
 
 void print_column(int height);
 
