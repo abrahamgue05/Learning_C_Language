@@ -123,8 +123,8 @@
 
 ## Merge sort
 
-- Sort in 2 halfs, then merge.
+- Sort in 2 halfs, then merge(3 steps).
 
 - Choose the one data that come first, take it and put it in an array.
 
-- 
+- O/Ω/θ(n log n).
