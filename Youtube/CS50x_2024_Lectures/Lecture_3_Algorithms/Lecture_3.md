@@ -38,3 +38,27 @@
 - *O(log n)*: Logarithmic.
 
 - *O(1)*: Constant, faster, a constant number of step.
+
+- Ω: How few steps might an algorith take, lower bound of a number of steps.
+
+- *Ω(n^2)*. 
+
+- *Ω(n log n)*.
+
+- *Ω(n)*.
+
+- *Ω(log n)*.
+
+- *Ω(1)*.
+
+- θ: If the number of best and worst case take the same steps.
+
+- *θ(n^2)*. 
+
+- *θ(n log n)*.
+
+- *θ(n)*.
+
+- *θ(log n)*.
+
+- *θ(1)*.
