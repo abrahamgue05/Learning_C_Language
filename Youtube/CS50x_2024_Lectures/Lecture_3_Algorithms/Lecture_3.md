@@ -62,3 +62,61 @@
 - *θ(log n)*.
 
 - *θ(1)*.
+
+## Structs
+
+- Code smell: Something smell a little off about this code.
+
+- Data structures.
+
+## Sorting
+
+- Set the data in an specyfic orden.
+
+## Selection sort
+
+- Select the smallest element again and again.
+
+- Slow as it only rembers one number at the time.
+
+- For i from 0 to n-1 
+
+- (n - 1): Compere the first data.
+
+- (n - 1) + (n - 2)...: The whole data compare.
+
+- n(n - 1)/2: How many steps did it take.
+
+- (n^2 - n)/2.
+
+- n^2/2 - n/2.
+
+- O(n^2).
+
+- O/Ω/θ(n^2): Selection sort.
+
+## Bubble sort
+
+- Do something again and again(comparing).
+
+- Repeat n/n-1 times.
+
+- (n - 1)x(n - 1).
+
+- n^2 - 1n - 1n +1.
+
+- n^2 - 2n + 1.
+
+- Asymptotc notation: Fancy way to descrive O/Ω/θ.
+
+- Ω in the best way it will be n the less cuantitie of step.
+
+- Push the larger number in the step to the end.
+
+## Recursion
+
+- Description for a function that calls it self.
+
+- Use a function that already knows how to do it.
+
+- Iteration: loops again and again.
