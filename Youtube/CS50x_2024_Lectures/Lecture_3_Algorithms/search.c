@@ -9,7 +9,7 @@ int main(void){
     string s = get_string("String: ");
     for(int i = 0; i < 6; i++){
 
-        if(strcmp(strings[i], s) == 0){ //Compare strings.
+        if(strcmp(strings[i], s) == 0){ //Compare strings., compares the ASCII-value.
             printf("Found in position %i\n", i + 1);
             return 0; //Indicate success
         }
