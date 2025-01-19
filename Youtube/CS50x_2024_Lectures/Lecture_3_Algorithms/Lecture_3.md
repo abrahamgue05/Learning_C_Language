@@ -120,3 +120,11 @@
 - Use a function that already knows how to do it.
 
 - Iteration: loops again and again.
+
+## Merge sort
+
+- Sort in 2 halfs, then merge.
+
+- Choose the one data that come first, take it and put it in an array.
+
+- 
