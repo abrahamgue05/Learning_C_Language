@@ -37,3 +37,9 @@
 - *pointer representation.
 
 - Pointers user more space in memory than the variable.
+
+## Strings
+
+- Every string have a final null value to indicate the end.
+
+- The name of the string is actually a pointer.
