@@ -2,7 +2,7 @@
 
 ## Pixel Art
 
-- Resolution: How many pixels are on the screen.
+- *Resolution*: How many pixels are on the screen.
 
 - Grid of 0 and 1.
 
@@ -12,9 +12,9 @@
 
 - cs50.ly/art.
 
-- RGB: Red, Green, Blue.
+- *RGB*: Red, Green, Blue.
 
-- Hexadecimal: # 00RED 00GREEN 00BLUE.
+- *Hexadecimal*: # 00RED 00GREEN 00BLUE.
 
 - 00 none of the color FF full of the color.
 
@@ -46,4 +46,28 @@
 
 - typedef is a way to creat a datatype.
 
-- uint8_t: datatype that comes with c.
+- *uint8_t*: datatype that comes with c.
+
+
+## Pointer arithmetic
+
+- pointer arithmetic: Doing math on addresses.
+
+- Get every address with just using the first and adding to get every address.
+
+## String Comparation
+
+- Even if the text is the same the addresses are different.
+
+- If we assing a string to another string(t = s), they will have the same address
+  so what changes in one will change into the other.
+
+## Copying
+
+- *malloc*: Memory allocate give a the chunc of memory, taking just the value of bytes.
+
+- *free*: Oposite of malloc.
+
+- Computer can run out of memory making it freeze or slow.
+
+- *Null*: The address 0.
