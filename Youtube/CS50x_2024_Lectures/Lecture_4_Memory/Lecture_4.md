@@ -71,3 +71,9 @@
 - Computer can run out of memory making it freeze or slow.
 
 - *Null*: The address 0.
+
+## Malloc and Valgrind
+
+- *valgrind*: Check the usage of memory in program.
+
+- *Memory leak*: Lossing track of memory and never freeing it.
