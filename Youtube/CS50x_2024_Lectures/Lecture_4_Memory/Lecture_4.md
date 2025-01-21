@@ -43,3 +43,7 @@
 - Every string have a final null value to indicate the end.
 
 - The name of the string is actually a pointer.
+
+- typedef is a way to creat a datatype.
+
+- uint8_t: datatype that comes with c.
