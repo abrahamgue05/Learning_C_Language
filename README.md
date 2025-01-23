@@ -22,9 +22,9 @@ Here are the platforms and materials I'm using to learn C programming:
 ### 📘 Udemy
 
 
-- C programming For beginners - Master the C Language. https://mercadolibre-betahub.udemy.com/course/ c-programming-for-beginners-/. - C Programming will increase career options. Become a better dev in other languages by learning C. Pointers explained. 
+- [C programming For beginners - Master the C Language](https://mercadolibre-betahub.udemy.com/course/) c-programming-for-beginners-/. - C Programming will increase career options. Become a better dev in other languages by learning C. Pointers explained. 
 
-- [The Complete C Programming Bootcamp](https://mercadolibre-betahub.udemy.com/course/the-complete-c-programming-bootcamp/) - Master C programming in Visual Studio Code. Learn pointers, macro and low level data manipulation. Embedded ready.
+- [Advanced C Programming Course](https://www.udemy.com/course/advanced-c-programming-course/?couponCode=ST18MT12125AROW) - Become a True Master of the C Programming Language - Confidently Apply for Real Time or Embedded C Jobs or contracts!.
 
 **Note**: All code examples and projects are written in **English**.
 
