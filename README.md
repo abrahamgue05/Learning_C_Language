@@ -22,7 +22,7 @@ Here are the platforms and materials I'm using to learn C programming:
 ### 📘 Udemy
 
 
-- [Programación en C de Cero a Experto con Estructuras de Datos ](https://mercadolibre-betahub.udemy.com/course/programacion_en_c_desde_cero_a_experto/) - Lenguaje C con Algoritmos, Estructuras de Datos como Listas, Pilas, Colas. Arboles, Grafos Manejo de Archivos.
+- C programming For beginners - Master the C Language. https://mercadolibre-betahub.udemy.com/course/ c-programming-for-beginners-/.
 
 - [The Complete C Programming Bootcamp](https://mercadolibre-betahub.udemy.com/course/the-complete-c-programming-bootcamp/) - Master C programming in Visual Studio Code. Learn pointers, macro and low level data manipulation. Embedded ready.
 
