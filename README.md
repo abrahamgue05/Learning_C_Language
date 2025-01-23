@@ -15,16 +15,16 @@ Here are the platforms and materials I'm using to learn C programming:
 
 ### 🎥 YouTube
 
-- (Completed)[C Programming Tutorial for beginners](https://www.youtube.com/watch?v=KJgsSFOSQv0&ab_channel=freeCodeCamp.org) - This course will give you a full introduction into all of the core concepts in the C programming language.
+- (Completed) [C Programming Tutorial for beginners](https://www.youtube.com/watch?v=KJgsSFOSQv0&ab_channel=freeCodeCamp.org) - This course will give you a full introduction into all of the core concepts in the C programming language.
 
-- (To compleate)[CS50x 2024 - Lecture 1 to 5 - C](https://www.youtube.com/watch?v=cwtpLIWylAw&t=1233s&ab_channel=CS50) - This is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.
+- (To compleate) [CS50x 2024 - Lecture 1 to 5 - C](https://www.youtube.com/watch?v=cwtpLIWylAw&t=1233s&ab_channel=CS50) - This is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.
 
 ### 📘 Udemy
 
 
-- (To start)[C programming For beginners - Master the C Language](https://mercadolibre-betahub.udemy.com/course/) c-programming-for-beginners-/. - C Programming will increase career options. Become a better dev in other languages by learning C. Pointers explained. 
+- (Not started) [C programming For beginners - Master the C Language](https://mercadolibre-betahub.udemy.com/course/) c-programming-for-beginners-/. - C Programming will increase career options. Become a better dev in other languages by learning C. Pointers explained. 
 
-- (To start)[Advanced C Programming Course](https://www.udemy.com/course/advanced-c-programming-course/?couponCode=ST18MT12125AROW) - Become a True Master of the C Programming Language - Confidently Apply for Real Time or Embedded C Jobs or contracts!.
+- (Not started) [Advanced C Programming Course](https://www.udemy.com/course/advanced-c-programming-course/?couponCode=ST18MT12125AROW) - Become a True Master of the C Programming Language - Confidently Apply for Real Time or Embedded C Jobs or contracts!.
 
 **Note**: All code examples and projects are written in **English**.
 
