@@ -16,20 +16,17 @@ Aquí están las plataformas y materiales que estoy utilizando para aprender C:
 
 ### 🎥 YouTube
 
-- [C Programming Tutorial for beginners](https://www.youtube.com/watch?v=KJgsSFOSQv0&ab_channel=freeCodeCamp.org) - Este curso te dara una introducion completa a todos los conceptos fundamentales del lenguaje de programacion C.
+- (Completado) [C Programming Tutorial for beginners](https://www.youtube.com/watch?v=KJgsSFOSQv0&ab_channel=freeCodeCamp.org) - Este curso te dara una introducion completa a todos los conceptos fundamentales del lenguaje de programacion C.
 
-- [CS50x 2024 - Lecture 1 a 5 - C](https://www.youtube.com/watch?v=cwtpLIWylAw&t=1233s&ab_channel=CS50) - Introducción CS50 de la Universidad de Harvard a las empresas intelectuales de la informática y al arte de la programación.
+- (A completar) [CS50x 2024 - Lecture 1 a 5 - C](https://www.youtube.com/watch?v=cwtpLIWylAw&t=1233s&ab_channel=CS50) - Introducción CS50 de la Universidad de Harvard a las empresas intelectuales de la informática y al arte de la programación.
 
-- [CS50x 2025 - Section 1 a 5 - C](https://www.youtube.com/watch?v=KraVJDqv7uo&t=3390s&ab_channel=CS50) - Introducción CS50 de la Universidad de Harvard a las empresas intelectuales de la informática y al arte de la programación.
-
-- [C programming full course for free](https://www.youtube.com/watch?v=87SH2Cn0s9A&t=14s&ab_channel=BroCode) - Tutorial de para principiantes curso completo. 
 
 ### 📘 Udemy
 
 
-- [Programación en C de Cero a Experto con Estructuras de Datos ](https://mercadolibre-betahub.udemy.com/course/programacion_en_c_desde_cero_a_experto/) - Lenguaje C con Algoritmos, Estructuras de Datos como Listas, Pilas, Colas. Arboles, Grafos Manejo de Archivos.
+- (No iniciado) [C programming For beginners - Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/?couponCode=ST18MT12125AROW) c-programming-for-beginners-/. - C Programming will increase career options. Become a better dev in other languages by learning C. Pointers explained.
 
-- [The Complete C Programming Bootcamp](https://mercadolibre-betahub.udemy.com/course/the-complete-c-programming-bootcamp/) - Domina la programación en C en Visual Studio Code. Aprende punteros, macros y manipulación de datos de bajo nivel. Listo para sistemas embebidos. 
+- (Not iniciado) [Advanced C Programming Course](https://www.udemy.com/course/advanced-c-programming-course/?couponCode=ST18MT12125AROW) - Become a True Master of the C Programming Language - Confidently Apply for Real Time or Embedded C Jobs or contracts!.
 
 ## 📝 ¿De qué trata esto?
 
