@@ -14,7 +14,8 @@
 
 - *RGB*: Red, Green, Blue.
 
-- *Hexadecimal*: # 00RED 00GREEN 00BLUE none of each color = black.
+- *Hexadecimal*: # 00RED 00GREEN 00BLUE none of each color = black
+  FFRED .
 
 - 00 none of the color FF full of the color.
 
