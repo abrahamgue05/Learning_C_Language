@@ -14,7 +14,7 @@
 
 - *RGB*: Red, Green, Blue.
 
-- *Hexadecimal*: # 00RED 00GREEN 00BLUE.
+- *Hexadecimal*: # 00RED 00GREEN 00BLUE .
 
 - 00 none of the color FF full of the color.
 
