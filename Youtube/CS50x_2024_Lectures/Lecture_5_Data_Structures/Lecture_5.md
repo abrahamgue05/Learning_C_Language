@@ -9,4 +9,18 @@
 - Abstract data types: Data structure but offer some caracteristics ans is up to
   the programmer how to implement it.
 
-- Queues: 
+- *Queues*: Basicly what we know as lines.
+
+- *FIFO*: First in first out, used in queues.
+
+- *enqueue*: Enter the queue.
+
+- *dequeue*: Exit the queue.
+
+- *stacks*: Omnipresent as well, but follow diferent as FIFO.
+
+- *LIFO*: Last in first out, used in stacks, used in emails.
+
+- *push*: push into the stack.
+
+- *pop*: Take out of the stack.
