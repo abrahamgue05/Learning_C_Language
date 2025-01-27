@@ -32,3 +32,19 @@
 - list.c
 
 - Essentialy uses pointer arithmetic using malloc.
+
+## Linked lists
+
+- struct, ., *, 
+
+- Used insted of copying by using pointer to another chunk of memory, link values,
+  in-beetween can go garbage values.
+
+- Avoing copying saving memory and time.
+
+- Node can be used to store the address of the next element, the last
+  node uses NULL, an extra node to store the fisrt value.
+
+- Node will help to not copying the values. 
+
+- *->*: Go there to a node.
