@@ -24,3 +24,11 @@
 - *push*: push into the stack.
 
 - *pop*: Take out of the stack.
+
+## Resizing Arrays
+
+- Arrays can be resized, but it uses more memory and time in code.
+
+- list.c
+
+- Essentialy uses pointer arithmetic using malloc.
