@@ -35,9 +35,12 @@
 
 - Address of some value.
 
-- *pointer representation.
-
 - Pointers user more space in memory than the variable.
+
+- & What address is the variable.
+
+- * Take and address and go to it
+
 
 ## Strings
 
@@ -84,3 +87,27 @@
 - Number that is remnants of the computer that been on for a while.
 
 - Values of variable that werent set by the programmer.
+
+- Binky
+
+- Pointers don't point to anything initially.
+
+- *Pointees*: What pointers point to.
+
+- A pointee can have more than one pointers.
+
+## Swapping
+
+- A temporary variable can help us to storage a value.
+
+- *Passing by value*: Pass a value by coping it.
+
+- *Globals*: Define a variable outside of any function(main/void).
+
+- *heap*: Malloc come from here.
+
+- *stack*: When using functions with variables and arguments stack memory is used.
+
+- *passing by reference*: Insted of copying change them permanently.
+
+- Use * before the variable to change its actual value it mainly change the pointers.
