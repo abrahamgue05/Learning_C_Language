@@ -130,3 +130,23 @@
 
 - If the user isn't prevent of the quantity of values it can have,
   the extra values will go to unseted memory space.
+
+## File I/O
+
+- *I/O*: Input and output
+
+- *fopen*: Open a file.
+
+- *fclose*: Close a file.
+
+- *fprintf*: Print to a file.
+
+- *fscanf*: Read data from a file.
+
+- *fread*: More for image or binary that ascii.
+
+- *fwrite*: More for image or binary that ascii.
+
+- *fseek*: Move around in a file.
+
+- BMP: Bit mapes files implements image as bits.
