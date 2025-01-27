@@ -78,3 +78,9 @@
 - *valgrind*: Check the usage of memory in program.
 
 - *Memory leak*: Lossing track of memory and never freeing it.
+
+## Garbage value
+
+- Number that is remnants of the computer that been on for a while.
+
+- Values of variable that werent set by the programmer.
