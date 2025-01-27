@@ -111,3 +111,22 @@
 - *passing by reference*: Insted of copying change them permanently.
 
 - Use * before the variable to change its actual value it mainly change the pointers.
+
+## Overflow
+
+- Stack and heap can get overflow and "crash with eachother" and bad things happen.
+
+- *buffer overflow*: buffer is a chunk of memory.
+
+- Getting data from the user can overflow a buffer as we dont know how much they
+  will use.
+
+## Scanf
+
+- A way to get data from the user. 
+
+- Before changing the value to the one user gave garbage values can come,
+  to change that in string the size of it is predifined.
+
+- If the user isn't prevent of the quantity of values it can have,
+  the extra values will go to unseted memory space.
