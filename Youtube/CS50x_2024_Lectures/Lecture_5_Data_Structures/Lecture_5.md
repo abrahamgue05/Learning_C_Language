@@ -64,3 +64,5 @@
 - list = n; = Give the list the value of n.
 
 - n->next = list; Get the address to set it to the node.
+
+- listv2.c
