@@ -45,6 +45,22 @@
 - Node can be used to store the address of the next element, the last
   node uses NULL, an extra node to store the fisrt value.
 
-- Node will help to not copying the values. 
+- Node will help to not copying the values.
 
-- *->*: Go there to a node.
+- *node *next*: A way to get to de next node.
+
+- *node *list*: Beginning of a linked list, but will get a garbage value.
+
+- *node *list = NULL*: Make the garbage value to a null value.
+
+- *node *n = malloc(sizeofnode(node));* = to allocate space for a node.
+
+- *(*n).number = 1*: Go to the number field and storage the number 1.
+
+- *->*: Go there to a node used in sted of (*n).number = n->number = 1.
+
+- *n->next = null*: And set next node to null.
+
+- list = n; = Give the list the value of n.
+
+- n->next = list; Get the address to set it to the node.
