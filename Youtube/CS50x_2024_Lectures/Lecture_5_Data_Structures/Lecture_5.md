@@ -15,7 +15,7 @@
 
 - *Enqueue*: Enter the queue.
 
-- *dequeue*: Exit the queue.
+- *Dequeue*: Exit the queue.
 
 - *stacks*: Omnipresent as well, but follow diferent as FIFO.
 
