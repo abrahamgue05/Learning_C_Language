@@ -17,7 +17,7 @@
 
 - *Dequeue*: Exit the queue.
 
-- *stacks*: Omnipresent as well, but follow diferent as FIFO.
+- *Stacks*: Omnipresent as well, but follow diferent as FIFO.
 
 - *LIFO*: Last in first out, used in stacks, used in emails.
 
