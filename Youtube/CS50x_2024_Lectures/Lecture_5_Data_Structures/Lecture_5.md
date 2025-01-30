@@ -33,6 +33,8 @@
 
 - Essentialy uses pointer arithmetic using malloc.
 
+- With linked lists.
+
 ## Linked lists
 
 - struct, ., *, 
