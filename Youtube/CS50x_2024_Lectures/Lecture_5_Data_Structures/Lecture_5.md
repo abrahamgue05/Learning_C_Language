@@ -13,7 +13,7 @@
 
 - *FIFO*: First in first out, used in queues.
 
-- *enqueue*: Enter the queue.
+- *Enqueue*: Enter the queue.
 
 - *dequeue*: Exit the queue.
 
