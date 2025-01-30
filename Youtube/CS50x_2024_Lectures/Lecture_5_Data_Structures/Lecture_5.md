@@ -65,4 +65,16 @@
 
 - n->next = list; Get the address to set it to the node.
 
-- listv2.c
+- listv2.c.
+
+- O(1).
+
+- O(n) is the representation of how many steps will take to find a number.
+
+- Linked list dont lose time on intertion but it does in searching.
+
+- appending is better as it goes to the end of the list and running will be
+  O(n).
+
+- listv3.c.
+
