@@ -81,3 +81,17 @@
 - listv3.c.
 
 - O(n)
+
+## Trees
+
+- branches.
+
+- binary search trees.
+
+- divided in to(left and right).
+
+- O(log n).
+
+- It dosen't need to be contigius.
+
+- It can become a linked list, but can be fixed by reversing pointers.
