@@ -95,3 +95,17 @@
 - It dosen't need to be contigius.
 
 - It can become a linked list, but can be fixed by reversing pointers.
+
+## Dictionries
+
+- Similar as stacks and queues.
+
+- Stores keys and values.
+
+- Literaly a dictionary, words(keys), definition(values).
+
+- Abstract data type.
+
+- Contacs in phone number.
+
+- O(1).
