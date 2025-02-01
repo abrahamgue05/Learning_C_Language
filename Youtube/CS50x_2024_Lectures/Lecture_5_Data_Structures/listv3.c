@@ -22,8 +22,26 @@ int main(int argc, char *argv[]){
         n->number = number;
         n->next = NULL;
 
-        n->next = list;
-        list = n;        
+        if(list == NULL){ // If list is empty.
+            list = n;
+
+        }else if(n->number < list->number){ // If number belongs at beggining of list.
+            n->next = list;
+            list = n;
+
+        }else{// If number belongs later in the list
+            for (node *ptr = list; ptr != NULL; ptr = ptr->next){
+                if(ptr->next == NULL){
+                    ptr->next = n;// Appends node
+                    break; 
+                }
+                if(n->number < ptr->next->number){ // If in middle opf list.
+                    n->next = ptr->next
+                    ptr->next = n;
+                    break;
+                }
+            }    
+        }
     }
     // Print the whole list;
     node *ptr = list;
