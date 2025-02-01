@@ -109,3 +109,23 @@
 - Contacs in phone number.
 
 - O(1).
+
+## Hashing and Hash Tables
+
+- *Hashing*: A technique that takes any number of inputs and maps the to a
+  finite number of outputs.
+
+- *Hash function*: A function that take inputs and output some value.
+
+- *Hash tables*: A combination of linked list and arrays.
+
+- Linking values that are repeated or have similarities.
+
+- O(n).
+
+- Can have memory problems in some cases.
+
+- hash.c.
+
+- O(n).
+
