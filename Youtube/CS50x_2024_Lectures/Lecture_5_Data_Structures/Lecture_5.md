@@ -127,5 +127,16 @@
 
 - hash.c.
 
-- O(n).
+## Tries
 
+- Retrival.
+
+- The amalgama of all the above.
+
+- *Tries*: Tree of arrays.
+
+- 0(1).
+
+- tries.c
+
+- Use a LOT of memory but give ud constant time.
