@@ -15,9 +15,9 @@ Here are the platforms and materials I'm using to learn C programming:
 
 ### 🎥 YouTube
 
-- (Completed) [C Programming Tutorial for beginners](https://www.youtube.com/watch?v=KJgsSFOSQv0&ab_channel=freeCodeCamp.org) - This course will give you a full introduction into all of the core concepts in the C programming language.
+- [x] (Completed) [C Programming Tutorial for beginners](https://www.youtube.com/watch?v=KJgsSFOSQv0&ab_channel=freeCodeCamp.org) - This course will give you a full introduction into all of the core concepts in the C programming language.
 
-- (Compleated) [CS50x 2024 - Lecture 1 to 5 - C](https://www.youtube.com/watch?v=cwtpLIWylAw&t=1233s&ab_channel=CS50) - This is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.
+- [x] (Compleated) [CS50x 2024 - Lecture 1 to 5 - C](https://www.youtube.com/watch?v=cwtpLIWylAw&t=1233s&ab_channel=CS50) - This is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.
 
 ### 📘 Udemy
 
@@ -43,9 +43,8 @@ Stay tuned as I dive deeper into the world of C programming!
 
 ---
 
-## 📝 Notes
-
-Here are some important things I've learned along the way:
+>[!NOTE]
+>Here are some important things I've learned along the way:
 
 - C file names can't have spaces or special characters.  
   ❌ Hello World.c  
