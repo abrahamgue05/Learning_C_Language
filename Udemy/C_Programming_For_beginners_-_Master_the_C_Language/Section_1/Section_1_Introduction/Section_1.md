@@ -4,7 +4,7 @@
 
 - ### Topics
 
-<sub> Overview of C - Efficient, portable, power and flexibility, programmer oriented.
+<sup> Overview of C - Efficient, portable, power and flexibility, programmer oriented.
 
 - Language features - Imperative language, top-down planning, structured 
   programming.
@@ -51,7 +51,7 @@
 - File Input/Output - Reading and writing to a file, file operations.
 
 - Standard C Library - Strings functions, math functions, utility functions, 
-  standard header.</sub>
+  standard header.</sup>
 
 - ### Course Outcomes
  
