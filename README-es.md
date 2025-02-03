@@ -16,17 +16,17 @@ Aquí están las plataformas y materiales que estoy utilizando para aprender C:
 
 ### 🎥 YouTube
 
-- (Completado) [C Programming Tutorial for beginners](https://www.youtube.com/watch?v=KJgsSFOSQv0&ab_channel=freeCodeCamp.org) - Este curso te dara una introducion completa a todos los conceptos fundamentales del lenguaje de programacion C.
+- [ ] [C Programming Tutorial for beginners](https://www.youtube.com/watch?v=KJgsSFOSQv0&ab_channel=freeCodeCamp.org) - Este curso te dara una introducion completa a todos los conceptos fundamentales del lenguaje de programacion C.
 
-- (Completado) [CS50x 2024 - Lecture 1 a 5 - C](https://www.youtube.com/watch?v=cwtpLIWylAw&t=1233s&ab_channel=CS50) - Introducción CS50 de la Universidad de Harvard a las empresas intelectuales de la informática y al arte de la programación.
+- [ ] [CS50x 2024 - Lecture 1 a 5 - C](https://www.youtube.com/watch?v=cwtpLIWylAw&t=1233s&ab_channel=CS50) - Introducción CS50 de la Universidad de Harvard a las empresas intelectuales de la informática y al arte de la programación.
 
 
 ### 📘 Udemy
 
 
-- (A iniciar) [C programming For beginners - Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/?couponCode=ST18MT12125AROW) c-programming-for-beginners-/. - Programacion C aumentara la posibilidad de carreras. Conviertete en un mejor promadar en otra lengau aprendiendo C. Punteros explicados.
+- [X] [C programming For beginners - Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/?couponCode=ST18MT12125AROW) c-programming-for-beginners-/. - Programacion C aumentara la posibilidad de carreras. Conviertete en un mejor promadar en otra lengau aprendiendo C. Punteros explicados.
 
-- (Not iniciado) [Advanced C Programming Course](https://www.udemy.com/course/advanced-c-programming-course/?couponCode=ST18MT12125AROW) - Conviertete en un verdadero master del lenguaje C - con seguridad aplique para trabajos en tiempo real o con C integrado.
+- [X] [Advanced C Programming Course](https://www.udemy.com/course/advanced-c-programming-course/?couponCode=ST18MT12125AROW) - Conviertete en un verdadero master del lenguaje C - con seguridad aplique para trabajos en tiempo real o con C integrado.
 
 ## 📝 ¿De qué trata esto?
 
@@ -47,16 +47,15 @@ Este repositorio es un espacio para:
 
 ---
 
-## 📝 Notas
-
-Aquí están algunas cosas importantes que he aprendido en el camino:
+> [!NOTE]
+> Aquí están algunas cosas importantes que he aprendido en el camino:
 
 - Los archivos de C no pueden tener espacios o caracteres especiales:  
   ❌ Hola Mundo.
   ✔ Hola_mundo.c / holamundo.c.
 
 - Cuando queremos correr un programa en C:
-  1️⃣ **Compilar**: Convierte el codigo C a codigo maquina usando un compilador. 
+  1️⃣ **Compilar**: Convierte el codigo C a codigo maquina usando un compilador.</br> 
   2️⃣ **Correr**: Corre el codigo.
 
 ¡Añadiré más conforme a mi progreso!
