@@ -18,7 +18,7 @@ Aquí están las plataformas y materiales que estoy utilizando para aprender C:
 
 - (Completado) [C Programming Tutorial for beginners](https://www.youtube.com/watch?v=KJgsSFOSQv0&ab_channel=freeCodeCamp.org) - Este curso te dara una introducion completa a todos los conceptos fundamentales del lenguaje de programacion C.
 
-- (A completar) [CS50x 2024 - Lecture 1 a 5 - C](https://www.youtube.com/watch?v=cwtpLIWylAw&t=1233s&ab_channel=CS50) - Introducción CS50 de la Universidad de Harvard a las empresas intelectuales de la informática y al arte de la programación.
+- (Completado) [CS50x 2024 - Lecture 1 a 5 - C](https://www.youtube.com/watch?v=cwtpLIWylAw&t=1233s&ab_channel=CS50) - Introducción CS50 de la Universidad de Harvard a las empresas intelectuales de la informática y al arte de la programación.
 
 
 ### 📘 Udemy
