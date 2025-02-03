@@ -16,17 +16,17 @@ Aquí están las plataformas y materiales que estoy utilizando para aprender C:
 
 ### 🎥 YouTube
 
-- [ ] [C Programming Tutorial for beginners](https://www.youtube.com/watch?v=KJgsSFOSQv0&ab_channel=freeCodeCamp.org) - Este curso te dara una introducion completa a todos los conceptos fundamentales del lenguaje de programacion C.
+- [x] [C Programming Tutorial for beginners](https://www.youtube.com/watch?v=KJgsSFOSQv0&ab_channel=freeCodeCamp.org) - Este curso te dara una introducion completa a todos los conceptos fundamentales del lenguaje de programacion C.
 
-- [ ] [CS50x 2024 - Lecture 1 a 5 - C](https://www.youtube.com/watch?v=cwtpLIWylAw&t=1233s&ab_channel=CS50) - Introducción CS50 de la Universidad de Harvard a las empresas intelectuales de la informática y al arte de la programación.
+- [x] [CS50x 2024 - Lecture 1 a 5 - C](https://www.youtube.com/watch?v=cwtpLIWylAw&t=1233s&ab_channel=CS50) - Introducción CS50 de la Universidad de Harvard a las empresas intelectuales de la informática y al arte de la programación.
 
 
 ### 📘 Udemy
 
 
-- [X] [C programming For beginners - Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/?couponCode=ST18MT12125AROW) c-programming-for-beginners-/. - Programacion C aumentara la posibilidad de carreras. Conviertete en un mejor promadar en otra lengau aprendiendo C. Punteros explicados.
+- [] [C programming For beginners - Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/?couponCode=ST18MT12125AROW) c-programming-for-beginners-/. - Programacion C aumentara la posibilidad de carreras. Conviertete en un mejor promadar en otra lengau aprendiendo C. Punteros explicados.
 
-- [X] [Advanced C Programming Course](https://www.udemy.com/course/advanced-c-programming-course/?couponCode=ST18MT12125AROW) - Conviertete en un verdadero master del lenguaje C - con seguridad aplique para trabajos en tiempo real o con C integrado.
+- [] [Advanced C Programming Course](https://www.udemy.com/course/advanced-c-programming-course/?couponCode=ST18MT12125AROW) - Conviertete en un verdadero master del lenguaje C - con seguridad aplique para trabajos en tiempo real o con C integrado.
 
 ## 📝 ¿De qué trata esto?
 
@@ -54,7 +54,7 @@ Este repositorio es un espacio para:
   ❌ Hola Mundo.
   ✔ Hola_mundo.c / holamundo.c.
 
-- Cuando queremos correr un programa en C:
+- Cuando queremos correr un programa en C:</br>
   1️⃣ **Compilar**: Convierte el codigo C a codigo maquina usando un compilador.</br> 
   2️⃣ **Correr**: Corre el codigo.
 
