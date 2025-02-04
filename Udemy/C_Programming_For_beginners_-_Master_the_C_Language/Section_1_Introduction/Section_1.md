@@ -114,7 +114,22 @@
   
 ## Overview
 
--
+- C is a general-porpouse, imperative computer programming language that supports
+  structured programming.
+
+- Can change a program's state, focused on how.
+
+- C is a modern language, has basic structures and features of modern language,
+  modular desing, reliable and readable.
+
+- Used in minicomputers, systemas and mainframes.
+
+- Strong role in the development of Linux.
+
+- C is a subset of C++ with OOP.
+
+- Avilable for most computers and is also hardware independent.
+
 
 ## Language Features
 
