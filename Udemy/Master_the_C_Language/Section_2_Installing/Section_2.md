@@ -11,7 +11,10 @@
 - *Linux*: Compiler comes installed, IDE's(Integrated Development Enviroment),
   (CodeLite/vi/gedit,CL)
 
-## Windows
+
+<details>
+
+<summary>Windows</summary>
 
 ### Installing the C compiler
 
@@ -55,3 +58,5 @@
     right click -> New project -> Name it -> Create on own folder -> Category:
     Console -> Type: Simple executable(gcc), Compiler: cygwin, debbuger: GNU gdb
     debbuger, Build System: CodeLite Makefile Generator - UNIX -> OK. 
+
+</details>
