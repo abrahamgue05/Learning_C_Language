@@ -2,7 +2,9 @@
 
 ## Welcome to class
 
-- ### Topics
+<details>
+
+<summary>Topics</summary>
 
   - *Overview of C* - Efficient, portable, power and flexibility, 
     programmer oriented.
@@ -53,6 +55,7 @@
 
   - *Standard C Library* - Strings functions, math functions, utility functions, 
     standard header.
+</details>
 
 - ### Course Outcomes
  
