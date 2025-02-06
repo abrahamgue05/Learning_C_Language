@@ -54,4 +54,4 @@
     -> give it a name -> check Create a workspace -> OK -> select workspace -> 
     right click -> New project -> Name it -> Create on own folder -> Category:
     Console -> Type: Simple executable(gcc), Compiler: cygwin, debbuger: GNU gdb
-    debbuger, Build System: CodeLite Makefile Generator - UNIX -> OK.
+    debbuger, Build System: CodeLite Makefile Generator - UNIX -> OK. 
