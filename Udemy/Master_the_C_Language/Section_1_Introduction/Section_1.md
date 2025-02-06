@@ -3,7 +3,6 @@
 ## Welcome to class
 
 <details>
-
 <summary>Topics</summary>
 
   - *Overview of C* - Efficient, portable, power and flexibility, 
@@ -57,7 +56,8 @@
     standard header.
 </details>
 
-- ### Course Outcomes
+<details>
+<summary>Course Outcomes</summary>
  
   - Being able to write begginer C programs.
 
@@ -66,6 +66,7 @@
   - Being able to find and fix your erros (understand compiler messages).
 
   - You will understand fundamental aspects of the C Programming language.
+</details>
 
 ## Class Organization
 
