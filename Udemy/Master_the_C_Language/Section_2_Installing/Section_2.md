@@ -43,6 +43,7 @@
 
 > [!IMPORTANT]
 > cygwin and CodeLite installed 
+> Don't use spaces or special char
 
     - Click CodeLite -> Next -> C/C++ Development -> Next -> Scan -> 
     If not located -> Next -> Choose the color -> Next -> Choose -> Finish.
@@ -70,5 +71,30 @@
     Develop -> Xcode.
 
     - To install development tools -> gcc --version to see if they are instelled ->
-    If not a box will pop up -> Install -> Done -> gcc --version. 
+    If not a box will pop up -> Install -> Done -> gcc --version.
+
+### Installing CodeLite on Mac
+
+    - CodeLite.org -> Download -> Donate or not -> App Bundle for OSX -> 
+    Double click the archive -> Drag the CodeLite into applications -> 
+    when trying to open if a problem show -> System preferences -> Security &
+    Privacy -> General -> Open Anyway - Open again.
+
+### Configuring CodeLite on Mac
+> [!IMPORTANT]
+> Compiler and CodeLite already installed
+> Don't use spaces or special char
+
+    - Open CodeLite -> Cancel -> Help -> Run the setup wizard -> Next -> C/C++ ->
+    Scan -> Next -> Choose -> Next -> Choose -> Finish.
+
+    - To se if everything worked Settings build settings -> GCC  -> OK.
+
+    - To create a workspace -> New workspace -> C++ -> OK -> Choose path -> Choose
+    name -> Check box is on -> OK.
+
+    - To create a project -> Right click on the created workspace -> New -> 
+    New Project -> Chose path and name -> Check box is on -> Category: Console ->
+    Type: Simple exevtable (gcc), Compiler: GCC, Debugger: LLDB Debugger, 
+    Build System: Default -> OK.
 </details>
