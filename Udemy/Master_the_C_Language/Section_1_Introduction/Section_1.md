@@ -56,7 +56,7 @@
     standard header.
 </details>
 
-<details>
+<details open>
 <summary>Course Outcomes</summary>
  
   - Being able to write begginer C programs.
