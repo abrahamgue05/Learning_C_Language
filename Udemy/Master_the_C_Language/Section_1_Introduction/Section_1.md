@@ -156,6 +156,13 @@
 
 - *Disadvantages*: More responsability needed, sometimes is dificult to read. 
 
-  ## Creating a C Program
+## Creating a C Program
 
-- 
+- *Editing*: Proccess of creating and modifying C code.
+
+- *Compiling*: Converts he source code into machine code and detect 
+  and reports errors.
+
+- *Linking*: 
+
+- *Executing*: 
