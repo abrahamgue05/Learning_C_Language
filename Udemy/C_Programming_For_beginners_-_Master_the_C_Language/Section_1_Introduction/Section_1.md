@@ -133,8 +133,29 @@
 
 ## Language Features
 
--
+- Compact and efficient programs.
+
+- One of the most important programming languages.
+
+- *Efficient*: Takes advantage of the capabilities of the computers,
+  compact and fast, programmers can fine-tune programs.
+
+- *Portable*: C programs written on one system can be run on other systems with
+  no modifications.
+
+- *Compiler*: Compailers are avilable for PC, in Linux they come as part of the 
+  package.
+
+- *Poweful and flexible*: Unix/Linux Kernel is written in C, some compilers are
+  written in C.
+
+- *Programmer Oriented*: Gives accest to hardware, can manipulate individual bits
+  less strict than most languages in limiting what can be done.
+
+- Provides low level features, can manipulate bits, pointes.
+
+- *Disadvantages*: More responsability needed, sometimes is dificult to read. 
 
 ## Creating a C Program
 
--
+- 
