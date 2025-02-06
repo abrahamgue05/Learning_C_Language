@@ -160,9 +160,11 @@
 
 - *Editing*: Proccess of creating and modifying C code.
 
-- *Compiling*: Converts he source code into machine code and detect 
-  and reports errors.
+- *Compiling*: Converts the source code into machine code and detect 
+  and reports errors of syntax and semantics of the language C in this case.
 
-- *Linking*: 
+- *Linking*: Get the program into a final form for execution on the computer,
+  in some system is run automatically when compiled.
 
-- *Executing*: 
+- *Executing*: Success will produce a executable file automatically,
+  this can also cause problems(wrong output, crashing, etc.). 
