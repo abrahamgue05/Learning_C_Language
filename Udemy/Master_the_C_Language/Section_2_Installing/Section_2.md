@@ -143,4 +143,9 @@
     Right click on project -> Run.
 </details>
 
+## Creating a default CodeLite Project Template (All compilers)
 
+- Create a new workspace -> Create a project -> Make it as a build -> 
+  Select the project -> Right click -> Save as template -> Set name -> 
+  Project category: User template -> Choose desription -> OK -> Create a new 
+  project -> But in category choose your template.
