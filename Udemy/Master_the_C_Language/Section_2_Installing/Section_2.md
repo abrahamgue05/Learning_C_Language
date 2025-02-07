@@ -161,3 +161,19 @@
 - No need for an IDE.
 
 - Simple and effeicient workflow. 
+
+### Windows
+<details>
+<summary>Windows</summary>
+
+    - In search bar -> Cygwin64 -> Cygwin64 terminal -> ls to see archive in 
+    directory -> cd /home/(user in this path) -> mkdir -> Name it -> cd (name) ->
+    Search for Notepad -> Save it in the home/user name -> name the archive -> 
+    save -> on the cygwind64 terminal -> Search for the file -> Write code ->
+    Save it -> Use more to see the code insite it -> gcc (file.c) -> Enter ->
+    ls -> ./((exemade).exe) -> Enter -> Code runs. 
+
+    - To give the .exe a name -> gcc (file.c) -o Name -> gcc help in case help 
+    is needed.
+</details>
+
