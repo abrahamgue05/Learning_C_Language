@@ -149,3 +149,15 @@
   Select the project -> Right click -> Save as template -> Set name -> 
   Project category: User template -> Choose desription -> OK -> Create a new 
   project -> But in category choose your template.
+
+## Using the Command Line Interface
+
+- A text editor (not a Word Processor).
+
+- A command-promt or terminal.
+
+- An installed C compailer.
+
+- No need for an IDE.
+
+- Simple and effeicient workflow. 
