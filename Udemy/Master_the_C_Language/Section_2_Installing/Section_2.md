@@ -57,11 +57,16 @@
     -> Give it a name -> Check Create a workspace -> OK -> Select workspace -> 
     Right click -> New project -> Name it -> Create on own folder -> Category:
     Console -> Type: Simple executable(gcc), Compiler: cygwin, debbuger: GNU gdb
-    debbuger, Build System: CodeLite Makefile Generator - UNIX -> OK. 
+    debbuger, Build System: CodeLite Makefile Generator - UNIX -> OK.
+
+    - To build run a file -> Save file -> Select the wrench -> Compiler ->
+    C compiler options -> ... -> Enable C99 features -> OK -> Linker -> Linker 
+    options -> ... -> Static linking -> OK -> Apply -> OK -> Build -> Build 
+    Project -> Build -> Run -> Execute.  
 </details>
 
 ## Mac
-<details>
+<details> 
 <summary>Mac</summary>
 
 ### Installing the C compiler
@@ -97,4 +102,45 @@
     New Project -> Chose path and name -> Check box is on -> Category: Console ->
     Type: Simple exevtable (gcc), Compiler: GCC, Debugger: LLDB Debugger, 
     Build System: Default -> OK.
+
+    -> To run a file -> Save the file first -> Right click -> settings ->
+    Compiler -> C compiler options -> ... -> Enable all warningd and C99 features
+    -> OK -> Build -> Build and Run project.
 </details>
+
+## Linux
+<details>
+<summary>Linux</summary>
+
+### Installing CodeLite on Ubuntu Linux
+
+    - CodeLite.org -> Docs -> Getting started -> Linux -> Copy install the 
+    essentials -> Open terminal -> Paste -> Enter -> Enter password -> Type Y ->
+    -> Open another terminal -> Type which gcc.
+
+    -> CodeLite.org -> Docs -> Download -> Ubuntu / Debian -> Copy and paste
+    on terminal one by one -> Exept sudo apt install codelite.
+
+### Configuring CodeLite on Ubuntu Linux
+> [!IMPORTANT]
+> Compiler and CodeLite already installed
+> Don't use spaces or special char
+
+    - Open CodeLite -> Next -> C/C++ -> Scan -> GCC -> Choose -> Next -> Choose->
+    Next.
+
+    -> To create a workspace -> Workspace -> New -> C++ -> OK -> choose path and
+    name -> Ok.
+
+    -> To create a project - Right click workspace -> choose path and name -> 
+    Category: Console -> Type: Simple exevtable (gcc), Compiler: GCC, 
+    Debugger: LLDB Debugger, Build System: Default -> OK.
+
+    -> To run a file -> Save the file first -> Right click -> settings ->
+    Compiler -> C compiler options -> ... -> Enable C99 features -> OK -> Linker 
+    -> Linker options -> ... -> Static linking -> OK -> Debbuger -> ... ->
+    urs -> bin -> gdb -> Apply -> OK -> Right click on project -> Build -> 
+    Right click on project -> Run.
+</details>
+
+
