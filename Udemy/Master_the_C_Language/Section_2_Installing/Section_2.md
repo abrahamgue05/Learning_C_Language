@@ -108,7 +108,7 @@
     -> OK -> Build -> Build and Run project.
 </details>
 
-## Linux
+## Linux (Ubuntu)
 <details>
 <summary>Linux</summary>
 
@@ -150,7 +150,11 @@
   Project category: User template -> Choose desription -> OK -> Create a new 
   project -> But in category choose your template.
 
+
+
 ## Using the Command Line Interface
+>[!IMPORTANT]
+>Most have the compailer installed
 
 - A text editor (not a Word Processor).
 
@@ -171,13 +175,14 @@
     Search for Notepad -> Save it in the home/user name -> name the archive -> 
     save -> on the cygwind64 terminal -> Search for the file -> Write code ->
     Save it -> Use more to see the code insite it -> gcc (file.c) -> Enter ->
-    ls -> ./((exemade).exe) -> Enter -> Code runs. 
+    ls -> ./((exemade).exe) -> Enter -> Code runs.
 
-    - To give the .exe a name -> gcc (file.c) -o Name -> gcc help in case help 
-    is needed.
+    - gcc --help for extra commands. 
+
+    - gcc (file name) -o (new name) to change executable name.
 </details>
 
-### Mac
+## Mac
 <details>
 <summary>Mac</summary>
 
@@ -189,4 +194,17 @@
     - gcc --help for commands.
 
     - gcc (file name) -o (newfile name) for giving a name to the archive.
+</details>
+
+## Linux(Ubuntu)
+<details>
+<summary>Linux</summary>
+
+    - Open terminal -> Create a folder to place the code files -> Open text editor
+    -> Write code -> Save it in the folder .c -> On terminal -> 
+    Search for the folder -> gcc (file name) -> gcc (file created).
+
+    - gcc --help for extra commands.
+
+    - gcc (file name) -o (new name) to change executable name.
 </details>
