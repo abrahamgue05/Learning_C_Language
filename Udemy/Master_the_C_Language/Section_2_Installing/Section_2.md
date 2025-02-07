@@ -153,8 +153,7 @@
 
 
 ## Using the Command Line Interface
->[!IMPORTANT]
->Most have the compailer installed
+
 
 - A text editor (not a Word Processor).
 
@@ -167,6 +166,8 @@
 - Simple and effeicient workflow. 
 
 ## Windows
+>[!WARNING]
+>Most have the compailer installed
 <details>
 <summary>Windows</summary>
 
@@ -183,6 +184,8 @@
 </details>
 
 ## Mac
+>[!WARNING]
+>Most have the compailer installed
 <details>
 <summary>Mac</summary>
 
@@ -197,6 +200,8 @@
 </details>
 
 ## Linux(Ubuntu)
+>[!WARNING]
+>Most have the compailer installed
 <details>
 <summary>Linux</summary>
 
@@ -208,3 +213,15 @@
 
     - gcc (file name) -o (new name) to change executable name.
 </details>
+
+## Using a Web-based C compiler
+
+- Can be used if compiler or editor can't be installed.
+
+- Seach for online C compiler.
+
+- The OnlineGDB is very good.
+
+- cs50 IDE is good too, but a github account is needed.
+
+- Online C compilers can be slower or have limited capabilities.
