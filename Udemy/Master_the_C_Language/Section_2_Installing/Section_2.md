@@ -162,7 +162,7 @@
 
 - Simple and effeicient workflow. 
 
-### Windows
+## Windows
 <details>
 <summary>Windows</summary>
 
@@ -177,3 +177,16 @@
     is needed.
 </details>
 
+### Mac
+<details>
+<summary>Mac</summary>
+
+    - Open a terminal -> create a folder on where to storage the project -> 
+    On the text editor -> TextEdit -> Format -> Plain Text -> Write code ->
+    Save it in folder -> It must say Plain Text Encoding -> On terminal -> 
+    Search for the folder -> gcc (file name) -> If no errors -> ./(file created).
+
+    - gcc --help for commands.
+
+    - gcc (file name) -o (newfile name) for giving a name to the archive.
+</details>
