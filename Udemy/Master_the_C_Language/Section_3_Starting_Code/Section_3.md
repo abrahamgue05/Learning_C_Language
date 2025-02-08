@@ -18,3 +18,42 @@
 - Style of CodeLite can be modified.
 
 - Right click and hide to hide tabs.
+
+## First C program
+
+### Creating
+<details>
+<summary>Creating</summary>
+
+  -> File -> New -> New project -> Choose options (Section 2 configuring CodeLite).
+
+  -> Right click on folder -> New -> New project -> Choose option (section 2 
+     configuring CodeLite). 
+
+- main.c
+</details>
+
+### Building
+<details>
+<summary>Building</summary>
+
+- *Clean*: Wipeout any .o files(executables), used when willing to recompile.
+
+- *Build*: Build all the files and compile them.
+
+- *Run*: Execute the executable file.
+
+- *Explore tab*: Helps to see the entire workspace layout.
+
+- *Workspace tab*: Show folders and archives of the workspace, use debug when
+  runing a code localy and Release when realising the code.
+</details>
+
+### Compiling
+<details>
+<summary>Compiling</summary>
+
+  - Right click  file -> Compile.
+
+  - Click Build in Menu bar -> Compile current file.
+</details>
