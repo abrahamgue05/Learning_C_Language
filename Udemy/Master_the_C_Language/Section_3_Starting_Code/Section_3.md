@@ -20,10 +20,10 @@
 - Right click and hide to hide tabs.
 
 ## First C program
+<details>
+<summary>Creating/Building and Compiling</summary>
 
 ### Creating
-<details>
-<summary>Creating</summary>
 
   -> File -> New -> New project -> Choose options (Section 2 configuring CodeLite).
 
@@ -34,8 +34,6 @@
 </details>
 
 ### Building
-<details>
-<summary>Building</summary>
 
 - *Clean*: Wipeout any .o files(executables), used when willing to recompile.
 
@@ -47,13 +45,23 @@
 
 - *Workspace tab*: Show folders and archives of the workspace, use debug when
   runing a code localy and Release when realising the code.
-</details>
 
 ### Compiling
-<details>
-<summary>Compiling</summary>
 
   - Right click  file -> Compile.
 
   - Click Build in Menu bar -> Compile current file.
 </details>
+
+## Errors
+<details>
+<summary>Multiple errors</summary>
+
+### Compiler
+
+### Linker
+
+### Runtime
+
+### Logic
+</detais>
