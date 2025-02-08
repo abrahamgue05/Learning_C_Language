@@ -31,7 +31,7 @@
      configuring CodeLite). 
 
 - main.c
-</details>
+
 
 ### Building
 
