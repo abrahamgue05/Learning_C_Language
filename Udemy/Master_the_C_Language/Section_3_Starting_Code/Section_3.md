@@ -25,13 +25,10 @@
 
 ### Creating
 
-  -> File -> New -> New project -> Choose options (Section 2 configuring CodeLite).
+  - File -> New -> New project -> Choose options (Section 2 configuring CodeLite).
 
-  -> Right click on folder -> New -> New project -> Choose option (section 2 
+  - Right click on folder -> New -> New project -> Choose option (section 2 
      configuring CodeLite). 
-
-- main.c
-
 
 ### Building
 
