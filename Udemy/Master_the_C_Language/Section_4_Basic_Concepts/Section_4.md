@@ -39,10 +39,10 @@
 - Make more powerful programs.
 
 ## The #include statement
-
-### Preprocessors
 <details>
 <summary>Overview</summary>
+
+### Preprocessors
 - Preprocessor directive. 
 
 - It's not strictly part of the executable program, however, the program won't
@@ -57,11 +57,8 @@
   of a program.
 
 - .h extension.
-<details>
 
 ### Header files
-<details>
-<summary>Definition and usage</summary>
 
 - Define information about some of the functions that are provided by that file.
 
@@ -75,11 +72,8 @@
 
 - Specify information that the compiler uses to integrate any predefined 
   functions.
-<details>
 
 ### Syntax
-<details>
-<summary></summary>
 
 - Header files names are case sensitive on some systems, so write them in 
   lowecase.
@@ -101,4 +95,3 @@
   declaration, typedef statements and function prototypes.
 
 - Executable code normally goes into a source code file, not a header file.
-</details>
