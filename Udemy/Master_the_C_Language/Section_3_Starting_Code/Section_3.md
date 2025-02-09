@@ -97,4 +97,17 @@
 - Errors or bugs in code that cause the program to run incorrectly.
 
 - Made by the programmer (not making a comparation correctly).
+
+- Not caugh by the compiler.
 </detais>
+
+## Structure of a C program
+
+- *int main()*: Part of every C program, what is executed, is a function, must be
+  one and only.
+
+- *{}*: Defines the starting and ending of the function.
+
+- Most line of code end with a ';'.
+
+- For a better reding is good to use space and identation.
