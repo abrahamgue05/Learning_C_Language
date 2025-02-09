@@ -56,9 +56,45 @@
 
 ### Compiler
 
+- Programming Languages have rules.
+
+- *Syntax*: Something weong with the structure (Missing semicolon, misspelling).
+
+- *Semantic*: Something is wrong with the meaning (not giving data type, logic).
+
+- Those appear on the terminal such as *error: expected ';' before return*, 
+  *fatal error: stdo.h: No such file or directory*.
+
+- Is better to fix the first error that pups up and then the subsequent errors.
+
+### Compiler warnings
+
+- Don't ignore them.
+
+- The compiler has recognized as an issue with your code that could lead to a
+  potential problem.
+
+- Is only a warning because the code can still be run.
+
+- Like not giving any value to a variable or unused variable.
+
 ### Linker
+
+- Having trouble linking all the object files to create an executable.
+
+- Don't appear while compiling can appear when missing libraries.
 
 ### Runtime
 
+- Occur when the program is executing.
+
+- *Runtime*: Divided by zero, file not found, out of memory.
+
+- Can couse your program to crash.
+
 ### Logic
+
+- Errors or bugs in code that cause the program to run incorrectly.
+
+- Made by the programmer (not making a comparation correctly).
 </detais>
