@@ -21,3 +21,19 @@
 
 - Not everything needs to be a comment using meaninful names in variables
   and functions works to.
+
+## The preprocessor
+
+- Unique feature of C, not found in any other higher-level programming language.
+
+- Allow programs to be easier to read, develop, modify and port to other systems.
+
+- Part of the C compilation that recognizes special statements.
+
+- *#*: Preprocessor identification.
+
+- Create constant and macros.
+
+- Build your own library files.
+
+- Make more powerful programs.
