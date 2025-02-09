@@ -37,3 +37,68 @@
 - Build your own library files.
 
 - Make more powerful programs.
+
+## The #include statement
+
+### Preprocessors
+<details>
+<summary>Overview</summary>
+- Preprocessor directive. 
+
+- It's not strictly part of the executable program, however, the program won't
+  work without it.
+
+- *#*: Indicates a preporcessing directive, an instuction to a program before 
+  compiling.
+
+- Many preprocessors are directives.
+
+- Can be anywhere and are called header files because are usually at the head
+  of a program.
+
+- .h extension.
+<details>
+
+### Header files
+<details>
+<summary>Definition and usage</summary>
+
+- Define information about some of the functions that are provided by that file.
+
+- *stdio.h*: Standart C library header and provides functionality for displaying
+  output, among many other things, like printf() funtion.
+
+- stdio.h contains the information that the compiler needs to understand what
+  printf() means, as well as other funtions that deal with input and output.
+
+- stdio, is short fot standard input/output.
+
+- Specify information that the compiler uses to integrate any predefined 
+  functions.
+<details>
+
+### Syntax
+<details>
+<summary></summary>
+
+- Header files names are case sensitive on some systems, so write them in 
+  lowecase.
+
+- There are two ways to #include header files in a program.
+
+    - Using angle brackets (#include <Jason.h>) which tell the preprocessor
+      to look for one or more standard system directories.
+    
+    - Using double quotes (#include "Jason.h") which tell the preprocessor 
+      to first loo in the current directory.  
+
+- Every C compiler that conforms the C11 standard will have a standard header 
+  files supplied with it.
+
+- Use #ifndef and #define to protect against multiple inclusion of header files.
+
+- header files includes many different things like #define directives, structure
+  declaration, typedef statements and function prototypes.
+
+- Executable code normally goes into a source code file, not a header file.
+</details>
