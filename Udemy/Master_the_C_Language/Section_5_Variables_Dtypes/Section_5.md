@@ -52,3 +52,25 @@
     - int x = 21, int y = 32, z = 14.
 
     - int x,z = 94, valid but only z is initialized.
+
+## Basic data types
+
+- *int*:
+
+- *float*: 
+
+- *double*:
+
+- *char*:
+
+- *_Bool*:
+
+- The difference between the types is in the amount of memory they occupy and 
+  the range of the values.
+
+    - The amount of storage that is allocated to store a particular type of data.
+
+    - Depends on the computer is beeing run.
+
+    - An int might take up 32 bits on one computer, or perhaps it might be store
+    in 64.
