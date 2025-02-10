@@ -39,8 +39,8 @@
 - Make more powerful programs.
 
 ## The #include statement
-<details>
-<summary>Overview</summary>
+<details open>
+<summary>Preprocessors/header files/Syntax</summary>
 
 ### Preprocessors
 - Preprocessor directive. 
