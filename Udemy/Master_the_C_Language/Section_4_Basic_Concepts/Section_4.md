@@ -95,3 +95,16 @@
   declaration, typedef statements and function prototypes.
 
 - Executable code normally goes into a source code file, not a header file.
+
+## Displaying Output
+
+- *printf*: Displays output to the screen, comes in standard library function.
+
+    - Outputs information to the command line.
+
+    - The information displayed is in based on what appears between the '()' 
+    that immediately follow the function name (printf).
+
+    - Values of variables and the results of computation can be also displayed.
+
+    - Used for debugging.
