@@ -108,3 +108,24 @@
     - Values of variables and the results of computation can be also displayed.
 
     - Used for debugging.
+
+## Reading input from terminal
+
+- Very useful to ask user to enter data into a program via the terminal.
+
+- Reads the input from the stadard input stream stdin and scans according to the
+  format like %s, %d, %c, %f, etc, convert the data into the specified type.
+
+- *scanf*: Can read a variety of formats is the most general input funtions.
+
+    - Uses a control string followed by a list of arguments.
+
+    - Uses pointers to variables.
+
+    - *Rules*: Return the number of items that it successfully reads, Precede the 
+    variable name with  an '&', if used to read a string into a char array, dont 
+    use '&'.
+
+    - Uses whitespaces to decide how to divide the input into separate fields. 
+
+    - After the enter, the program proceeds and reads the input.
