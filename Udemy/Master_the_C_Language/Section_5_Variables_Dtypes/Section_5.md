@@ -183,13 +183,13 @@
 
       - *\v*:Vertical tab.
 
-      - *\\*:Backlash('\').
+      - *\\*:Backlash( \ ).
 
-      - \'*:Single quote(').
+      - \'*:Single quote( ' ).
 
-      - *\"*:Double quote(").
+      - *\"*:Double quote( " ).
 
-      - *\?*:Question mark (?).
+      - *\?*:Question mark ( ? ).
 
       - *0oo*:Octal value (o represents an octal digit).
 
