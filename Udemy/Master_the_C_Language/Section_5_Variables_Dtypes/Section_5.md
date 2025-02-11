@@ -169,29 +169,29 @@
     - <details>
       <summary>Escape characters</summary>
 
-      - *\a*:Alert (ANSI C).
+      - *\a*: Alert (ANSI C).
 
-      - *\b*:Backspace.
+      - *\b*: Backspace.
 
-      - *\f*:Form feed.
+      - *\f*: Form feed.
 
-      - *\n*:Newline.
+      - *\n*: Newline.
 
-      - *\r*:Carriage return.
+      - *\r*: Carriage return.
 
-      - *\t*:Horizontal tab.
+      - *\t*: Horizontal tab.
 
-      - *\v*:Vertical tab.
+      - *\v*: Vertical tab.
 
-      - *\\*:Backlash( \ ).
+      - *\\*: Backlash( \ ).
 
-      - \'*:Single quote( ' ).
+      - \'*: Single quote( ' ).
 
-      - *\"*:Double quote( " ).
+      - *\"*: Double quote( " ).
 
-      - *\?*:Question mark ( ? ).
+      - *\?*: Question mark ( ? ).
 
-      - *0oo*:Octal value (o represents an octal digit).
+      - *0oo*: Octal value (o represents an octal digit).
 
-      - *xhh*:Hexadecimal value(h represents a hexadecimal digit).
+      - *xhh*: Hexadecimal value(h represents a hexadecimal digit).
       </details>
