@@ -2,7 +2,6 @@
 
 ## Overview
 
-<details>
 <summary>Variables and data types</summary>
 - Data needs to be store while the program is running, this information is 
   storage in memory(RAM).
@@ -130,3 +129,69 @@
     - An int might take up 32 bits on one computer, or perhaps it might be store
     in 64.
 </details>
+
+## Enums and Chars
+
+- *Enums*: Allows the programmer to define a variable and specify the valid values
+  that could be stored into varibles.
+
+    - Can create a variable named "myColor" and it can only contain one of the 
+    primary color.
+
+    - *Define*: enum primaryColor {red,yellow, blue}. 
+
+    - *Declare*: enum primaryColor myColor, gregsColor;.
+
+    - Define the variables myColor and gregsColor, the only permissible values are
+    red, yellow and blue.
+
+    - myColor = red;.
+
+    - The compiler treats them as integer constants which can be manually given.
+
+- *Chars*: Single character such as a letter 'a', a digit '6', or a semicolon ';'.
+
+    - Only use single quote such as 'A' or '6'.
+
+    - Can be unsigned.
+
+    - char broiled = 'T';.
+
+    - Can also use numerical code to assing values (ASCII).
+
+- *Escape Characters*: C contains special characters that represent actions, 
+  represented by using special symbol sequences.
+
+    - backspacing, going to next line, making the terminal bell ring.
+
+    - char x = '\n', goes to next line.
+
+    - <details>
+      <summary>Escape characters</summary>
+
+      - *\a*:Alert (ANSI C).
+
+      - *\b*:Backspace.
+
+      - *\f*:Form feed.
+
+      - *\n*:Newline.
+
+      - *\r*:Carriage return.
+
+      - *\t*:Horizontal tab.
+
+      - *\v*:Vertical tab.
+
+      - *\\*:Backlash('\').
+
+      - \'*:Single quote(').
+
+      - *\"*:Double quote(").
+
+      - *\?*:Question mark (?).
+
+      - *0oo*:Octal value (o represents an octal digit).
+
+      - *xhh*:Hexadecimal value(h represents a hexadecimal digit).
+      </details>
