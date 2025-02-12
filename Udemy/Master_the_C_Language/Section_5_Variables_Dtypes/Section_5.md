@@ -218,7 +218,6 @@
       <summary>Format specifier</summary>
 
         | Type | Constant Examples | printf chars |
-        | --- | --- | --- |
         | char | 'a', 'n' | %c |
         | --- | --- | --- |
         | _Bool | 0, 1 | %i, %u |
