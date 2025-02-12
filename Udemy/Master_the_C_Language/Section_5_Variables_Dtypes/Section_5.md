@@ -195,3 +195,53 @@
 
       - *xhh*: Hexadecimal value(h represents a hexadecimal digit).
       </details>
+
+## Format specifiers
+
+- Used when displaying variables as output, they specify the type of data of the
+  variable to be displayed.
+
+- *printf()*: Can display as output the values of variables
+
+    - Arguments are separeted by a comma.
+    
+    - First character is always the character string to be displayed. 
+    
+    - Along with stings, values variables can be displayed.
+
+- *%*: Character inside the string is a special character
+
+    - the character that immediately follows the percent sing specifies
+    what type of values is to be displayed.
+
+    - <details>
+      <summary>Format specifier</summary>
+
+        | Type | Constant Examples | printf chars |
+        | --- | --- | --- |
+        | char | 'a', 'n' | %c |
+        | --- | --- | --- |
+        | _Bool | 0, 1 | %i, %u |
+        | --- | --- | --- |
+        | short int | - | %hi, %hx, %ho |
+        | --- | --- | --- |
+        | unsigned short int | - | %hu, %hx, %ho |
+        | --- | --- | --- |
+        | int | 12, -97, OxFFE0 | %i, %x, %o |
+        | --- | --- | --- |
+        | unsigned int | 12u, 100u, 0XFFU | %u, %x, %o |
+        | --- | --- | --- |
+        | long int | 12L, -2001, 0xffffL | %li, %lx, %lo |
+        | --- | --- | --- |
+        | unsigned long int | 12UL, 100ul, 0xffeeUL | %lu, %lx, %lo |
+        | --- | --- | --- |
+        | long long int | 0xe5e5e5e5LL, 500ll | %lli, %llx, %llo |
+        | --- | --- | --- |
+        | unsigned long long int | 12ull, 0xffeeULL | %llu, %llx, %llo |
+        | --- | --- | --- |
+        | float | 12.35f, 3.1e-5f, 0x1.5p10, 0x1P-1| %f, %e, %g, %a |
+        | --- | --- | --- |
+        | double | 12.34, 3.1e-5f, 0x.1p3 | %f, %e, %g, %a |
+        | --- | --- | --- |
+        | long double | 12.341, 3.1e-5l | %Lf, %Le, %Lg |
+      </details>
