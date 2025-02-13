@@ -245,3 +245,18 @@
         | --- | --- | --- |
         | long double | 12.341, 3.1e-5l | %Lf, %Le, %Lg |
       </details>
+
+## Command line arguments
+
+- Passing data to a program when is being executed.
+
+- *main*: Is a special funtion in C, is the entry point of the program.
+
+    - When its called two arguments are passed to the function.
+
+    - *argc*: argument count is an integer value that specifies the number of
+    arguments typed on the command line.
+
+    - *argv*: argument vector is an array of characters pointers (strings).
+
+    - The first entry in the array is the program that is executing. 
