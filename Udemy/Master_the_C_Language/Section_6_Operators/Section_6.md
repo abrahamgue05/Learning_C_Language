@@ -86,7 +86,7 @@
       | --- | --- | --- |
       | && | AND operator. If both operator are non-zero, then its true | (A && B) is false |
       | --- | --- | --- |
-      | (Two Parallel lines) | OR oprator. If one of two operands is non-zero, then its true | (A (||) B) is true |
+      | (Two Parallel lines) | OR oprator. If one of two operands is non-zero, then its true | (A (Two Parallel lines) B) is true |
       | --- | --- | --- |
       | ! | NOT operator. Reverse the logical state.If condition is true, then is false | !(A && B) is true|
       </details>
@@ -119,7 +119,7 @@
     | --- | --- | --- |
     | ^= | Bitwise exlusive OR and assingment operator | C ^= A is C = C ^ A |
     | --- | --- | --- |
-    | (Parallel line)= | Bitwise exlusive OR and assingment operator | C (|)= A is C = C (|) A |
+    | (Parallel line)= | Bitwise exlusive OR and assingment operator | C (parallel line)= A is C = C (parallel line) A |
     </details>
 
 - ***Relational operator***: Compare variables against eachother
