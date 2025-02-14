@@ -119,5 +119,25 @@
     | --- | --- | --- |
     | ^= | Bitwise exlusive OR and assingment operator | C ^= A is C = C ^ A |
     | --- | --- | --- |
-    | |= | Bitwise exlusive OR and assingment operator | C |= A is C = C |  A |
+    | = | Bitwise exlusive OR and assingment operator | C |= A is C = C |  A |
     </details>
+
+- ***Relational operator***: Compare variables against eachother
+
+- <details>
+      <summary>Operators</summary>
+
+      | Operator | Description | Example |
+      | --- | --- | --- |
+      | == | Check two operands are equal or not. If yes, then becomes true | (A == B) is not true |
+      | --- | --- | --- |
+      | != | Check two operands are not equal. If values are not, then becomes true | (A != B) is true  |
+      | --- | --- | --- |
+      | > | Check if value of left is greather that right. If yes, the becomes true | (A > B) is not true |
+      | --- | --- | --- |
+      | < | Check if value of left is less that right. If yes, the becomes true | (A < B) is true |
+      | --- | --- | --- |
+      | >= | Check if value of left is greather or equal that right. If yes, the becomes true | (A => B) is not true |
+      | --- | --- | --- |
+      | <= | Check if value of left is less or equal that right. If yes, the becomes true | (A <= B) is true |
+      </details>
