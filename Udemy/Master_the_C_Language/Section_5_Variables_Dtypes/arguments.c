@@ -13,7 +13,7 @@ int main(int argc, char *argv[]){
     char *argument2 = argv[1];
 
     printf("Number of Arguments: %d\n", numberOfArguments);
-    printf("Argument1 is the progra name: %s\n", argument1);
+    printf("Argument1 is the program name: %s\n", argument1);
     printf("Argument2 is the command line argument: %s\n", argument2);
     
     return 0;
