@@ -2,7 +2,6 @@
 
 ## Overview
 
-<summary>Variables and data types</summary>
 - Data needs to be store while the program is running, this information is 
   storage in memory(RAM).
 
