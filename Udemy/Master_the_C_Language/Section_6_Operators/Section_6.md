@@ -242,8 +242,57 @@
 - <details>
   <summary>Other operators</summary>
 
-    - ***"*"***: Represents a pointer to a variable, *a;.
+    - *: Represents a pointer to a variable, *a;.
 
     - ***?***: Ternary operator, used for comparation, if confition is true ? 
     then value X: otherwise value Y.
   </details>
+
+## Operator Precendece
+
+- Determins the grouping of terms in an expression ande decides how an expression
+  is evaluated.
+
+- C needs unambiguos rules for choosing what to do firs.
+
+- Each operator is assigned a *precendece level*, what ever goes in parentheses is
+  executed first.
+
+- ***Associativity***: If they share an operand, they are executed according to the  
+order in which they occur in the statement.
+
+  - <details>
+    <summary>Operators</summary>
+
+      | Category | Operator | Associativity |
+      | --- | --- | --- |
+      | Postfix | (), [], ->, ., ++, -- | Left to right |
+      | --- | --- | --- |
+      | Unary | +, -, !, ~, ++, --, (type), *, &, sizeof  | Right to left |
+      | --- | --- | --- |
+      | Multiplicative | *, /, % | Left to right |
+      | --- | --- | --- |
+      | Additive | +, - | Left to right |
+      | --- | --- | --- |
+      | Shift | <<, >> | Left to right |
+      | --- | --- | --- |
+      | Relational | < <= > >= | Left to right |
+      | --- | --- | --- |
+      | Equality | == ! = | Left to right |
+      | --- | --- | --- |
+      | Bitwise AND| & | Left to right |
+      | --- | --- | --- |
+      | Bitwise XOR | ^  | Left to right |
+      | --- | --- | --- |
+      | Bitwise OR | (parallel line) | Left to right |
+      | --- | --- | --- |
+      | Logical AND | && | Left to right |
+      | --- | --- | --- |
+      | Logical OR | (Two parallel lines) | Left to right |
+      | --- | --- | --- |
+      | Conditional | ?: | Right to left |
+      | --- | --- | --- |
+      | Assingment | =, +=, -=, *=, /+, %=, >, =>, <, <=, &=, ^=, (Parallel line)=  | Right to left |
+      | --- | --- | --- |
+      | Comma | , | Left to right |
+      </details>
