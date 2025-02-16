@@ -185,9 +185,9 @@
     | --- | --- | --- |
     | (Parallel line) | Coipes a bit if it exist in either one operand  | (A (Parallel line) B) = 64, i.e., 0011 1101 |
     | --- | --- | --- |
-    | ^ | copies the bit if it is set in one operand but not both | (A ^ B) = 49,i.e, 0011 0001. |
+    | ^ | Copies the bit if it is set in one operand but not both | (A ^ B) = 49,i.e, 0011 0001. |
     | --- | --- | --- |
-    | ~ | unary and has the effect of 'flipping' bits | ( ~A ) = -61, i.e, 1100 0011 in 2's complete form |
+    | ~ | Unary and has the effect of 'flipping' bits | ( ~A ) = -61, i.e, 1100 0011 in 2's complete form |
     | --- | --- | --- |
     | << | The left operands value is moved left by number of bits specified by the right operand | A << 2 = 240 i.e, 1111 0000 |
     | --- | --- | --- |
