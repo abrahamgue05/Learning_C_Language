@@ -141,3 +141,55 @@
       | --- | --- | --- |
       | <= | Check if value of left is less or equal that right. If yes, the becomes true | (A <= B) is true |
       </details>
+
+## Bitwise operators
+
+- C offers bitwise logical operator and shift operators.
+
+- Looks like logical operator, but are quite different.
+
+- Operate on the bits in integer values.
+
+- Not used in the common program.
+
+- One of major uses, is in operations to test and set individual bits in an
+  int variable.
+
+- Can use individual bits to store data that involve one of two choices.
+
+- Cound use a single int to store several characteristics of a person.
+
+- <details>
+  <summary>Binary numbers</summary>
+    
+    - Number that incluedes only ones and zeroes.
+
+    - The number could be any lenght.
+
+    - *Examples*: 0 = 10101, 1 = 0101010, 10 = 1011110101, 01 = 0110101110, 
+    111000 = 000111.
+
+    - Every binary number has a corresponding Decimal value (and vice versa).
+
+    - *Examples*:  1 = 1, 10 = 2, 11 = 3 ... 1010111 = 87.
+
+    - Each position for a binary number has a value.  
+  </details>
+
+- <details>
+  <summary>Bitwise operators</summary>
+    | Operator | Description | Example |
+    | --- | --- | --- |
+    | & | Binary AND operator copies a bit to the result if it exixs in both operands | (A & B ) = 12, i.e., 0000 1100 |
+    | --- | --- | --- |
+    | (Parallel line) | Binary OR operator coipes a bit if it exist in either one operand | (A (Parallel line) B) = 64, i.e., 0011 1101  |
+    | --- | --- | --- |
+    | ^ | Binary XOR operator copies the bit if it is set in one operand but not both | (A ^ B) = 49,i.e, 0011 0001 |
+    | --- | --- | --- |
+    | ~ | Binary Ones Complement operator is unary and has the effect of 'flipping' bits | ( ~A ) = -61, i.e, 1100 0011 in 2's complete form |
+    | --- | --- | --- |
+    | << | Binary Left shift operator. The left operands value is moved left by number of bits specified by the right operand | A << 2 = 240 i.e, 1111 0000 |
+    | --- | --- | --- |
+    | >> | Binary Right shift operator. The left operands value is moved Right by number of bits specified by the right operand | A >> 2 = 12 i.e, 0000 1111 |
+
+  </details>
