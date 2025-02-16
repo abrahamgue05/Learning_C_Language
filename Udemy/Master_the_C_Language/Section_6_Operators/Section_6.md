@@ -179,24 +179,71 @@
 - <details>
   <summary>Bitwise operators</summary>
       
-    *&*:  Binary AND operator copies a bit to the result if it exixs in both,
+    ***&***:  Binary AND operator copies a bit to the result if it exixs in both,
     operands (A & B ) = 12, i.e., 0000 1100.
      
-    *|*: Binary OR operator coipes a bit if it exist in either one operand,
+    ***|***: Binary OR operator coipes a bit if it exist in either one operand,
     (A (Parallel line) B) = 64, i.e., 0011 1101.
       
-    *^*: Binary XOR operator copies the bit if it is set in one operand
+    ***^***: Binary XOR operator copies the bit if it is set in one operand
     but not both, (A ^ B) = 49,i.e, 0011 0001.
      
-    *~*: Binary Ones Complement operator is unary and has the effect of
+    ***~***: Binary Ones Complement operator is unary and has the effect of
     'flipping' bits, ( ~A ) = -61, i.e, 1100 0011 in 2's complete form.
      
-    *<<*: Binary Left shift operator. The left operands value is moved left by 
+    ***<<***: Binary Left shift operator. The left operands value is moved left by 
     number of bits specified by the right operand, A << 2 = 240 i.e, 1111 0000.
       
-    *>>*: Binary Right shift operator. The left operands value is moved Right
+    ***>>***: Binary Right shift operator. The left operands value is moved Right
     by number of bits specified by the right operand, A >> 2 = 12 i.e, 0000 1111.
   </details>
 
+## The cast and sizeof Operators
 
+- Conversion of data between different types can happen automatically 
+  (implicit conversion) by the language or explicit by the program.
 
+- Normaly types shouldn't be mixed, but there are occasions when it is useful.
+
+- When ever a float value is assigned to an integer variable in C, the decimal 
+  portion of the numbers gets truncated.
+
+- Assingning an int variable to a float variable does not cause any change in the
+  value of the number.
+
+- <details>
+  <summary>Cast operator</summary>  
+
+    - Called a cast and consist of preceding the quantity with the name of the 
+    desired typw in parentheses.
+
+    - Parentheses and type name together consititute a cast operator, i.e. (type).
+
+    - The actual type desired, such as long, is substituted for the word type.
+
+    - Has a higher precedence than all the arithmetic except the unary minus 
+    and unary plus.
+
+    - (int)21.51  + (int)26.99 is evaluated as 21 + 26.
+
+- <details>
+  <summary>sizeof operator</summary>
+
+    - Show how many bytes are occupied in memory by a given type.
+
+    - Special C keyword.
+
+    - The argument to the sizeof can be a variable, an array name, the name of
+    a basic data type, the name of a derived data type, or an expression.
+
+    - sizeof(int) will result in the number of bytes occupied by a variable of
+    type int.
+
+- <details>
+  <summary>Other operators</summary>
+
+    - ***"*"***: Represents a pointer to a variable, *a;.
+
+    - ***?***: Ternary operator, used for comparation, if confition is true ? 
+    then value X: otherwise value Y.
+  </details>
