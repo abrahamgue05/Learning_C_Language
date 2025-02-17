@@ -183,7 +183,7 @@
     | --- | --- | --- |
     | & | Copies a bit to the result if it exixs in both operands | (A & B ) = 12, i.e., 0000 1100 |
     | --- | --- | --- |
-    | (Parallel line) | Coipes a bit if it exist in either one operand  | (A (Parallel line) B) = 64, i.e., 0011 1101 |
+    | (Parallel line) | Copies a bit if it exist in either one operand  | (A (Parallel line) B) = 64, i.e., 0011 1101 |
     | --- | --- | --- |
     | ^ | Copies the bit if it is set in one operand but not both | (A ^ B) = 49,i.e, 0011 0001. |
     | --- | --- | --- |
