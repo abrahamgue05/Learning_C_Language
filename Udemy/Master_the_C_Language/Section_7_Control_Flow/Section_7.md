@@ -19,14 +19,16 @@
 
     - <details>
       <summary>If statements</summary>
-      | Statement | Description |
-      | --- | --- |
-      | if | Consist of a booleand expression followed by one or more statements |
-      | --- | --- |
-      | if...else | An if can be followed by an optional else, which executes when the boolean expresion is false |
-      | --- | --- |
-      | nested if | if or else if can be inside another if or else if statements(s) |
-      </details>
+      
+        | Statement | Description |
+        | --- | --- |
+        | if | Consist of a booleand expression followed by one or more statements |
+        | --- | --- |
+        | if...else | An if can be followed by an optional else, which executes when 
+        the boolean expresion is false |
+        | --- | --- |
+        | nested if | if or else if can be inside another if or else if statements(s) |
+        </details>
 
 - <details open>
   <summary>Repiting code</summary>
@@ -47,14 +49,16 @@
 
     - <details>
     <summary>Loops<summary>
-    </details>
+
       | Loop type | Description |
       | --- | --- |
       | while loop | Repeats a statement(s) while condition is true. It test before executing |
       | --- | --- |
-      | for loop | Executes a sequence of statements multiple times and abbreviates the code that manages the loop varaible |
+      | for loop | Executes a sequence of statements multiple times and abbreviates the code that 
+      manages the loop varaible |
       | --- | --- |
-      | do...while loop | Same as while loop, except it test the condition at the end of the loop body |
+      | do...while loop | Same as while loop, except it test the condition at the end of the 
+      loop body |
       | --- | --- |
       | nested loops | Can use one or more loop inside any other while, for or do...while loop |  
    </details>
