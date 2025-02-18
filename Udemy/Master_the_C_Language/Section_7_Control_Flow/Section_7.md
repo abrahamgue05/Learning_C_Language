@@ -48,7 +48,7 @@
     - Can become infinite if a condition never become false.
 
     - <details>
-    <summary>Loops<summary>
+      <summary>Loops<summary>
 
       | Loop type | Description |
       | --- | --- |
@@ -64,3 +64,54 @@
    </details>
 
 - ***Branching statements***: break, continue, return.
+
+## If statements
+
+- The C programming language providers a general decision-making capability in
+  the form of a if statement.
+
+- if(expression)
+  program statement.
+
+- Used to stipulate execution of a program statement/s based upon specified 
+  condition.
+
+- The curly braces are required for compound inside the block.
+
+- ***else if***: Hande additional complex decision making by adding an if 
+  statement to your else clause
+
+- if(expresion 1)
+    program statement 1
+  else if(expression 2) execute only if the if is false
+    program statement 2
+  else execute if if and else if are false
+    program statements
+
+- ***nested If-else statement***: A nested if-else statement means that one if
+  or else if statement inside another if or else if statement(s).
+
+- if(booleand_expression 1){
+    //Executes boolean expression 1 is true
+    if(boolean_expression 2){
+      // Executes when the booleand expression 2 is true
+    }
+
+- ***ternary statement***: Is a unique operator, takes three operands, the two 
+  simbols that are used to denote this operator are '?' and ':'.
+
+- *condition ? expresion1 : expresion2*.  
+
+- The '?' char follows the logical expresion, condition.
+
+- On the right of the '?' are two operands, expresion 1 and 2, that represent 
+  choises.
+
+- The value that results from the operation will be the value of expression1 if
+  condition is true, or the value of expresion2 if condition is false.
+
+- x = y > 7 ? 25 : 50. Results in x being set to 25 if y is greater than 7, or 
+  to 50 otherwise.
+
+- An expression for the maximum or minimum of two variables can be written very
+  simply using the conditional operator.
