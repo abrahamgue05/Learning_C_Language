@@ -61,7 +61,7 @@
       loop body |
       | --- | --- |
       | nested loops | Can use one or more loop inside any other while, for or do...while loop |  
-   </details>
+        </details>
 
 - ***Branching statements***: break, continue, return.
 
@@ -115,3 +115,29 @@
 
 - An expression for the maximum or minimum of two variables can be written very
   simply using the conditional operator.
+
+### Switch statement
+
+- Many times a program needs to choose one of several alternatives, which can 
+  be done with ifs, but is tedious and prone to errors.
+
+- When the value of a cariable is successively compared against different values
+  switch statement is better to use as is more efficeint and convinient.
+
+- The expresion within the '()' is successively compared agains the values, cases
+  must be simple and constants or constant expression.
+
+- If a case is found the statement that follow the case are executed, when more 
+  than one statement is included, they don't have to be enclosed within braces.
+
+- ***break***: Signals the end of a particular case and causes execution of the 
+  switch statement to be terminated (must be included in every case).
+
+- ***default***: Special optional case is executed if the value of expression does
+  not match any of the case values (same as else).
+
+- ***goto***: Is avilable in C, has two part the goto and label name, label is 
+  named following the same convention used in naming a variable.
+
+- Should never need to use it, it was used in FORTRAN and BASIC, which can come now
+  to an habit.
