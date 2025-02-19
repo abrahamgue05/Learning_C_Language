@@ -139,5 +139,31 @@
 - ***goto***: Is avilable in C, has two part the goto and label name, label is 
   named following the same convention used in naming a variable.
 
-- Should never need to use it, it was used in FORTRAN and BASIC, which can come now
-  to an habit.
+- Should never need to use it, it was used in FORTRAN and BASIC, which can come 
+  now to an habit.
+
+## For loop
+
+- ***Counter controlled loop***: Repiting the statement block a given numer of 
+  times
+
+- ***Sentinel control loop***: The number of times the loop is repeated can 
+  depend on when a condition is met.
+
+- ***for loop***: Mostly used as a counter but can also be a sentinel, it most be
+  given 3 values, the variable, the condition and the accion.
+
+- *for(variable, condition, accion to variable)*.
+
+- ***Variable***: Usually sets an initial value to a loop control variable which 
+  will be local.
+
+- ***Condition***: Logical expression evaluation to true or false, determinates
+  wheter the loops should continue as long as the value is true.
+
+- ***Action***: Executed at the end of each loop iteration, usually an increment 
+  or decrement of the condition, can modify several variable, just need to be 
+  separated by  ','.
+
+- ***Infinite loop***: There is no obligation to put any parameters in the loop
+  statement, sometime useful for monitoring data or listening for connections.
