@@ -167,3 +167,21 @@
 
 - ***Infinite loop***: There is no obligation to put any parameters in the loop
   statement, sometime useful for monitoring data or listening for connections.
+
+## While loop
+
+- Mechanisim for repeating a set of statements allows execution to continue for as
+  long as a specifierd logical expresision evaluates to true.
+
+- ***while(expression)***.
+
+- The condition for continuation of the wile loop is tested at the start, if 
+  expression starts out false, none of the loop statement will execute.
+
+- While loop, the body is executed while the condition is true, but in the 
+  do-while loop the body is executed for the first time unconditionally.
+
+- *do statement while(expression)*.
+
+- *Which loop to use?*: Decide whether is pre or post test needed, while loop for
+  logic controlled loops and the for loop for counter controlled loops.
