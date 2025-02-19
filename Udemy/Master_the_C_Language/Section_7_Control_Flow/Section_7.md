@@ -185,3 +185,21 @@
 
 - *Which loop to use?*: Decide whether is pre or post test needed, while loop for
   logic controlled loops and the for loop for counter controlled loops.
+
+## Neested loops and loops control - Break and Continue
+
+- Neested loops are valid like counting occupants in each house of the street, one
+  loop for the house and the other for the occupants.
+
+- Can have a for loop inside of a for loop, a for loop inside a while loop and the
+  the other way.
+
+- Sometimes a situation arises where a loop dosen't need to be ended, but the 
+  iteration want to be skip.
+
+- ***Continue***: This is done by this statement, an advantage is that it can 
+  sometimes eliminate nestiog or additional blocks of code.
+
+- ***Break***: Causes the program to immediately exit from the loop it is 
+  executing, statements in the loop are skipped, and execution of the loop is
+  termianted.
