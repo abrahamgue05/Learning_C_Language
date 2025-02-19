@@ -50,17 +50,17 @@
     - <details>
       <summary>Loops<summary>
 
-      | Loop type | Description |
-      | --- | --- |
-      | while loop | Repeats a statement(s) while condition is true. It test before executing |
-      | --- | --- |
-      | for loop | Executes a sequence of statements multiple times and abbreviates the code that 
-      manages the loop varaible |
-      | --- | --- |
-      | do...while loop | Same as while loop, except it test the condition at the end of the 
-      loop body |
-      | --- | --- |
-      | nested loops | Can use one or more loop inside any other while, for or do...while loop |  
+        | Loop type | Description |
+        | --- | --- |
+        | while loop | Repeats a statement(s) while condition is true. It test before executing |
+        | --- | --- |
+        | for loop | Executes a sequence of statements multiple times and abbreviates the code that 
+        manages the loop varaible |
+        | --- | --- |
+        | do...while loop | Same as while loop, except it test the condition at the end of the 
+        loop body |
+        | --- | --- |
+        | nested loops | Can use one or more loop inside any other while, for or do...while loop |  
         </details>
 
 - ***Branching statements***: break, continue, return.
