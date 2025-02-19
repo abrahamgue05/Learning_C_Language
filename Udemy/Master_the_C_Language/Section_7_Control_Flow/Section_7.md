@@ -48,7 +48,7 @@
     - Can become infinite if a condition never become false.
 
     - <details>
-      <summary>Loops<summary>
+      <summary>Loops</summary>
 
         | Loop type | Description |
         | --- | --- |
