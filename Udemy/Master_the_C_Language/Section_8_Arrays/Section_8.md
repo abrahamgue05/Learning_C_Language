@@ -37,4 +37,24 @@
   choose which elements are initialized.
 
 - C does not provide any shortcut mechanismn for initializing array elements, no
-  way to specify a repeat count. 
+  way to specify a repeat count.
+
+## Multidimensional Arrays
+
+- Untill this moment on single dimension arrays have been seen, but C language
+  allows arrays og any dimension to be difined.
+
+- Two-dimensional arrays as a rectangular arrangement like rows and columns in a
+  spreadsheet, mostly used for matrix.
+
+- Declarated as a single dimension array, *int matrix [4][5]*.
+
+- The difetences is that the values are between '{}' and each row is between '{}'.
+
+- As the single dimension is not necessary to have entirely initialized and can be 
+  subscripted, the empty are set to 0.
+
+- Everything mentioned so far about two-dimensional arrays can be generalized to 
+  three-dimensional arrays and further.
+
+- Loops used for iterate in arrays, the more dimentions, the more nested loops.
