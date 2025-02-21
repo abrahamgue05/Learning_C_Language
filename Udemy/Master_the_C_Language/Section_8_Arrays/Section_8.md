@@ -68,11 +68,11 @@
 - C99 introduced variable-lenght arrays primarily to allow C to become a better 
   language for numeracal computing.
 
-- <details>
+- <details open>
   <summary>Valid and invalid decltaration</summary>
     int n = 5
     int m = 8
-    
+
     | Declaration | Especification |
     | --- | --- |
     | float a1[5] | Valid as the size is being set by a number |
