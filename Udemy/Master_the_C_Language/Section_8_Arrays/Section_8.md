@@ -47,7 +47,7 @@
 - Two-dimensional arrays as a rectangular arrangement like rows and columns in a
   spreadsheet, mostly used for matrix.
 
-- Declarated as a single dimension array, *int matrix [4][5]*.
+- Declarated as a single dimension array, *int matrix[4][5]*.
 
 - The difetences is that the values are between '{}' and each row is between '{}'.
 
@@ -58,3 +58,37 @@
   three-dimensional arrays and further.
 
 - Loops used for iterate in arrays, the more dimentions, the more nested loops.
+
+## Variable lenght arrays
+
+- Does not mean that the lenght of the array can be modified.
+
+- This mean that the lenght of an array can be set in a variable.
+
+- C99 introduced variable-lenght arrays primarily to allow C to become a better 
+  language for numeracal computing.
+
+- <details>
+  <summary>Valid and invalid decltaration</summary>
+    int n = 5
+    int m = 8
+    | Declaration | Especification|
+    | --- | --- |
+    | float a1[5] | Valid as the size is being set by a number |
+    | --- | --- |
+    | float a2[5*2+1] | Valid as the size is being set by an operation |
+    | --- | --- |
+    | float a3[sizeof(int)+1] | Valid as the size is being set by an operation and size of int is 4 |
+    | --- | --- |
+    | float a4[-4] | Invalid as the size is not positive |
+    | --- | --- |
+    | float a5[0] | Invalid as the size is not positive |
+    | --- | --- |
+    | float a6[2.5] | Invalid as the size is not an integer |
+    | --- | --- |
+    | float a7[(int)2.5] | Valid as the size is set to an int by typecast |
+    | --- | --- |
+    | float a8[n] | Not allowed before C99, VLA |
+    | --- | --- |
+    | float a9[m] | Not allowed before C99, VLA |
+  </details>
