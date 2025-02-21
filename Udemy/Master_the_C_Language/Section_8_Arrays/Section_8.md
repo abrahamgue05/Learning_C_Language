@@ -72,13 +72,15 @@
   <summary>Valid and invalid decltaration</summary>
     int n = 5
     int m = 8
-    | Declaration | Especification|
+    
+    | Declaration | Especification |
     | --- | --- |
     | float a1[5] | Valid as the size is being set by a number |
     | --- | --- |
     | float a2[5*2+1] | Valid as the size is being set by an operation |
     | --- | --- |
-    | float a3[sizeof(int)+1] | Valid as the size is being set by an operation and size of int is 4 |
+    | float a3[sizeof(int)+1] | Valid as the size is being set by an operation 
+    and size of int is 4 |
     | --- | --- |
     | float a4[-4] | Invalid as the size is not positive |
     | --- | --- |
