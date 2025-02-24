@@ -60,3 +60,33 @@
     - Dosen't have to be the same paramentes as the funtion (it's better to be the
     same).
   </details> 
+
+## Arguments and Parameters
+
+- ***Parameter***: Variable in a function declaration and function definition/
+  implementation.
+
+- ***Arguments***: Are the data type that is passed into the funtions parameters,
+  the actual value of a variable that gets passed to the function.
+
+- Funtions parameters are defined within the function header.
+
+- The parameters for a funtion are a list of parameter names with their types,
+  separated by commas and goes between parentheses.
+
+- A function can have no parameters, in which case, *void* must be inside the 
+  parentheses.
+
+- The names of the parametes are local to the function, they will asume the value
+  of the arguments passed when a funtion is called.
+
+- Parameters should be used inside the function code, if not they are not needed.
+
+- Local variables can be used
+
+- When passing an array as an argument to a funtion, must also pass an additional
+  argument specifying the size of the array.
+
+- Parameters greatly increase the usefulness and flexibilitio of a funtion, the 
+  printf(display what ever is tell to be displayed via the parameters and 
+  arguments)
