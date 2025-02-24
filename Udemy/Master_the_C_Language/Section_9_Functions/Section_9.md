@@ -145,3 +145,18 @@
     - The calling function dosen't have to recognize or process the value returned
     from a called function.
   </details>
+
+## Local and Global Variables
+
+- ***Local variables***: Variables defined inside a function are known as local 
+  variable, the local variable can only accesed by the function in which the 
+  variable is defined.
+
+- ***Global variables***: The opposite of a local variable, it can be accessed and
+  change value by any function in the program, has the lifetime of the program.
+
+- If a local and globa variable have the same name the local variable will be 
+  taken.
+
+- Global variable are a "bad" thing and should be avoided, as it promete coupling
+  between function(dependencies), hard to find the location of bug.
