@@ -1,7 +1,7 @@
 /*
 Author: Abraham Guerrero
 Purspose: (Challenge) Create a simple Weahter program.
-Date: ... DD/MM/YY
+Date: 20/02/25 DD/MM/YY
 Instructions: 
 - Program will find the total rainfall for each year, the average yearly rainfall.
 - Past five years hard-code.
