@@ -89,4 +89,59 @@
 
 - Parameters greatly increase the usefulness and flexibilitio of a funtion, the 
   printf(display what ever is tell to be displayed via the parameters and 
-  arguments)
+  arguments).
+
+## Returning data from functions
+
+- Not always the result want to be displayed, fuctions can retur data using 
+  specific synthax.
+
+- The return type of a funtion can be specified, including enumeration types and
+  pointers.
+
+- <details>
+  <summary>Return statement</summary>
+
+    - The return expression with no value mean the exiting of a function.
+
+    - This form of the return statement is used exclusively in a funtion where the
+      return type has been declared as void(dosen't return a value).
+
+    - The most general form of the return statement is: *return expression;*
+
+    - This form of return statement must be used when the return value type for 
+    the function has been declared as some type other than void.
+
+    - The value that is returned to the calling program is the value that results
+    when the expression is evaluated.
+    
+    - A function that has a statements in the function body but don't return a 
+    value must have the return type as void if not compiler will have an error 
+    message.
+
+    - If expression results in a value that is different from the specified, the 
+    compiler will insert a conversion from the type of expression(when posible).
+
+    - There can be more than one more return statement in a function.
+  </details>
+
+- <details>
+  <summary>Invoking a funtion and assigning data returned</summary>
+
+    - A function is called by using the function name followed by the arguments 
+    between parentheses.
+
+    - The values of the arguments that were specified will be assigned to the 
+    parameters.
+
+    - When the function executes, the computation proceeds using the values as 
+    arguments, arguments most be the same as specified in parameters.
+
+    - If the funtion is used as the right side of an assigment statement, the 
+    return value will be substituted for the funtion.
+
+    - *int x = myFunctionCall()*.
+
+    - The calling function dosen't have to recognize or process the value returned
+    from a called function.
+  </details>
