@@ -30,3 +30,33 @@
     - Funtions can be reused not only in that program, but in other too.
   </details>
 
+## Defining funtions
+
+- The function header defines the name of the function, parameters and type for
+  the values that funtions return.
+
+- *Return_type Funtion_Name(Parameters - separated by commas){code}*.
+
+- Choosing meaninful funtions name is as importan as choosing variables names.
+
+- If there are no statements in the body of a funtion, the return type must be 
+  void.
+
+- To name funtions is the same as variable, names can't be repeated, not reserved,
+  words.
+
+- <details>
+  <summary>Funtions prototypes</summary>
+
+    - Is a statement that defines a funtions, defines name, return value type, 
+    and the type of each of its parameters(funtions header).
+
+    - Enables the compiler to generate the appropriate instructions at each point
+    where the function is called.
+
+    - Allows any of the functions in the file to call any funtion regardless of 
+    where the funtions is called.
+
+    - Dosen't have to be the same paramentes as the funtion (it's better to be the
+    same).
+  </details> 
