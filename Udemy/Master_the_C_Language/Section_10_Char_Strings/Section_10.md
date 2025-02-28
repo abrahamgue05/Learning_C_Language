@@ -76,3 +76,55 @@
 - The string constant "x" is not the same as the character constant 'x', 'x' is a
   basic type(char), "x" is a derived type, an array of char.
 
+## Constant Strings
+
+- In some program a constant is need like the value of pi(3.1416) it never 
+  changes.
+
+- A word can tell mure that a number does, *owed = 0.015 * housevalue* is not the
+  same as *owed = taxrate * housevalue*.
+
+- If the 0.015 is used more than one time and it need to be changed locating each
+  time is used is harder than just changing the value on the taxrate.
+
+- <details>
+  <summary>#define</details>
+
+    - The preprocessor define constants.
+
+    - *#define TAXRATE 0.015*.
+
+    - When the program is compiled, the value 0.015 will be substituted everywhere
+    the TAXRATE is used.
+
+    - It's not a variable as a value can not be assigned to it.
+
+    - *Special syntax*: No equal sign used to assing value, no semicolon.
+
+    - Can appear anywhere in the program, no such a thing as a local define.
+
+    - Makes programs more portable.
+
+    - Can store char and strings. 
+  </details>
+
+- <details>
+  <summary>const</summary>
+
+    - C90 added a second way to create symbolic constants, using the keyword 
+    *const*.
+
+    - *const int MONTHS = 12;*, MONTHS is a symbolic constant for 12.
+
+    - *const* makes MONTHS into a read-only value, can be used in calculation,
+    and its value can't be alter.
+
+    - *const* is a newer approach and is more flexible than using #define, as it
+    let to declare a type and allows better control over which parts use it.
+
+    - C has yet a third way to create symbolic constants enums(Section 5).
+
+    - Can also be used in stings when a message is repeated.
+
+    - If it's tried to be modified later, the compiler will show an error.
+  </details>
