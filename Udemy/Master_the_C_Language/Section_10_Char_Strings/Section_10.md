@@ -88,7 +88,7 @@
   time is used is harder than just changing the value on the taxrate.
 
 - <details>
-  <summary>#define</details>
+  <summary>#define</summary>
 
     - The preprocessor define constants.
 
