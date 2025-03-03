@@ -22,11 +22,12 @@ Aquí están las plataformas y materiales que estoy utilizando para aprender C:
 
 
 ### 📘 Udemy
-
+> [!NOTE]
+> Los cursos de udemy son por una beca, asi su duracion tiene limite(28 de febrero)
 
 - [] [C programming For beginners - Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/?couponCode=ST18MT12125AROW) c-programming-for-beginners-/. - Programacion C aumentara la posibilidad de carreras. Conviertete en un mejor promadar en otra lengau aprendiendo C. Punteros explicados.
 
-- [] [Advanced C Programming Course](https://www.udemy.com/course/advanced-c-programming-course/?couponCode=ST18MT12125AROW) - Conviertete en un verdadero master del lenguaje C - con seguridad aplique para trabajos en tiempo real o con C integrado.
+## Projectos
 
 ## 📝 ¿De qué trata esto?
 
