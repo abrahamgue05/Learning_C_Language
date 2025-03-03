@@ -29,7 +29,7 @@ Here are the platforms and materials I'm using to learn C programming:
 >[!NOTE]
 >Udemy is with a scholarship, so i have a limit of time(Feb 28).
 
-- [ ] [C programming For beginners - Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/?couponCode=ST18MT12125AROW) c-programming-for-beginners-/. - C Programming will increase career options. Become a better dev in other languages by learning C. Pointers explained. 
+- [] [C programming For beginners - Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/?couponCode=ST18MT12125AROW) c-programming-for-beginners-/. - C Programming will increase career options. Become a better dev in other languages by learning C. Pointers explained. 
 
 ### Projects
 
