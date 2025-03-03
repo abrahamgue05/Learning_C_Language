@@ -33,6 +33,9 @@ Here are the platforms and materials I'm using to learn C programming:
 
 ### Projects
 
+- [ ] [Snake game](https://www.youtube.com/watch?v=ShlJel8gOeU&ab_channel=CompleteCodingbyPrashantSir)
+  The famous snake game.
+
 - [ ] [Bank managment system](https://www.geeksforgeeks.org/bank-account-system-in-c-using-file-handling/)
   Using some already existing videos and code sheets I will make my own bank system.
 
