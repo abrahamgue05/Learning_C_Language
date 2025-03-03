@@ -31,6 +31,10 @@ Here are the platforms and materials I'm using to learn C programming:
 
 - [Incomlete] [C programming For beginners - Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/?couponCode=ST18MT12125AROW) c-programming-for-beginners-/. - C Programming will increase career options. Become a better dev in other languages by learning C. Pointers explained. 
 
+### Projects
+
+- [ ] [Bank managment system](https://www.geeksforgeeks.org/bank-account-system-in-c-using-file-handling/)
+  Using some already existing videos and code sheets I will make my own bank system.
 
 **Note**: All code examples and projects are written in **English**.
 
