@@ -27,7 +27,13 @@ Aquí están las plataformas y materiales que estoy utilizando para aprender C:
 
 - [] [C programming For beginners - Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/?couponCode=ST18MT12125AROW) c-programming-for-beginners-/. - Programacion C aumentara la posibilidad de carreras. Conviertete en un mejor promadar en otra lengau aprendiendo C. Punteros explicados.
 
-## Projectos
+### Projectos
+
+- [ ] [Snake game](https://www.youtube.com/watch?v=ShlJel8gOeU&ab_channel=CompleteCodingbyPrashantSir)
+  El famoso juego de la serpiente.
+
+- [ ] [Bank managment system](https://www.geeksforgeeks.org/bank-account-system-in-c-using-file-handling/)
+  Usando algunos videos y codigos ya existentes hare mi propio sistema de banco.
 
 ## 📝 ¿De qué trata esto?
 
