@@ -20,6 +20,8 @@ Aquí están las plataformas y materiales que estoy utilizando para aprender C:
 
 - [x] [CS50x 2024 - Lecture 1 a 5 - C](https://www.youtube.com/watch?v=cwtpLIWylAw&t=1233s&ab_channel=CS50) - Introducción CS50 de la Universidad de Harvard a las empresas intelectuales de la informática y al arte de la programación.
 
+- [ ] [C programming and Memory Managment](https://youtu.be/rJrd2QMVbGM?si=mdqOehm_f8hkgadX) 
+  ¡Aprenda a gestionar manualmente la memoria en el lenguaje de programación C y a crear no uno, sino dos recolectores de basura desde cero! Si está acostumbrado a trabajar con lenguajes y herramientas que se encargan de ello por usted, este curso le enseñará cómo funciona todo eso.
 
 ### 📘 Udemy
 > [!NOTE]
