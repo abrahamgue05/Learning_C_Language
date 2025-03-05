@@ -6,7 +6,7 @@ Welcome to my repository! This is where I document my journey of learning the **
 ## 🛠️ Tools I'm Using
 - **IDE/Editor**: VS code
 - **Compiler**: GCC 
-- **OS**: Windows
+- **OS**: Linux
 - **Version Control**: Git and GitHub to track and share my progress.
 
 ## 📚 Resources I'm Using
