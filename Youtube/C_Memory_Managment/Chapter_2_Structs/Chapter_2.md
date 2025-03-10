@@ -10,3 +10,5 @@
 
 - Stored next to each other in memory, can be bigger or smaller depending, on how
   the data is layed.
+
+- Struct can return multple values.
