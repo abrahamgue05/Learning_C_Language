@@ -12,3 +12,8 @@
   the data is layed.
 
 - Struct can return multple values.
+
+- C is gives a padding because it wants to align on what are call word boundaries,
+  faster to access.
+
+- A way to optimize this is to order in size, from largest to smalles.
