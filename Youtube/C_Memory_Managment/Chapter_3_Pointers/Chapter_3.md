@@ -20,4 +20,5 @@
 
 - To give the exact address it will be *int *xptr = &x;*.
 
-- 
+- Compiler lose the size of an Array when is casted into a pointer, that 
+  information is lost.
