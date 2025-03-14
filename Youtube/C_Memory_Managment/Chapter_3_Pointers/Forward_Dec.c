@@ -1,4 +1,4 @@
-// Someties a struct may need to reference itself, or be used recursively
+// Sometimes a struct may need to reference itself, or be used recursively
 
 #include <stdio.h>
 typedef struct node node_t;
