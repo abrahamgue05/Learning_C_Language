@@ -28,3 +28,16 @@
 
 - If frames keep being pushed onto the stack without popping them off, eventually
   memory will be full and get a **stack overflow** (name of a famuous code site).
+
+- Memory addresses on the stack are always changing and getting reused.
+
+- Stack is simpler and faster but is a bit more limited, used when size is know
+  ahead of time and can exist within one function.
+
+- Heap is slower and a bit more complecx to work wit but it does allow to create 
+  more sophisticated and more compliated data structures.
+
+- Heap is used when the size ahead of time of the different objecs that are going
+  to be use is unknow. 
+
+- C always need to know how large some piece of data is and where to put it.
