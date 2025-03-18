@@ -8,3 +8,9 @@
 
 - Provide the list of possible types so the C compiler knows the maximum potential
   memory requirement.
+
+- Unions store their value in the same memory location, no matter which field 
+  or type is actively being used. 
+
+- Unions can be use to create "helpers" for accesing different parts of a pice of
+  memory.
