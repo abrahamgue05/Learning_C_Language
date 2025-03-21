@@ -48,4 +48,11 @@
 - Is uninitialized which means that it contains whatever data was previously at
   that location.
 
-- 
+- It's the programer responsibility to ensure that the allocated memory is
+  properly initialized and eventually freed using free().
+
+- *Big Endian:* In big-endian system, the most significant byte(the biggest part
+  of the number) is stored first, at the lowest memory addres.
+
+- *Little Endian:* The leastt significant byte is stored first, at the lowest
+  memory address.
