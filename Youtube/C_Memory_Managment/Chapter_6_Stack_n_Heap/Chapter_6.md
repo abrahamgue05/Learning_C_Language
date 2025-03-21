@@ -9,19 +9,19 @@
 
 - <details>
   <summary>Why stacks?</summary>
-  
+
     - *Efficient Pointer Managment:* Stack "allocation" is just a quick increment
       or decrement of the stack pointer, which is extremely fast.
 
-    - *Cache-Friendly Memory Access:* Stack memory is stored in a contiguous 
+    - *Cache-Friendly Memory Access:* Stack memory is stored in a contiguous
     block, enhancing cache performance due to spatial locality.
 
-    - *Automatic Memory Managment:* Stack memory is managed automatically as 
+    - *Automatic Memory Managment:* Stack memory is managed automatically as
     functions are called and as they return.
 
     - *Inherent Thread Safety*: Each theread has its own stack. Heap allocations
-    require synchronization mechanisms when used concurrenty, potencially 
-    introducing overhead.  
+    require synchronization mechanisms when used concurrenty, potencially
+    introducing overhead.
   </details>
 
 - One downsides is that it has a limited size.
@@ -34,10 +34,18 @@
 - Stack is simpler and faster but is a bit more limited, used when size is know
   ahead of time and can exist within one function.
 
-- Heap is slower and a bit more complecx to work wit but it does allow to create 
+- Heap is slower and a bit more complecx to work wit but it does allow to create
   more sophisticated and more compliated data structures.
 
 - Heap is used when the size ahead of time of the different objecs that are going
-  to be use is unknow. 
+  to be use is unknow.
 
 - C always need to know how large some piece of data is and where to put it.
+
+- ***Malloc:*** Allocates a specified number of bytes of memory on the heap and
+  returns the pointer to the allocated memory.
+
+- Is uninitialized which means that it contains whatever data was previously at
+  that location.
+
+- 
