@@ -8,4 +8,12 @@
 - Allows to make complex data structures like arrays of pointers and modify
   pointers directly.
 
-- 
+- *void(argument):* Means that the function returns nothing.
+
+- *int funtion(void):* Means the functions takes no argument.
+
+- *void(star)*: "void pointer" tells the compiler that this pointer could point
+  to **anything**.
+
+- This is why void pointer are also know as a "generic pointer". Since void
+  pointers do not have an specific data type.
