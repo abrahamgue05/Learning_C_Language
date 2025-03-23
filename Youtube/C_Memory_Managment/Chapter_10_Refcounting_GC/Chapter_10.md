@@ -52,7 +52,24 @@
 - At the end garbage collection is not free, there will be a run time to see if
   the variable is still alive.
 
-- In C is manually done by the programmer, in Rust the compiler does it.
+- In C is manually done by the programmer with malloc and free.
+
+- Rust has a compile-time system tgat ebsyres memory safety.
 
 - In GCL(Garbage Collecting Languages) its paid in run time rather during
   development time.
+
+- <details open>
+  <summary>Garbage collector</summary>
+
+    - Is a program(or a part of a program) that automatically frees memory that is
+      not longer used.
+
+    - Languages like Python, Java, JS, OCaml and Go uses garbage collectora as the
+      as the code is running to manage memory.
+
+    - Autimatic memory managment can be a huge productivity boost for developers
+      (less code, and sometimes less memory-related bugs).
+
+    - It usually comes with a performance cost because it's always running.
+  </details>
