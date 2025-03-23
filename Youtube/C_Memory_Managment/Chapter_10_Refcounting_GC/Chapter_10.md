@@ -33,7 +33,18 @@
     <details>
     <summary>Mark and Sweep</summary>
 
-      -
+      - Find all the variable that are directly reference by the stack frames.
 
+      - Trace through all of the conections of those variables to find anyother
+        that are referenced.
+
+      - Once traced those who are directly and indriectly referenced are marked
+        and those who are not referenced can be sweep.
+
+      - More complex but can handled certain cases that at least naive reference
+        counting can't handle, like cicles.
+
+      - Dosent require to do operation every single time that is touched or
+        references a variable.
   </details>
   </details>
