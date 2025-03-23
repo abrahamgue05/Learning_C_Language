@@ -7,3 +7,5 @@
 
 - *ralloc():* Function is used to resize memory that was previously allocated
   with malloc or calloc, takes a pointer to the old memory.
+
+  - No code writen mostly saw some functions made by them.
