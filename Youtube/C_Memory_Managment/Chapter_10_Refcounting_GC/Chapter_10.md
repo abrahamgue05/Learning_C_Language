@@ -48,3 +48,11 @@
         references a variable.
   </details>
   </details>
+
+- At the end garbage collection is not free, there will be a run time to see if
+  the variable is still alive.
+
+- In C is manually done by the programmer, in Rust the compiler does it.
+
+- In GCL(Garbage Collecting Languages) its paid in run time rather during
+  development time.
