@@ -1,12 +1,12 @@
 /*
 Author: Abraham Guerrero
-Purspose: (Challenge) Create and use an enum type. 
+Purpose: (Challenge) Create and use an enum type. 
 Date 10/02/25 DD/MM/YY
 
 Instruction: Creat an enum type named company, create three variables of the 
 above enum type, values: XEROX, GOOGLE, EBAY.
-Program should display as output, the value of the three cariables with each 
-variable separeted with a new line.
+Program should display as output, the value of the three variables with each 
+variable separated with a new line.
 Output: XEROX, GOOGLE and EBAY are printed in that order: 
 2
 0

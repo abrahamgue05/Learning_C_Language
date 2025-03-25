@@ -1,6 +1,6 @@
 /*
 Author: Abraham Guerrero
-Purspose: See data type in action.
+Purpose: See data type in action.
 Date 10/02/25 DD/MM/YY
 
 */
@@ -14,7 +14,7 @@ int main() {
     
     _Bool boolvariable = 1;
 
-    bool myBoolead = true;
+    bool myBoolean = true;
     bool anotherBoolean = false;
 
     return 0;

@@ -1,6 +1,6 @@
 /*
 Author: Abraham Guerrero
-Purspose: Watch enums and char in action
+Purpose: Watch enums and char in action
 Date 10/02/25 DD/MM/YY
 
 */

@@ -34,7 +34,7 @@
 ### Data types
 - *Data types*: Represents a type of data which can be process using the program.
 
-    - Some types of dati in programs are number, letters or words.
+    - Some types of data in programs are number, letters or words.
 
     - inst, floats, doubles, etc.
 
@@ -42,7 +42,7 @@
 - *Declaring variables*: Specifying the type of variable followed by the variable
   name.
 
-    - Specifies to the compiler how a particular varible will be used by the 
+    - Specifies to the compiler how a particular variable will be used by the 
     program.
 
     - *type-specifier variable-name;*.
@@ -51,11 +51,11 @@
 
     - int x; int x,z,y;.
 
-### Initialazing variables
-- *Initialazing variables*: Assing it a starting ot initial value this can be done
+### Initializing variables
+- *Initializing variables*: Assign it a starting ot initial value this can be done
   as part of the declaration.
 
-    - Follow thwe variable name with the assignment operator (=) and the value.
+    - Follow the variable name with the assignment operator (=) and the value.
 
     - int x = 21, int y = 32, z = 14.
 
@@ -68,9 +68,9 @@
 <summary>Numeric data types</summary>
 
 ### Int
-- *int*: Containt integral values only (values that dont containt decimal).
+- *int*: Contain integral values only (values that don't contain decimal).
   
-    - A minus sign precedint indicates that the value is negative.
+    - A minus sign precedent indicates that the value is negative.
 
     - Can be positive, negative or zero.
 
@@ -78,10 +78,10 @@
 
     - No embedded spaces are permitted between numbers.
 
-    - Values larger than 999 cannot be expressed ussing commas.
+    - Values larger than 999 cannot be expressed using commas.
 
 ### Float
-- *float*: Store floating-point numbers (values that containt decimal places).
+- *float*: Store floating-point numbers (values that contain decimal places).
 
     - Can storage negative values such as -.0001.
 
@@ -90,7 +90,7 @@
 ### Double
 - *double*: Same as type float, only with roughly twice the precision.
 
-    - Used whenever the range provided by a float variable is not suficient.
+    - Used whenever the range provided by a float variable is not sufficient.
 
     - Can store twice as many significant digits.
 
@@ -100,19 +100,19 @@
 
     - To explicitly express a float constant use an f at the end of it.
 
-### Keywoords
-- C offers three adjectives keywoords to modify the basic integer, doubles, float.
+### Keywords
+- C offers three adjectives keywords to modify the basic integer, doubles, float.
 
     - *Short*: Uses less storage than an int, saving space when space is limited.
 
-    - *Long*: Use more storage thatn int, this enabling to express larger numbers.
+    - *Long*: Use more storage that int, this enabling to express larger numbers.
 
     - *Unsign*: A int that have nonnegative values.  
 
 ### Bool
 - *_Bool/bool*: Store just the value 0 or 1.
 
-    - Indicate binary choises.
+    - Indicate binary choices.
 
     - *0*: False value.
 
@@ -123,7 +123,7 @@
 
     - The amount of storage that is allocated to store a particular type of data.
 
-    - Depends on the computer is beeing run.
+    - Depends on the computer is being run.
 
     - An int might take up 32 bits on one computer, or perhaps it might be store
     in 64.
@@ -132,7 +132,7 @@
 ## Enums and Chars
 
 - *Enums*: Allows the programmer to define a variable and specify the valid values
-  that could be stored into varibles.
+  that could be stored into variables.
 
     - Can create a variable named "myColor" and it can only contain one of the 
     primary color.
@@ -156,7 +156,7 @@
 
     - char broiled = 'T';.
 
-    - Can also use numerical code to assing values (ASCII).
+    - Can also use numerical code to assign values (ASCII).
 
 - *Escape Characters*: C contains special characters that represent actions, 
   represented by using special symbol sequences.
@@ -202,7 +202,7 @@
 
 - *printf()*: Can display as output the values of variables
 
-    - Arguments are separeted by a comma.
+    - Arguments are separated by a comma.
     
     - First character is always the character string to be displayed. 
     
@@ -249,7 +249,7 @@
 
 - Passing data to a program when is being executed.
 
-- *main*: Is a special funtion in C, is the entry point of the program.
+- *main*: Is a special function in C, is the entry point of the program.
 
     - When its called two arguments are passed to the function.
 

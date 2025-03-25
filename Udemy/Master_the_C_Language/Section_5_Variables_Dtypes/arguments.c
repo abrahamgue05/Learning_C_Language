@@ -1,6 +1,6 @@
 /*
 Author: Abraham Guerrero
-Purspose: main functions arguments
+Purpose: main functions arguments
 Date 12/02/25 DD/MM/YY
 
 */

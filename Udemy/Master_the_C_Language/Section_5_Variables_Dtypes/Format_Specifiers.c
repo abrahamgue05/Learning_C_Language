@@ -1,6 +1,6 @@
 /*
 Author: Abraham Guerrero
-Purspose: Watch format specifier in action.
+Purpose: Watch format specifier in action.
 Date 11/02/25 DD/MM/YY
 */
 #include <stdio.h>
@@ -23,7 +23,7 @@ int main() {
     printf("boolVar = %i\n", boolVar);// 0
 
     printf("doubleVar = %g %f\n", doubleVar,floatingVar);
-    // Prints two varibales 8.44e+011 and 331.790009
+    // Prints two variables 8.44e+011 and 331.790009
     printf("floatingVar = %.2f\n", floatingVar);// 331.79
 
     return 0;
