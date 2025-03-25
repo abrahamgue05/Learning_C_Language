@@ -45,6 +45,14 @@
     - Dosent require to do operation every single time that is touched or
       references a variable.
 
+    - First described by John McCarthy in 1960, primarily for managing memory in ((lisp)). 
+      It's a two-phase algorithm:
+    
+    - *Mark Phase:* Traverses the object graph, marking all reachable objects.
+
+    - *Sweep Phase:* Scan memory, collecting all unmarked objects, which are 
+      considered garbage.
+
     - <details>
       <summary>Pros</summary>
 
@@ -68,7 +76,6 @@
 
         - Less predictable performance.
       </details>
-
 
   </details>
   </details>
