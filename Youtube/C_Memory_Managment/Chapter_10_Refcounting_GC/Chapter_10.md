@@ -18,10 +18,11 @@
 
       - Every object has an additional field that is it's count.
 
-      - When the object is created or some other variable references the object.
+      - *Increment:* When the object is created or some other variable references
+        the object.
 
-      - Like a list if a variable goes inside of a list the reference count for
-        that variable is 2 when it is remove the reference count is drop by 1.
+      - *Decrement and free:* When the refactor reaches 0, there are no references
+        to the object, the memory is free.
 
       - Once is 0 that memory goes back to the O.S.
 
@@ -46,6 +47,13 @@
 
       - Dosent require to do operation every single time that is touched or
         references a variable.
+
+      - <details>
+        <summary>Pros</summary>
+
+        -
+        </details>
+
   </details>
   </details>
 
