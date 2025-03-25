@@ -9,41 +9,41 @@
 - It uses a algorithm to determine what values are still alive.
 
 - <details>
-    <summary>Reference counting</summary>
+  <summary>Reference counting</summary>
 
-      - Simplest version of garabage collection.
+    - Simplest version of garabage collection.
 
-      - Every object has an additional field that is it's count.
+    - Every object has an additional field that is it's count.
 
-      - *Increment:* When the object is created or some other variable references
+    - *Increment:* When the object is created or some other variable references
         the object.
 
-      - *Decrement and free:* When the refactor reaches 0, there are no references
-        to the object, the memory is free.
+    - *Decrement and free:* When the refactor reaches 0, there are no references
+      to the object, the memory is free.
 
-      - Once is 0 that memory goes back to the O.S.
+    - Once is 0 that memory goes back to the O.S.
 
-      - Inability to track cicles.
+    - Inability to track cicles.
 
-      - Everytime an operation is done all the objects have to be modified.
+    - Everytime an operation is done all the objects have to be modified.
   </details>
 
-    <details>
-    <summary>Mark and Sweep</summary>
+- <details>
+  <summary>Mark and Sweep</summary>
 
-      - Find all the variable that are directly reference by the stack frames.
+    - Find all the variable that are directly reference by the stack frames.
 
-      - Trace through all of the conections of those variables to find anyother
-        that are referenced.
+    - Trace through all of the conections of those variables to find anyother
+      that are referenced.
 
-      - Once traced those who are directly and indriectly referenced are marked
-        and those who are not referenced can be sweep.
+    - Once traced those who are directly and indriectly referenced are marked
+      and those who are not referenced can be sweep.
 
-      - More complex but can handled certain cases that at least naive reference
-        counting can't handle, like cicles.
+    - More complex but can handled certain cases that at least naive reference
+      counting can't handle, like cicles.
 
-      - Dosent require to do operation every single time that is touched or
-        references a variable.
+    - Dosent require to do operation every single time that is touched or
+      references a variable.
 
     - <details>
       <summary>Pros</summary>
