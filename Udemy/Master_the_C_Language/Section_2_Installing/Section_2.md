@@ -2,10 +2,10 @@
 
 ## Overview 
 
-- *Windows*: C compiler(Cygwim), IDE's(Integrated Development Enviroment),
+- *Windows*: C compiler(Cygwin), IDE's(Integrated Development Environment),
   (CodeLite).
 
-- *Mac*: C compiler(developer tools), IDE's(Integrated Development Enviroment),
+- *Mac*: C compiler(developer tools), IDE's(Integrated Development Environment),
   (xcode/CodeLite).
 
 - *Linux*: Compiler comes installed, IDE's(Integrated Development Enviroment),
@@ -26,8 +26,8 @@
     -> Choose -> Finish.
 
     - File explorer -> Locate the C:cygwin\bin -> Copy path -> Search System -> 
-    Enviroment variables -> System variables -> Path -> New -> Copy path -> 
-    Ok twice -> Open command promt -> Cygcheck -c cygwin -> If no problems ->
+    Environment variables -> System variables -> Path -> New -> Copy path -> 
+    Ok twice -> Open command prompt -> Cygcheck -c cygwin -> If no problems ->
     gcc --version.
 
 ### Installing CodeLite
@@ -50,14 +50,14 @@
 
     - On CodeLite Settings -> Build settings -> Click the + -> Search for cygwin 
     -> Select it -> Name it -> Tools -> C compiler, Linker, SOL .exe
-    must be setted as gcc.exe -> Assembler name must be as.exr -> Archive 
-    must be setted as ar.exe -> Other are ok -> Apply -> Ok.
+    must be seated as gcc.exe -> Assembler name must be as.exr -> Archive 
+    must be seated as ar.exe -> Other are ok -> Apply -> Ok.
 
     - To create a project -> New -> C++ -> Choose path with no special char ->
     -> Give it a name -> Check Create a workspace -> OK -> Select workspace -> 
     Right click -> New project -> Name it -> Create on own folder -> Category:
-    Console -> Type: Simple executable(gcc), Compiler: cygwin, debbuger: GNU gdb
-    debbuger, Build System: CodeLite Makefile Generator - UNIX -> OK.
+    Console -> Type: Simple executable(gcc), Compiler: cygwin, debugger: GNU gdb
+    debugger, Build System: CodeLite Makefile Generator - UNIX -> OK.
 
     - To build run a file -> Save file -> Select the wrench -> Compiler ->
     C compiler options -> ... -> Enable C99 features -> OK -> Linker -> Linker 
@@ -75,7 +75,7 @@
     search for it -> if not just install it in the App Store -> App store -> 
     Develop -> Xcode.
 
-    - To install development tools -> gcc --version to see if they are instelled ->
+    - To install development tools -> gcc --version to see if they are installed ->
     If not a box will pop up -> Install -> Done -> gcc --version.
 
 ### Installing CodeLite on Mac
@@ -100,11 +100,11 @@
 
     - To create a project -> Right click on the created workspace -> New -> 
     New Project -> Chose path and name -> Check box is on -> Category: Console ->
-    Type: Simple exevtable (gcc), Compiler: GCC, Debugger: LLDB Debugger, 
+    Type: Simple executable (gcc), Compiler: GCC, Debugger: LLDB Debugger, 
     Build System: Default -> OK.
 
     -> To run a file -> Save the file first -> Right click -> settings ->
-    Compiler -> C compiler options -> ... -> Enable all warningd and C99 features
+    Compiler -> C compiler options -> ... -> Enable all warning and C99 features
     -> OK -> Build -> Build and Run project.
 </details>
 
@@ -119,7 +119,7 @@
     -> Open another terminal -> Type which gcc.
 
     -> CodeLite.org -> Docs -> Download -> Ubuntu / Debian -> Copy and paste
-    on terminal one by one -> Exept sudo apt install codelite.
+    on terminal one by one -> Except sudo apt install codelite.
 
 ### Configuring CodeLite on Ubuntu Linux
 > [!IMPORTANT]
@@ -133,12 +133,12 @@
     name -> Ok.
 
     -> To create a project - Right click workspace -> choose path and name -> 
-    Category: Console -> Type: Simple exevtable (gcc), Compiler: GCC, 
+    Category: Console -> Type: Simple executable (gcc), Compiler: GCC, 
     Debugger: LLDB Debugger, Build System: Default -> OK.
 
     -> To run a file -> Save the file first -> Right click -> settings ->
     Compiler -> C compiler options -> ... -> Enable C99 features -> OK -> Linker 
-    -> Linker options -> ... -> Static linking -> OK -> Debbuger -> ... ->
+    -> Linker options -> ... -> Static linking -> OK -> Debugger -> ... ->
     urs -> bin -> gdb -> Apply -> OK -> Right click on project -> Build -> 
     Right click on project -> Run.
 </details>
@@ -147,7 +147,7 @@
 
 - Create a new workspace -> Create a project -> Make it as a build -> 
   Select the project -> Right click -> Save as template -> Set name -> 
-  Project category: User template -> Choose desription -> OK -> Create a new 
+  Project category: User template -> Choose description -> OK -> Create a new 
   project -> But in category choose your template.
 
 
@@ -157,25 +157,25 @@
 
 - A text editor (not a Word Processor).
 
-- A command-promt or terminal.
+- A command-prompt or terminal.
 
-- An installed C compailer.
+- An installed C compiler.
 
 - No need for an IDE.
 
-- Simple and effeicient workflow. 
+- Simple and efficient workflow. 
 
 ## Windows
 >[!WARNING]
->Most have the compailer installed
+>Most have the compiler installed
 <details>
 <summary>Windows</summary>
 
     - In search bar -> Cygwin64 -> Cygwin64 terminal -> ls to see archive in 
     directory -> cd /home/(user in this path) -> mkdir -> Name it -> cd (name) ->
     Search for Notepad -> Save it in the home/user name -> name the archive -> 
-    save -> on the cygwind64 terminal -> Search for the file -> Write code ->
-    Save it -> Use more to see the code insite it -> gcc (file.c) -> Enter ->
+    save -> on the cygwin64 terminal -> Search for the file -> Write code ->
+    Save it -> Use more to see the code inside it -> gcc (file.c) -> Enter ->
     ls -> ./((exemade).exe) -> Enter -> Code runs.
 
     - gcc --help for extra commands. 
@@ -185,7 +185,7 @@
 
 ## Mac
 >[!WARNING]
->Most have the compailer installed
+>Most have the compiler installed
 <details>
 <summary>Mac</summary>
 
@@ -201,7 +201,7 @@
 
 ## Linux(Ubuntu)
 >[!WARNING]
->Most have the compailer installed
+>Most have the compiler installed
 <details>
 <summary>Linux</summary>
 
@@ -218,7 +218,7 @@
 
 - Can be used if compiler or editor can't be installed.
 
-- Seach for online C compiler.
+- Search for online C compiler.
 
 - The OnlineGDB is very good.
 
