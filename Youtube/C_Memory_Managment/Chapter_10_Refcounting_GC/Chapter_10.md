@@ -8,10 +8,7 @@
 
 - It uses a algorithm to determine what values are still alive.
 
-- <details open>
-  <summary>Algorithms</summary>
-
-    <details>
+- <details>
     <summary>Reference counting</summary>
 
       - Simplest version of garabage collection.
