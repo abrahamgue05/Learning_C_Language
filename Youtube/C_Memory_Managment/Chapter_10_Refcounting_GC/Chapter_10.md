@@ -8,7 +8,7 @@
 
 - It uses a algorithm to determine what values are still alive.
 
-- <details>
+- <details open>
   <summary>Reference counting</summary>
 
     - Simplest version of garabage collection.
@@ -28,7 +28,7 @@
     - Everytime an operation is done all the objects have to be modified.
   </details>
 
-- <details>
+- <details open>
   <summary>Mark and Sweep</summary>
 
     - Find all the variable that are directly reference by the stack frames.
@@ -48,8 +48,27 @@
     - <details>
       <summary>Pros</summary>
 
-      - Can detect cicles
+        - Can detect cicles, and thus memory leaks in certain cases.
+
+        - Less on-demand bookkeeping.
+
+        - Reduces potential performance degradation in highly multithreaded
+          programs.
       </details>
+
+    - <details>
+      <summary>Cons</summary>
+
+        - More complex to implement.
+
+        - Can cause "stop-the-world" pauses when lots of objects exist and must be
+          freed.
+
+        - Higher memory overhead.
+
+        - Less predictable performance.
+      </details>
+
 
   </details>
   </details>
