@@ -48,11 +48,11 @@
       - Dosent require to do operation every single time that is touched or
         references a variable.
 
-      - <details>
-        <summary>Pros</summary>
+    - <details>
+      <summary>Pros</summary>
 
-        -
-        </details>
+      - Can detect cicles
+      </details>
 
   </details>
   </details>
