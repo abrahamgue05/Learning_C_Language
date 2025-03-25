@@ -11,22 +11,22 @@
   - *Language features* - Imperative language, top-down planning, structured
     programming.
 
-  - *Advantages of using C* - Small, fast progras, reliable, easy to learn and
+  - *Advantages of using C* - Small, fast programs, reliable, easy to learn and
     understand.
 
-  - How to use a moder, cross-platafor IDE to write, edit and debug your C code.
+  - How to use a modern, cross-platform IDE to write, edit and debug your C code.
 
   - *Basic C concepts* - Structure of a program, comments, output using printf,
     "Hello world".
 
-  - *Makefiles* - How to build.
+  - *Makefile* - How to build.
 
   - *Variables* - Declaring and using variables.
 
   - *Data types* - int, float, double, char, etc (as well as enums and type
     definitions).
 
-  - *Basic Operators* - Logical, arithmethic and assignment.
+  - *Basic Operators* - Logical, arithmetic and assignment.
 
   - *Conditional Statement* - Making decision (if, switch).
 
@@ -37,16 +37,16 @@
   - *Functions* - Declaration and use, arguments and parameters,
     call by values vs call by reference.
 
-  - *Debbuging* - Call stack, common mistakes, understanding compiler messages.
+  - *Debugging* - Call stack, common mistakes, understanding compiler messages.
 
-  - *Structs* - Initializing, nested strcuctures, variants.
+  - *Structs* - Initializing, nested structures, variants.
 
   - *Character Strings* - Basic, arrays of char, character operation.
 
   - *Pointes* - Definition and use, using with functions and arrays, malloc,
     pointer arithmetic.
 
-  - *The Preproccesor* - #define, #include.
+  - *The Preprocessor* - #define, #include.
 
   - *Input and Output* - getchar, scanf.
 
@@ -59,24 +59,24 @@
 <details open>
 <summary>Course Outcomes</summary>
 
-  - Being able to write begginer C programs.
+  - Being able to write beginner C programs.
 
   - Being able to write efficient, high quality C code (modular/ low coupling).
 
-  - Being able to find and fix your erros (understand compiler messages).
+  - Being able to find and fix your errors (understand compiler messages).
 
   - You will understand fundamental aspects of the C Programming language.
 </details>
 
 ## Class Organization
 
-- Explaning the why and providing the how.
+- Explaining the why and providing the how.
 
-- Demostrations of code.
+- Demonstrations of code.
 
 - Challenges (coding assignment/projects).
 
-## Fundamentals of a programm
+## Fundamentals of a program
 
 - Computer only do what they are told to do with and algorithm expressed in the
   statement of a particular computer language.
@@ -86,7 +86,7 @@
 
 - *RAM*: Random access memory, stores data of a program while it is running.
 
-- *Hard drive*: Permanent storage, store the files that contaub program source
+- *Hard drive*: Permanent storage, store the files that contain program source
   code.
 
 - *Operating System*: Make it easier to use a computer,
@@ -98,13 +98,13 @@
 - High-level programming languages, make it easier to write programs.
 
 - *Compiler*: A program that translate the code into machine code,
-  cheking also if there is any syntax problems.
+  checking also if there is any syntax problems.
 
 - ### Steps in writing a program
 
   - 1.- Define the program: Getting a clear idea of what the code must do.
 
-  - 2.- Desing: Desing the interface and program Organization.
+  - 2.- Design: Design the interface and program Organization.
 
   - 3.- Write code: Create the code.
 
@@ -118,21 +118,21 @@
 
 ## Overview
 
-- C is a general-porpouse, imperative computer programming language that supports
+- C is a general-purpose, imperative computer programming language that supports
   structured programming.
 
 - Can change a program's state, focused on how.
 
 - C is a modern language, has basic structures and features of modern language,
-  modular desing, reliable and readable.
+  modular design, reliable and readable.
 
-- Used in minicomputers, systemas and mainframes.
+- Used in minicomputers, systems and mainframes.
 
 - Strong role in the development of Linux.
 
 - C is a subset of C++ with OOP.
 
-- Avilable for most computers and is also hardware independent.
+- Available for most computers and is also hardware independent.
 
 
 ## Language Features
@@ -147,22 +147,22 @@
 - *Portable*: C programs written on one system can be run on other systems with
   no modifications.
 
-- *Compiler*: Compailers are avilable for PC, in Linux they come as part of the
+- *Compiler*: Compilers are available for PC, in Linux they come as part of the
   package.
 
-- *Poweful and flexible*: Unix/Linux Kernel is written in C, some compilers are
+- *Powerful and flexible*: Unix/Linux Kernel is written in C, some compilers are
   written in C.
 
-- *Programmer Oriented*: Gives accest to hardware, can manipulate individual bits
+- *Programmer Oriented*: Gives access to hardware, can manipulate individual bits
   less strict than most languages in limiting what can be done.
 
 - Provides low level features, can manipulate bits, pointes.
 
-- *Disadvantages*: More responsability needed, sometimes is dificult to read.
+- *Disadvantages*: More responsibility needed, sometimes is difficult to read.
 
 ## Creating a C Program
 
-- *Editing*: Proccess of creating and modifying C code.
+- *Editing*: Process of creating and modifying C code.
 
 - *Compiling*: Converts the source code into machine code and detect
   and reports errors of syntax and semantics of the language C in this case.
