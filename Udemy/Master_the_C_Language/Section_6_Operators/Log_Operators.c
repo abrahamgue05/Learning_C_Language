@@ -1,6 +1,6 @@
 /*
 Author: Abraham Guerrero
-Purspose: Look at logical operators in action.
+Purpose: Look at logical operators in action.
 Date 13/02/25 DD/MM/YY
 
 */

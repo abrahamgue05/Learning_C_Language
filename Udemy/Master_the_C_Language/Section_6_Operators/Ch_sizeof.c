@@ -1,6 +1,6 @@
 /*
 Author: Abraham Guerrero
-Purspose: (Challenge) Print the byte size of the basic data types
+Purpose: (Challenge) Print the byte size of the basic data types
 Date 16/02/25 DD/MM/YY
 
 Instructions: Display the byte size of the following types

@@ -1,6 +1,6 @@
 /*
 Author: Abraham Guerrero
-Purspose: Look at arithmetich operators in action. 
+Purpose: Look at arithmetic operators in action. 
 Date: 13/02/25 DD/MM/YY
 
 */
@@ -19,7 +19,7 @@ int main() {
     printf("With %% result is: %d\n", result = a % b);// 3
     printf("With ++ after variableresult is: %d\n", result = a++);// 33 
     printf("With ++ before variable result is: %d\n", result = ++a);// 35
-    printf("With -- after varibale result is: %d\n", result = --a);// 34
+    printf("With -- after variable result is: %d\n", result = --a);// 34
     printf("With -- before variable result is: %d\n", result = a--);// 34
 
 

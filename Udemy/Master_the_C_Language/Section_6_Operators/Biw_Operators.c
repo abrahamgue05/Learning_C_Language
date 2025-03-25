@@ -1,6 +1,6 @@
 /*
 Author: Abraham Guerrero
-Purspose: Look at bitwise operators in action, basicaly the change bits values.
+Purpose: Look at bitwise operators in action, basically the change bits values.
 Date 16/02/25 DD/MM/YY
 
 */
