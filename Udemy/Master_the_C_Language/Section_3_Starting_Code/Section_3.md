@@ -1,10 +1,10 @@
 # Section 3
 
-## Exploring the CodeLite Enviroment
+## Exploring the CodeLite Environment
 
 - CodeLite is a lightweight IDE.
 
-- 3 differents areas.
+- 3 different areas.
 
 - *Workspace pane*: Where files and folder are display, also gives some tools
   for the code and files
@@ -41,7 +41,7 @@
 - *Explore tab*: Helps to see the entire workspace layout.
 
 - *Workspace tab*: Show folders and archives of the workspace, use debug when
-  runing a code localy and Release when realising the code.
+  runing a code localy and Release when realizing the code.
 
 ### Compiling
 
@@ -58,12 +58,12 @@
 
 - Programming Languages have rules.
 
-- *Syntax*: Something weong with the structure (Missing semicolon, misspelling).
+- *Syntax*: Something wrong with the structure (Missing semicolon, misspelling).
 
 - *Semantic*: Something is wrong with the meaning (not giving data type, logic).
 
 - Those appear on the terminal such as *error: expected ';' before return*, 
-  *fatal error: stdo.h: No such file or directory*.
+  *fatal error: stdio.h: No such file or directory*.
 
 - Is better to fix the first error that pups up and then the subsequent errors.
 
@@ -90,16 +90,16 @@
 
 - *Runtime*: Divided by zero, file not found, out of memory.
 
-- Can couse your program to crash.
+- Can cause your program to crash.
 
 ### Logic
 
 - Errors or bugs in code that cause the program to run incorrectly.
 
-- Made by the programmer (not making a comparation correctly).
+- Made by the programmer (not making a comparison correctly).
 
-- Not caugh by the compiler.
-</detais>
+- Not caught by the compiler.
+</details>
 
 ## Structure of a C program
 
@@ -110,4 +110,4 @@
 
 - Most line of code end with a ';'.
 
-- For a better reding is good to use space and identation.
+- For a better reding is good to use space and indentation.
