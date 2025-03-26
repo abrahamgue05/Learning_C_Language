@@ -12,10 +12,10 @@ int main(void){
 
   struct City c = {0};// All values set to 0.
 
-  struct City c = {"San Fransisco", 37, -122};// All values set to each position.
+  struct City c = {"San Francisco", 37, -122};// All values set to each position.
 
   struct City c ={// Giving value 1 by 1
-    .name = "San Fransisco",// The dot is to access the struct.
+    .name = "San Francisco",// The dot is to access the struct.
     .lat = 7,
     .lon = -122
   };

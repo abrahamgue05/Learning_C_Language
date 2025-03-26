@@ -11,7 +11,7 @@ struct City{// struct to initialize a struct followed by its name.
 int main(void){
 
   struct City c ={// Giving value 1 by 1
-    .name = "San Fransisco",// The dot is to access the struct.
+    .name = "San Francisco",// The dot is to access the struct.
     .lat = 7,
     .lon = -122
   };
