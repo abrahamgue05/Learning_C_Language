@@ -1,6 +1,6 @@
 /*
 Author: Abraham Guerrero
-Purspose: Look at switch statement in action.
+Purpose: Look at switch statement in action.
 Date: 18/02/25 DD/MM/YY
 
 */

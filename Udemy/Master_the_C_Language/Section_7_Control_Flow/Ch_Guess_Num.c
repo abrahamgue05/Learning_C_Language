@@ -1,9 +1,9 @@
 /*
 Author: Abraham Guerrero
-Purspose: (Challenge) Guess the number.
+Purpose: (Challenge) Guess the number.
 Date: 19/02/25 DD/MM/YY
 Instruction: Program will generate a random num for 0 to 20.
-Only being able to enter numbres from 1 to 20.
+Only being able to enter numbers from 1 to 20.
 The program should indicate if each guess is too low or to high.
 Five tries if not, the game is over.
 
@@ -33,11 +33,11 @@ int main() {
         }
 
         if(guess < num){// Checks if guess is less than the number entered
-            printf("Sorry %i is wrong. The numbres is more than that\n", guess);
+            printf("Sorry %i is wrong. The numbers is more than that\n", guess);
             tries--;//Rest live points
             printf("You have %i tries left\n",tries);
         }else if(guess > num){// Checks if guess is more than the number entered
-            printf("Sorry %i is wrong. The numbres is less than that\n", guess);
+            printf("Sorry %i is wrong. The numbers is less than that\n", guess);
             tries--;//Rest live points 
             printf("You have %i tries left\n",tries);
         }else{
@@ -45,7 +45,7 @@ int main() {
         }
 
         if(tries == 0){// If try is 0 then the gama ends a show the number
-            printf("You ran out of lifes, the number was: %i\n", num);
+            printf("You ran out of lives, the number was: %i\n", num);
         }
     }
     

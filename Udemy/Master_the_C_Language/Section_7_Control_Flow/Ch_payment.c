@@ -1,6 +1,6 @@
 /*
 Author: Abraham Guerrero
-Purspose: (Challenge) Determinate amount of Pay. 
+Purpose: (Challenge) Determinate amount of Pay. 
 Date: 19/02.25 DD/MM/YY
 Instructions: Ask the user for hours, program should display: Gross pay, taxes, 
 and net payment.
@@ -40,7 +40,7 @@ int main() {
     }else{
         tax = 300 * .15;// 300 first payment * 15% 
         tax += 150 * .2;// Tax of the extra payment
-        exTax = tax + ((payment - 450) * .25);// Extra taxs of being more pay that 450
+        exTax = tax + ((payment - 450) * .25);// Extra taxes of being more pay that 450
         printf("Your taxes are: %g\n", exTax);
         printf("Your net payment this week is: %g\n", payment - exTax); 
     }

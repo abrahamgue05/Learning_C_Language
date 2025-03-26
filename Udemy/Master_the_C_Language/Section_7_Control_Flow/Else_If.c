@@ -1,6 +1,6 @@
 /*
 Author: Abraham Guerrero
-Purspose: Look at else if in action
+Purpose: Look at else if in action
 Date: 17/02/25 DD/MM/YY
 */
 #include <stdio.h>

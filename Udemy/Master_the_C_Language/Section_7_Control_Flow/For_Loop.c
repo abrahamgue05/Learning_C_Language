@@ -1,6 +1,6 @@
 /*
 Author: Abraham Guerrero
-Purspose: Look at for loop in action.
+Purpose: Look at for loop in action.
 Date: 19/02/25 DD/MM/YY
 
 */
