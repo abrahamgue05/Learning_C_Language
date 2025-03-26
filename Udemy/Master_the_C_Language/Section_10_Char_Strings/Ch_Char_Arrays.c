@@ -1,26 +1,26 @@
 /*
 Author: Abraham Guerrero
-Purspose: (Challenge) Understanding char arrays(strings)
+Purpose: (Challenge) Understanding char arrays(strings)
 Date: 27/02/25 DD/MM/YY
 Instruction: Write 3 function
-1.- Count the number of char in a string(lenght)
+1.- Count the number of char in a string(length)
 - Can't use strlen library.
 - Function should take a string as a parameter.
-- Should return an int(the lenght).
+- Should return an int(the length).
 2.- Concatenate strings
 - Can't use the strcat library function
 - 3 parameters: result, char str1, char str2.
 - Can return void.
 3.- Compare strings
 - Can't use string compare.
-- Should take two const char array as paramenters
+- Should take two const char array as paramentres
 - Return a Boolean
 */
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
 
-int stringLenght(const char string[]);
+int stringLength(const char string[]);
 void concat(char result[], const char str[], const char str1[]);
 bool equalStrings(const char s1[], const char s2[]);
 
@@ -32,7 +32,7 @@ int main() {
     const char word3[] = "what ever";
     char result[50];
 
-    printf("%d  %d  %d\n", stringLenght(word1), stringLenght(word2), stringLenght(word3));
+    printf("%d  %d  %d\n", stringLength(word1), stringLength(word2), stringLength(word3));
     // 5 2 9 print the size of each word.
 
     concat(result, word1, word2);
@@ -43,10 +43,10 @@ int main() {
     return 0;
 } 
 
-int stringLenght(const char string[]){
+int stringLength(const char string[]){
     int count = 0;
 
-    while (string[count] != '\0')// If the count dosen't find a null the it keeps counting
+    while (string[count] != '\0')// If the count doesn't find a null the it keeps counting
         ++count;
     
     return count;

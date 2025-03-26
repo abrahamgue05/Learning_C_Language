@@ -2,7 +2,7 @@
 
 ## Overview
 
-- A string constat or string literal is a sequence of chartacterss or symbols 
+- A string constant or string literal is a sequence of characters or symbols 
   between a pair of double-quote characters.
 
 - The message inside the printf() is a string.
@@ -14,15 +14,15 @@
 - A special character with the code value 0 is added to the end of each string
   also know as null character.
 
-- A string i always termianted by a null chatacter, so the length of a sting is 
+- A string i always terminated by a null character, so the length of a sting is 
   always one greater than the number of characters in the string.
 
 - ***null***: Is a string terminator.
 
-- ***NULL***: Is a symbol that represents a memory address that dosen't reference
+- ***NULL***: Is a symbol that represents a memory address that doesn't reference
   anything.
 
-- The \0 can be added to the end of the string explicitily.
+- The \0 can be added to the end of the string explicitly.
 
 ## Defining a string
 
@@ -34,7 +34,7 @@
 - Strings are stored in an array of type char, characters in strings are stored in
   adjacent memory cells, one char per cell.
 
-- *char myString[20]*, this variable can accomodate a string that contains up to 
+- *char myString[20]*, this variable can accommodate a string that contains up to 
   19 characters.
 
 - <details>
@@ -48,7 +48,7 @@
 
       - C compiler automatically computes the number of elements in the array,
 
-      - Based upon the numer of initializers, reserces space in memory for exactly
+      - Based upon the number of initializers, reserves space in memory for exactly
       seven characters(adds the null terminator automatically).
 
     - Can be initialize explicitly, but make sure to leave an extra space for the
@@ -64,9 +64,9 @@
   but it is possible to do it one by one in the array index.
 
 - *Displaying*: is the same as displaying any array, just by calling it, 
-  ***%s*** is the format specifier for outputting a null-termianted string.
+  ***%s*** is the format specifier for outputting a null-terminated string.
 
-- *Inputing*: For strings with spaces there are many function such as fgets(), if
+- *Inputting*: For strings with spaces there are many function such as fgets(), if
   there are no spaces scanf() is still the best option, no matter which one is 
   used, no '&' is used.
 
@@ -99,7 +99,7 @@
 
     - It's not a variable as a value can not be assigned to it.
 
-    - *Special syntax*: No equal sign used to assing value, no semicolon.
+    - *Special syntax*: No equal sign used to assign value, no semicolon.
 
     - Can appear anywhere in the program, no such a thing as a local define.
 

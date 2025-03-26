@@ -1,6 +1,6 @@
 /*
 Author: Abraham Guerrero
-Purspose: Initializing an string.
+Purpose: Initializing an string.
 Date: 25/02/25 DD/MM/YY
 
 */
