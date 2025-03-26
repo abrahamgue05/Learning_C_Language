@@ -1,6 +1,6 @@
 /*
 Author: Abraham Guerrero
-Purspose: Look at arrays in action
+Purpose: Look at arrays in action
 Date: 19/02/25 DD/MM/YY
 
 */
@@ -13,7 +13,7 @@ int main() {
     long sum = 0;// Sum of the numbers
     float average = 0.0;// Average of the numbers
 
-    printf("\nEnter the 10 grades: \n");// Promt for the input
+    printf("\nEnter the 10 grades: \n");// Prompt for the input
 
     int i; 
     for (i = 0; i < count; i++){// Read the ten numbers to be averaged.

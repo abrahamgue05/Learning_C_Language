@@ -1,6 +1,6 @@
 /*
 Author: Abraham Guerrero
-Purspose: (Challenge) Generate a prime number
+Purpose: (Challenge) Generate a prime number
 Date: 20/02/25 DD/MM/YY
 Instuction: In an array store al prime numbers from 0 to 100.
 */

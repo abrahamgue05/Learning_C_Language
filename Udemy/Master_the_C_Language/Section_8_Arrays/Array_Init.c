@@ -1,6 +1,6 @@
 /*
 Author: Abraham Guerrero
-Purspose: Look at arrays initialization.
+Purpose: Look at arrays initialization.
 Date: ... DD/MM/YY
 
 */

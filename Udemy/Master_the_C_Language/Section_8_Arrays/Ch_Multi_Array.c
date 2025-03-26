@@ -1,11 +1,11 @@
 /*
 Author: Abraham Guerrero
-Purspose: (Challenge) Create a simple Weahter program.
+Purpose: (Challenge) Create a simple Weather program.
 Date: 20/02/25 DD/MM/YY
 Instructions: 
 - Program will find the total rainfall for each year, the average yearly rainfall.
 - Past five years hard-code.
-- 5 rows and 12 columns all float numbres.
+- 5 rows and 12 columns all float numbers.
 - Print year, rainfall, average/year and average/month.
 */
 #include <stdio.h>
@@ -31,8 +31,8 @@ int main() {
         total += subtot;// Gives the value of subtotal
     }
 
-    printf("\nYeary average is %.2f inches. \n", total/5);//Total / 5 to get each year value
-    printf("\nMontly average:\n");
+    printf("\nYearly average is %.2f inches. \n", total/5);//Total / 5 to get each year value
+    printf("\nMonthly average:\n");
     printf("Jan\tFeb\tMar\tApr\tMay\tJun\tJul\tAug\tSep\tOct\tNov\tDec\n");
 
     for (month = 0;month < 12; month++){// Goes through every mont
