@@ -1,6 +1,6 @@
 /*
 Author: Abraham Guerrero
-Purspose: (Challenge) Write some function
+Purpose: (Challenge) Write some function
 Date: 21/02/25 DD/MM/YY
 
 */

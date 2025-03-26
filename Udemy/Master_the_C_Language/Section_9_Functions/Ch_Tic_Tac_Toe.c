@@ -1,8 +1,8 @@
 /*
 Author: Abraham Guerrero
-Purspose: (Challene) Create a Tic Tac Toe Game
+Purpose: (Challenge) Create a Tic Tac Toe Game
 Date: 24/02/25 DD/MM/YY
-Instruction: 3x3 array, two playes, take turns.
+Instruction: 3x3 array, two players, take turns.
 - Create an array to represent the board.
 - 3 function: checkForWin, drawBoard, markBoard. 
 */

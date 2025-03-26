@@ -4,7 +4,7 @@
 
 - A self-contained unit of program code designed to accomplish a particular task.
 
-- Sythax rules define the structure of a function and how it can be used.
+- Syntax rules define the structure of a function and how it can be used.
 
 - A function in C is the same as subroutines or procedures in other programming 
   languages.
@@ -17,9 +17,9 @@
   <summary>Advantages</summary>
     
     - Allows the divide and conquer strategy, tasks can be divided into several 
-    independent substacks, reducing over all complexity.
+    independent subtasks, reducing over all complexity.
 
-    - Reduce duplication of code, time, writing, testing and debbuging.
+    - Reduce duplication of code, time, writing, testing and debugging.
 
     - A task that is repeated several times can be done with a function.
 
@@ -33,31 +33,31 @@
 ## Defining functions
 
 - The function header defines the name of the function, parameters and type for
-  the values that funtions return.
+  the values that functions return.
 
 - *Return_type Function_Name(Parameters - separated by commas){code}*.
 
-- Choosing meaninful functions name is as importan as choosing variables names.
+- Choosing meaningful functions name is as important as choosing variables names.
 
-- If there are no statements in the body of a funtion, the return type must be 
+- If there are no statements in the body of a function, the return type must be 
   void.
 
-- To name funtions is the same as variable, names can't be repeated, not reserved,
+- To name functions is the same as variable, names can't be repeated, not reserved,
   words.
 
 - <details>
   <summary>Functions prototypes</summary>
 
     - Is a statement that defines a functions, defines name, return value type, 
-    and the type of each of its parameters(funtions header).
+    and the type of each of its parameters(functions header).
 
     - Enables the compiler to generate the appropriate instructions at each point
     where the function is called.
 
-    - Allows any of the functions in the file to call any funtion regardless of 
-    where the funtions is called.
+    - Allows any of the functions in the file to call any function regardless of 
+    where the functions is called.
 
-    - Dosen't have to be the same paramentes as the function (it's better to be the
+    - Doesn't have to be the same parameters as the function (it's better to be the
     same).
   </details> 
 
@@ -77,22 +77,22 @@
 - A function can have no parameters, in which case, *void* must be inside the 
   parentheses.
 
-- The names of the parametes are local to the function, they will asume the value
-  of the arguments passed when a funtion is called.
+- The names of the parameter are local to the function, they will assume the value
+  of the arguments passed when a function is called.
 
 - Parameters should be used inside the function code, if not they are not needed.
 
 - When passing an array as an argument to a function, must also pass an additional
   argument specifying the size of the array.
 
-- Parameters greatly increase the usefulness and flexibiliti of a function, the 
+- Parameters greatly increase the usefulness and flexibility of a function, the 
   printf(display what ever is tell to be displayed via the parameters and 
   arguments).
 
 ## Returning data from functions
 
 - Not always the result want to be displayed, functions can return data using 
-  specific synthax.
+  specific syntax.
 
 - The return type of a function can be specified, including enumeration types and
   pointers.
@@ -103,7 +103,7 @@
     - The return expression with no value mean the exiting of a function.
 
     - This form of the return statement is used exclusively in a function where the
-      return type has been declared as void(dosen't return a value).
+      return type has been declared as void(doesn't return a value).
 
     - The most general form of the return statement is: *return expression;*
 
@@ -118,13 +118,13 @@
     message.
 
     - If expression results in a value that is different from the specified, the 
-    compiler will insert a conversion from the type of expression(when posible).
+    compiler will insert a conversion from the type of expression(when possible).
 
     - There can be more than one more return statement in a function.
   </details>
 
 - <details>
-  <summary>Invoking a funtion and assigning data returned</summary>
+  <summary>Invoking a function and assigning data returned</summary>
 
     - A function is called by using the function name followed by the arguments 
     between parentheses.
@@ -135,26 +135,26 @@
     - When the function executes, the computation proceeds using the values as 
     arguments, arguments most be the same as specified in parameters.
 
-    - If the function is used as the right side of an assigment statement, the 
-    return value will be substituted for the funtion.
+    - If the function is used as the right side of an assignment statement, the 
+    return value will be substituted for the function.
 
     - *int x = myFunctionCall()*.
 
-    - The calling function dosen't have to recognize or process the value returned
+    - The calling function doesn't have to recognize or process the value returned
     from a called function.
   </details>
 
 ## Local and Global Variables
 
 - ***Local variables***: Variables defined inside a function are known as local 
-  variable, the local variable can only accesed by the function in which the 
+  variable, the local variable can only access by the function in which the 
   variable is defined.
 
 - ***Global variables***: The opposite of a local variable, it can be accessed and
   change value by any function in the program, has the lifetime of the program.
 
-- If a local and globa variable have the same name the local variable will be 
+- If a local and global variable have the same name the local variable will be 
   taken.
 
-- Global variable are a "bad" thing and should be avoided, as it promete coupling
+- Global variable are a "bad" thing and should be avoided, as it promote coupling
   between function(dependencies), hard to find the location of bug.
