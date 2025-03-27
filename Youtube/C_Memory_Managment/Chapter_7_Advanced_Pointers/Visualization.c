@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {  // Name   Adderess    Value
+int main() {  // Name   Address    Value
     int v1 = 1;// v1      Ox04        1
     int v2 = 2;// v2      0x08        2
     int checkpoint = 0;// 0x12        0
