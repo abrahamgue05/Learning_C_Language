@@ -2,7 +2,7 @@
 
 - Unions in C can hold one of several types.
 
-- They're like a less-stict sum type from the world of funcitional programming.
+- They're like a less-strict sum type from the world of functional programming.
 
 - Can hold either an int or a char*, but not both at the same time.
 
@@ -12,5 +12,5 @@
 - Unions store their value in the same memory location, no matter which field 
   or type is actively being used. 
 
-- Unions can be use to create "helpers" for accesing different parts of a pice of
+- Unions can be use to create "helpers" for accessing different parts of a pice of
   memory.
