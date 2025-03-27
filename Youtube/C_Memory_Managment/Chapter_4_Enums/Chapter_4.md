@@ -1,3 +1,3 @@
-# Chapeter 4
+# Chapter 4
 
 - Enumerated list of posible values.

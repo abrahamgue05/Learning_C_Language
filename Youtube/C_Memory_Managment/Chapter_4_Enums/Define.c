@@ -8,4 +8,4 @@ typedef enum DaysOfWeek{
   FRIDAY,
   SATURDAY,
   FUNDAY
-} days_of_weet_t;
+} days_of_week_t;
