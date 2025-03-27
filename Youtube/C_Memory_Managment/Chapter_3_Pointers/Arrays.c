@@ -10,7 +10,7 @@ int main(void){
     printf("%d\n", numbers[i]);
   }
   
-  printf("%p\n", *nums_ptr);// Gets 0 index adress
+  printf("%p\n", *nums_ptr);// Gets 0 index address
   printf("%p\n", *num_1);// Gets 1 index address
 
 }
