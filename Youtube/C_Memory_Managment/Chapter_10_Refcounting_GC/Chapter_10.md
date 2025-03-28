@@ -11,7 +11,7 @@
 - <details open>
   <summary>Reference counting</summary>
 
-    - Simplest version of garabage collection.
+    - Simplest version of garbage collection.
 
     - Every object has an additional field that is it's count.
 
@@ -23,9 +23,9 @@
 
     - Once is 0 that memory goes back to the O.S.
 
-    - Inability to track cicles.
+    - Inability to track cycles.
 
-    - Everytime an operation is done all the objects have to be modified.
+    - Every time an operation is done all the objects have to be modified.
   </details>
 
 - <details open>
@@ -33,16 +33,16 @@
 
     - Find all the variable that are directly reference by the stack frames.
 
-    - Trace through all of the conections of those variables to find anyother
+    - Trace through all of the connections of those variables to find any other
       that are referenced.
 
-    - Once traced those who are directly and indriectly referenced are marked
+    - Once traced those who are directly and indirectly referenced are marked
       and those who are not referenced can be sweep.
 
     - More complex but can handled certain cases that at least naive reference
-      counting can't handle, like cicles.
+      counting can't handle, like cycles.
 
-    - Dosent require to do operation every single time that is touched or
+    - Doesn't require to do operation every single time that is touched or
       references a variable.
 
     - First described by John McCarthy in 1960, primarily for managing memory in ((lisp)). 
@@ -56,7 +56,7 @@
     - <details>
       <summary>Pros</summary>
 
-        - Can detect cicles, and thus memory leaks in certain cases.
+        - Can detect cycles, and thus memory leaks in certain cases.
 
         - Less on-demand bookkeeping.
 
@@ -85,7 +85,7 @@
 
 - In C is manually done by the programmer with malloc and free.
 
-- Rust has a compile-time system tgat ebsyres memory safety.
+- Rust has a compile-time system that ensures memory safety.
 
 - In GCL(Garbage Collecting Languages) its paid in run time rather during
   development time.
@@ -96,10 +96,10 @@
     - Is a program(or a part of a program) that automatically frees memory that is
       not longer used.
 
-    - Languages like Python, Java, JS, OCaml and Go uses garbage collectora as the
+    - Languages like Python, Java, JS, OCaml and Go uses garbage collector as the
       as the code is running to manage memory.
 
-    - Autimatic memory managment can be a huge productivity boost for developers
+    - Automatic memory management can be a huge productivity boost for developers
       (less code, and sometimes less memory-related bugs).
 
     - It usually comes with a performance cost because it's always running.
