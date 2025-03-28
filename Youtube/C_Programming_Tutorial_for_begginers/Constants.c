@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    /*Constant: Varible which can't be modified const, data type, name, value,;
+    /*Constant: Variable which can't be modified const, data type, name, value,;
     Some people set constant names all capital letters
     */
     const int NUM = 5;
