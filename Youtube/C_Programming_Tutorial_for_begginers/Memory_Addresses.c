@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main() {
-    //RAM: Ramdom Access Memory, used to store and keep track of information
+    //RAM: Random Access Memory, used to store and keep track of information
     int age = 30; //C uses the memory address to refer to this or any other value.
     double gpa = 3.4;
     char grade = 'A';
