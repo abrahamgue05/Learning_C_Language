@@ -5,12 +5,12 @@ int main() {
 
     int age; // No value, expect one from the user
     double gpa;
-    char name[20]; //Specify the number of carecters you can store, no more than [] set.
+    char name[20]; //Specify the number of characters you can store, no more than [] set.
     char pet[10];
 
     printf("Enter your name: ");
     fgets(name, 20, stdin);/* Grabs a hole line of characters, only strings
-     fgets,(variable, number of charcters, where we want to get the information)
+     fgets,(variable, number of characters, where we want to get the information)
      with these one what goes after the %s printing ia also taken*/ 
     printf("Enter your age: ");
     scanf("%d", &age); //scanf,("format specifiers, &variable(where the variable is gonna be storage)")
