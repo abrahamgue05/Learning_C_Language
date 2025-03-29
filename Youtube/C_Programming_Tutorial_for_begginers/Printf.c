@@ -6,7 +6,7 @@ int main() {
     char myChar = 'i';
 
     printf("My favorite %c is %f", myChar, favNum); //Print what is inside the ()
-    //order it will appeart on screen
+    //order it will appear on screen
     //%d integers
     //%s Text
     //%f decimals/double
