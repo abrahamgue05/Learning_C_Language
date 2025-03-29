@@ -2,14 +2,14 @@
 #include <stdlib.h>
 
 int main() {
-    //Special type of if statements, which will compare one value to diferent values.
+    //Special type of if statements, which will compare one value to different values.
 
     char grade = 'C';
 
     switch(grade){ //switch(variable){code}
     case 'A':// case(what we will compare)
         printf("You did great!");//code
-        break;//Necesary, if not it will keep running untill a break
+        break;//Necessary, if not it will keep running until a break
     case 'B':
         printf("You did alright!");
         break;
