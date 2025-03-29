@@ -8,9 +8,6 @@ struct Student{
     double gpa;
 };
 
-
-
-
 int main() {
     //Data structure that store groups of data types
 
