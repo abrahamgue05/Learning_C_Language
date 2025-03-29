@@ -9,13 +9,13 @@ int main() {
     printf("%f", ceil(45.455)); 
 
     //Operations
-        //Adition +
+        //Addition +
         //Subtraction -
         //Division /
         //Multiplication *
 
     //Functions
-        //pow = Raice
+        //pow = Raise
         //sqrt = Square
         //Ceil = Round up
         //Floor = Round down
