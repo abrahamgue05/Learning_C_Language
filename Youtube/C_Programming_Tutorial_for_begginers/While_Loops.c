@@ -5,11 +5,11 @@ int main() {
     //Structure to loop over a block of code until the condition is meet 
 
     //int index = 0;//Set value
-    /*while(index <= 5){//while,(condition),{code} //while index variabel is less or equal to 5
+    /*while(index <= 5){//while,(condition),{code} //while index variable is less or equal to 5
         printf("%d\n", index); //print the value of index
         index++; //Index plus 1 and do the loop again
 
-        //Infinete loop: When condition is never meet
+        //Infinite loop: When condition is never meet
     }*/
 
     int index = 6;
@@ -17,9 +17,5 @@ int main() {
         printf("%d\n", index);
         index++;
     } while (index <= 5);
-    
-
-
-
     return 0;
 }
