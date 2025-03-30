@@ -25,7 +25,7 @@ int main(int argc, char *argv[]){
         if(list == NULL){ // If list is empty.
             list = n;
 
-        }else if(n->number < list->number){ // If number belongs at beggining of list.
+        }else if(n->number < list->number){ // If number belongs at beginning of list.
             n->next = list;
             list = n;
 

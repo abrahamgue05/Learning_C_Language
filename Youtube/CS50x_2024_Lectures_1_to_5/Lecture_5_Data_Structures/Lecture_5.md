@@ -9,7 +9,7 @@
 - Abstract data types: Data structure but offer some caracteristics ans is up to
   the programmer how to implement it.
 
-- *Queues*: Basicly what we know as lines.
+- *Queues*: Basically what we know as lines.
 
 - *FIFO*: First in first out, used in queues.
 
@@ -17,7 +17,7 @@
 
 - *Dequeue*: Exit the queue.
 
-- *Stacks*: Omnipresent as well, but follow diferent as FIFO.
+- *Stacks*: Omnipresent as well, but follow different as FIFO.
 
 - *LIFO*: Last in first out, used in stacks, used in emails.
 
@@ -31,7 +31,7 @@
 
 - list.c
 
-- Essentialy uses pointer arithmetic using malloc.
+- Essentially uses pointer arithmetic using malloc.
 
 - With linked lists.
 
@@ -39,13 +39,13 @@
 
 - struct, ., *, 
 
-- Used insted of copying by using pointer to another chunk of memory, link values,
-  in-beetween can go garbage values.
+- Used instead of copying by using pointer to another chunk of memory, link values,
+  in-between can go garbage values.
 
-- Avoing copying saving memory and time.
+- Avoiding copying saving memory and time.
 
 - Node can be used to store the address of the next element, the last
-  node uses NULL, an extra node to store the fisrt value.
+  node uses NULL, an extra node to store the first value.
 
 - Node will help to not copying the values.
 
@@ -59,7 +59,7 @@
 
 - *(*n).number = 1*: Go to the number field and storage the number 1.
 
-- *->*: Go there to a node used in sted of (*n).number = n->number = 1.
+- *->*: Go there to a node used in stead of (*n).number = n->number = 1.
 
 - *n->next = null*: And set next node to null.
 
@@ -73,7 +73,7 @@
 
 - O(n) is the representation of how many steps will take to find a number.
 
-- Linked list dont lose time on intertion but it does in searching.
+- Linked list don't lose time on insertion but it does in searching.
 
 - appending is better as it goes to the end of the list and running will be
   O(n).
@@ -92,21 +92,21 @@
 
 - O(log n).
 
-- It dosen't need to be contigius.
+- It doesn't need to be contiguous.
 
 - It can become a linked list, but can be fixed by reversing pointers.
 
-## Dictionries
+## Dictionaries
 
 - Similar as stacks and queues.
 
 - Stores keys and values.
 
-- Literaly a dictionary, words(keys), definition(values).
+- Literally a dictionary, words(keys), definition(values).
 
 - Abstract data type.
 
-- Contacs in phone number.
+- Contact in phone number.
 
 - O(1).
 
@@ -129,9 +129,9 @@
 
 ## Tries
 
-- Retrival.
+- Retrieval.
 
-- The amalgama of all the above.
+- The amalgam of all the above.
 
 - *Tries*: Tree of arrays.
 
