@@ -4,6 +4,6 @@
 
 int main(void){
     string name = get_string("Name: ");
-    int lenght = strlen(name);
-    printf("%i\n", lenght);
+    int length = strlen(name);
+    printf("%i\n", length);
 }

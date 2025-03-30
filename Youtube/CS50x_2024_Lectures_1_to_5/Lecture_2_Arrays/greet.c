@@ -8,6 +8,6 @@ int main(int argc, string argv[]){
         printf("Hello, world\n");
     }*/
    for(int i = 0; i < argc; i++){
-        printf("%s\n", argv[i])// For no lenght idea.
+        printf("%s\n", argv[i])// For no length idea.
    }
 }

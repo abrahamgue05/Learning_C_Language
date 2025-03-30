@@ -2,7 +2,7 @@
 
 ## Compiling
 
-- Make: Run an compililer.
+- Make: Run an compiler.
 
 - Clang: As make, but not as user friendly.
 
@@ -12,13 +12,13 @@
 
 - Preprocessing: Find and replace, read the code and convert the # 
 
-- .h: Are prototipes as when use our own function
+- .h: Are prototypes as when use our own function
 
 - Compiling: Convert source code into assembly code(An programming language).
 
 - Assembling: Take te compiled code and convert it to 0 and 1.
 
-- Linking: Serch .h files to get the code used.
+- Linking: Search .h files to get the code used.
 
 - Decompiling: Going from assembly code to source code.
 
@@ -45,13 +45,13 @@
 
 - *char*: 1 byte.
 
-- *string*: ? bytes deppends on the text.
+- *string*: ? bytes depends on the text.
 
 - RAM: Store the bytes of info, we can take memory as having addresses.
 
 ## Arrays
 
-- Sequence of values, chunck of memory storing values, back to back.
+- Sequence of values, chunk of memory storing values, back to back.
 
 - int scores[3] = How to declare an array for 3 int values.
 
@@ -63,9 +63,9 @@
 
 - Chars and Ints, can be treated the same if bits to fit one in the other. 
 
-- Strings: Secuence of characters from left to right.
+- Strings: Sequence of characters from left to right.
 
-- Computer kwon that strings ends with an sentinel value(0000000) made long time ago.
+- Computer know that strings ends with an sentinel value(0000000) made long time ago.
 
 - String use 1 extra byte for the sentinel value.
 
@@ -82,16 +82,16 @@
 
 - echo%?: Most recently-run program secretly exit with. 
 
-## Crytography
+## Cryptography
 
-- Art and sciense of encrypting, scrambling information.
+- Art and science of encrypting, scrambling information.
 
-- plaintext: The message it self in any lenguage.
+- Plaintext: The message it self in any language.
 
-- cipher: Algorithm for encrypting the plaintext.
+- Cipher: Algorithm for encrypting the plaintext.
 
-- ciphertext: The plaintext encrypted with the cipher.
+- Ciphertext: The plaintext encrypted with the cipher.
 
 - Key: A way to decode te ciphertext with a "key" on how to decode it.
 
-- decrypytion: The way of decrypting the code.
+- Decryption: The way of decrypting the code.
