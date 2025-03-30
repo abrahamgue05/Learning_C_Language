@@ -3,7 +3,7 @@
 int main(void){
     int i = 3;
 
-    while(i < 0){ //while(condition){code} while(true) = inifinite loop
+    while(i < 0){ //while(condition){code} while(true) = infinite loop
         printf("Meow\n");
         i--;
     }

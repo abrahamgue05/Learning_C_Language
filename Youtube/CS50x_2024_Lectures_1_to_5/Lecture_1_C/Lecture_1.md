@@ -5,7 +5,7 @@
 - Learn how to solve problems with *functions*, *variables*, *conditionals*,
   *loops* and more.
 
-- Learn how (not) to solve probles.
+- Learn how (not) to solve problems.
 
 - Source code: What we write.
 
@@ -13,7 +13,7 @@
 
 - Source code --> Compiler --> Machine code.
 
-- Compiler: Program that translates one languaje to another.
+- Compiler: Program that translates one language to another.
 
 ## Visual Studio Code for CS50
 
@@ -21,7 +21,7 @@
 
 - Tabbed interface: Where we write code.
 
-- Terminal: Console, where we type comands, for compiling a code, for running code.
+- Terminal: Console, where we type commands, for compiling a code, for running code.
 
 - Folder interface: Where files or folders we create are going to end up.
 
@@ -29,7 +29,7 @@
 
 ## From scratch to C
 
-- Functions: Implimatiation in code of algorithms, step by step instruction
+- Functions: Implementation in code of algorithms, step by step instruction
   for solving problems.
 
 - Arguments: Inputs to functions in some context parameters.
@@ -40,7 +40,7 @@
 
 ## CS50 Library
 
-- #include <stdio.h>: A lot of functionalities come in separete files,
+- #include <stdio.h>: A lot of functionalities come in separate files,
 like printf();.
 
 - header file: Represent a library(code that someone else wrote) 
@@ -65,11 +65,11 @@ goes after a coma(,).
 
 ## Conditionals
 
-- Way of making desicions on a program.
+- Way of making decisions on a program.
 
 - if, else if, if.
 
-- If you have one line of code you can leave the {} appart.
+- If you have one line of code you can leave the {} apart.
 
 - ==: Equality of two values.
 
@@ -96,7 +96,7 @@ goes after a coma(,).
 
 ## Linux
 
-- Operative sistem.
+- Operative system.
 
 - Textual interface(CLI).
  
@@ -127,15 +127,15 @@ save for negatives and the other half for positives.
 ## Truncation
 
 - If you take an integer and divide it by an integer even if you get a 
-  fractional value the fraction just get trown away
+  fractional value the fraction just get thrown away
 
 ## Type casting 
 
 - Treat a type as if it was another
 
-## Floating-point impresicion
+## Floating-point impression
 
-- You cant represent the infinit number that exist in the universe.
+- You cant represent the infinite number that exist in the universe.
       
 ## Y2K 
 
