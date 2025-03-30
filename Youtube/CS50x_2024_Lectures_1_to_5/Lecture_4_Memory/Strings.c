@@ -4,8 +4,8 @@ int main(void){\
 
     /* & What address is the variable.
        * Take and address and go to it
-       Pointer address of some variable that can be sabe in another variable.
-       A string is a pointrt*/
+       Pointer address of some variable that can be save in another variable.
+       A string is a pointer*/
     char *s = "HI!";//string s
     printf("%s\n", s); //HI!
     printf("%p\n", s);// 0x651f86241004

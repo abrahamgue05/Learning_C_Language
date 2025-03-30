@@ -48,7 +48,7 @@
 
 - The name of the string is actually a pointer.
 
-- typedef is a way to creat a datatype.
+- typedef is a way to create a datatype.
 
 - *uint8_t*: datatype that comes with c.
 
@@ -59,18 +59,18 @@
 
 - Get every address with just using the first and adding to get every address.
 
-## String Comparation
+## String Comparison
 
 - Even if the text is the same the addresses are different.
 
-- If we assing a string to another string(t = s), they will have the same address
+- If we assign a string to another string(t = s), they will have the same address
   so what changes in one will change into the other.
 
 ## Copying
 
-- *malloc*: Memory allocate give a the chunc of memory, taking just the value of bytes.
+- *malloc*: Memory allocate give a the chunk of memory, taking just the value of bytes.
 
-- *free*: Oposite of malloc.
+- *free*: Opposite of malloc.
 
 - Computer can run out of memory making it freeze or slow.
 
@@ -80,13 +80,13 @@
 
 - *valgrind*: Check the usage of memory in program.
 
-- *Memory leak*: Lossing track of memory and never freeing it.
+- *Memory leak*: Losing track of memory and never freeing it.
 
 ## Garbage value
 
 - Number that is remnants of the computer that been on for a while.
 
-- Values of variable that werent set by the programmer.
+- Values of variable that weren't set by the programmer.
 
 - Binky
 
@@ -94,7 +94,7 @@
 
 - *Pointees*: What pointers point to.
 
-- A pointee can have more than one pointers.
+- A pointer can have more than one pointers.
 
 ## Swapping
 
@@ -108,17 +108,17 @@
 
 - *stack*: When using functions with variables and arguments stack memory is used.
 
-- *passing by reference*: Insted of copying change them permanently.
+- *passing by reference*: Instead of copying change them permanently.
 
 - Use * before the variable to change its actual value it mainly change the pointers.
 
 ## Overflow
 
-- Stack and heap can get overflow and "crash with eachother" and bad things happen.
+- Stack and heap can get overflow and "crash with each other" and bad things happen.
 
 - *buffer overflow*: buffer is a chunk of memory.
 
-- Getting data from the user can overflow a buffer as we dont know how much they
+- Getting data from the user can overflow a buffer as we don't know how much they
   will use.
 
 ## Scanf
@@ -126,10 +126,10 @@
 - A way to get data from the user. 
 
 - Before changing the value to the one user gave garbage values can come,
-  to change that in string the size of it is predifined.
+  to change that in string the size of it is predefined.
 
 - If the user isn't prevent of the quantity of values it can have,
-  the extra values will go to unseted memory space.
+  the extra values will go to unseated memory space.
 
 ## File I/O
 
@@ -149,4 +149,4 @@
 
 - *fseek*: Move around in a file.
 
-- BMP: Bit mapes files implements image as bits.
+- BMP: Bit mapped files implements image as bits.

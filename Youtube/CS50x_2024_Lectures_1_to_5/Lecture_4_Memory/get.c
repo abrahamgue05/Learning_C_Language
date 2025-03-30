@@ -10,6 +10,6 @@ int main(void){
 
     /*int n;
     printf("n: ");
-    scanf("%i", &n);// scanf(format code, &varible where it is going to be storage)
+    scanf("%i", &n);// scanf(format code, &variable where it is going to be storage)
     printf("n: %i\n", n);*/
 }
