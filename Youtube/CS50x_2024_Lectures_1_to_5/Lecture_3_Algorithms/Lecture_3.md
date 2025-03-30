@@ -10,11 +10,11 @@
 
 - A computer can only look at one value at the time in an array.
 
-- Inpunt: An array of numbers.
+- Input: An array of numbers.
 
 - Algorithm: A way to find the number or data in the array. 
 
-- bool: Is an expecific number like 50, true or false.
+- bool: Is an specific number like 50, true or false.
 
 - Going to one end of the array to another, left to right or right to left.
 
@@ -29,17 +29,17 @@
 
 - n: Number of things in a problem, people for example.
 
-- *O(n^2)*: Cuadratic, n people doing n thing.
+- *O(n^2)*: Quadratic, n people doing n thing.
 
 - *O(n log n)*: n log n.
 
-- *O(n)*: Linear time, goes one by one,Linar search.
+- *O(n)*: Linear time, goes one by one, Linear search.
 
 - *O(log n)*: Logarithmic.
 
 - *O(1)*: Constant, faster, a constant number of step.
 
-- Ω: How few steps might an algorith take, lower bound of a number of steps.
+- Ω: How few steps might an algorithm take, lower bound of a number of steps.
 
 - *Ω(n^2)*. 
 
@@ -71,13 +71,13 @@
 
 ## Sorting
 
-- Set the data in an specyfic orden.
+- Set the data in an specific order.
 
 ## Selection sort
 
 - Select the smallest element again and again.
 
-- Slow as it only rembers one number at the time.
+- Slow as it only members one number at the time.
 
 - For i from 0 to n-1 
 
@@ -107,9 +107,9 @@
 
 - n^2 - 2n + 1.
 
-- Asymptotc notation: Fancy way to descrive O/Ω/θ.
+- Asymptotic notation: Fancy way to describe O/Ω/θ.
 
-- Ω in the best way it will be n the less cuantitie of step.
+- Ω in the best way it will be n the less quantity of step.
 
 - Push the larger number in the step to the end.
 
@@ -123,7 +123,7 @@
 
 ## Merge sort
 
-- Sort in 2 halfs, then merge(3 steps).
+- Sort in 2 half, then merge(3 steps).
 
 - Choose the one data that come first, take it and put it in an array.
 

@@ -14,7 +14,7 @@ void draw(int n){
     if(n <= 0){
         return;
     }
-    draw(n - 1); // Recurtion
+    draw(n - 1); // Recursion
 
     for(int i = 0; i < n; i++){
         printf("#");
