@@ -10,7 +10,7 @@ int main() {
     a: append
     */
    //fprintf(fpointer, "Jim, Salesman,\nPam, Receptionist\nOscar,Accounting");
-   //Write information to a file. fprintg(where)
+   //Write information to a file. fprintf(where)
    //fprintf(fpointer, "overridden");
    fprintf(fpointer,"\nKelly, Customer Service");
    fclose(fpointer);//Close the file ALWAYS CLOSE IT.
