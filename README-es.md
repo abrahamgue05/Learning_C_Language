@@ -16,26 +16,26 @@ Aquí están las plataformas y materiales que estoy utilizando para aprender C:
 
 ### 🎥 YouTube
 
-- [x] [C Programming Tutorial for beginners](https://www.youtube.com/watch?v=KJgsSFOSQv0&ab_channel=freeCodeCamp.org) - Este curso te dara una introducion completa a todos los conceptos fundamentales del lenguaje de programacion C.
+- [x] [C Programming Tutorial for beginners](https://www.youtube.com/watch?v=KJgsSFOSQv0&ab_channel=freeCodeCamp.org) - Este curso te dará una introduction completa a todos los conceptos fundamentales del lenguaje de programación C.
 
 - [x] [CS50x 2024 - Lecture 1 a 5 - C](https://www.youtube.com/watch?v=cwtpLIWylAw&t=1233s&ab_channel=CS50) - Introducción CS50 de la Universidad de Harvard a las empresas intelectuales de la informática y al arte de la programación.
 
-- [ ] [C programming and Memory Managment](https://youtu.be/rJrd2QMVbGM?si=mdqOehm_f8hkgadX) 
+- [ ] [C programming and Memory Management](https://youtu.be/rJrd2QMVbGM?si=mdqOehm_f8hkgadX) 
   ¡Aprenda a gestionar manualmente la memoria en el lenguaje de programación C y a crear no uno, sino dos recolectores de basura desde cero! Si está acostumbrado a trabajar con lenguajes y herramientas que se encargan de ello por usted, este curso le enseñará cómo funciona todo eso.
 
 ### 📘 Udemy
 > [!NOTE]
-> Los cursos de udemy son por una beca, asi su duracion tiene limite(28 de febrero)
+> Los cursos de Udemy son por una beca, asi su duración tiene limite(28 de febrero)
 
-- [ ] [C programming For beginners - Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/?couponCode=ST18MT12125AROW) c-programming-for-beginners-/. - Programacion C aumentara la posibilidad de carreras. Conviertete en un mejor promadar en otra lengau aprendiendo C. Punteros explicados.
+- [ ] [C programming For beginners - Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/?couponCode=ST18MT12125AROW) c-programming-for-beginners-/. - Programación C aumentara la posibilidad de carreras. Conviértete en un mejor programador en otra lengua aprendiendo C. Punteros explicados.
 
-### Projectos
+### Proyectos
 
 - [ ] [Snake game](https://www.youtube.com/watch?v=ShlJel8gOeU&ab_channel=CompleteCodingbyPrashantSir)
   El famoso juego de la serpiente.
 
-- [ ] [Bank managment system](https://www.geeksforgeeks.org/bank-account-system-in-c-using-file-handling/)
-  Usando algunos videos y codigos ya existentes hare mi propio sistema de banco.
+- [ ] [Bank management system](https://www.geeksforgeeks.org/bank-account-system-in-c-using-file-handling/)
+  Usando algunos videos y códigos ya existentes hare mi propio sistema de banco.
 
 ## 📝 ¿De qué trata esto?
 
@@ -64,7 +64,7 @@ Este repositorio es un espacio para:
   ✔ Hola_mundo.c / holamundo.c.
 
 - Cuando queremos correr un programa en C:</br>
-  1️⃣ **Compilar**: Convierte el codigo C a codigo maquina usando un compilador.</br> 
-  2️⃣ **Correr**: Corre el codigo.
+  1️⃣ **Compilar**: Convierte el código C a código maquina usando un compilador.</br> 
+  2️⃣ **Correr**: Corre el código.
 
 ¡Añadiré más conforme a mi progreso!
