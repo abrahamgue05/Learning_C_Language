@@ -21,7 +21,7 @@ Here are the platforms and materials I'm using to learn C programming:
 - [x] [CS50x 2024 - Lecture 1 to 5 - C](https://www.youtube.com/watch?v=cwtpLIWylAw&t=1233s&ab_channel=CS50)
   This is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.
 
-- [ ] [C programming and Memory Managment](https://youtu.be/rJrd2QMVbGM?si=mdqOehm_f8hkgadX) 
+- [ ] [C programming and Memory Management](https://youtu.be/rJrd2QMVbGM?si=mdqOehm_f8hkgadX) 
   Learn how to manually manage memory in the C programming language and build not one, but two garbage collectors from scratch! If you're used to working with languages and tools that handle it for you, this course will teach you how all that works under the hood.
 
 ### 📘 Udemy
@@ -36,7 +36,7 @@ Here are the platforms and materials I'm using to learn C programming:
 - [ ] [Snake game](https://www.youtube.com/watch?v=ShlJel8gOeU&ab_channel=CompleteCodingbyPrashantSir)
   The famous snake game.
 
-- [ ] [Bank managment system](https://www.geeksforgeeks.org/bank-account-system-in-c-using-file-handling/)
+- [ ] [Bank management system](https://www.geeksforgeeks.org/bank-account-system-in-c-using-file-handling/)
   Using some already existing videos and code sheets I will make my own bank system.
 
 **Note**: All code examples and projects are written in **English**.
