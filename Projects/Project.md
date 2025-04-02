@@ -2,13 +2,12 @@
 # Projects
 
 It is said that the best way to learn is through practice, which is exactly what 
-this section is for. Here, I will be working on various projects, starting with
-the one below:
+this section is for. Here, I will be working on various projects, such as:
 
 ## GUI Calculator
 
-- **Homework:** Teacher asked for a GUI calculator C.
+- **Why:** School homework.
 
-- **How:** I am going to use some videos only.
+- **How:** YouTube videos due to the lack of time.
 
 - **Tools:** ```libclipboard```.
