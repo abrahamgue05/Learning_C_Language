@@ -13,3 +13,5 @@ this section is for. Here, I will be working on various projects, such as:
 - **Tools:** ```libclipboard```.
 
 ## Bank system 
+
+- **Why:** A way to practice data structures
