@@ -17,3 +17,4 @@ tales como:
 
 - **Por que?:** Una forma de practicar las estructuras de datos.
 
+- **Como?:** Mayormente a mano, pero la estructura básica con Internet o YouTube.
