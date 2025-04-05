@@ -12,3 +12,7 @@ tales como:
 - **Como?:** Videos de YouTube.
 
 - **Herramientas:** ```libclipboard```.
+
+# Sistema de banco
+
+- 
