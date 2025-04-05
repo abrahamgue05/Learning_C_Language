@@ -15,4 +15,5 @@ tales como:
 
 # Sistema de banco
 
-- 
+- **Por que?:** Una forma de practicar las estructuras de datos.
+
