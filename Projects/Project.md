@@ -17,3 +17,5 @@ this section is for. Here, I will be working on various projects, such as:
 - **Why:** A way to practice data structures
 
 - **How:** Mostly by hand, but the basic structure by Internet or YouTube
+
+- **Tools:** Basic .h files
