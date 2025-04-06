@@ -19,3 +19,9 @@ this section is for. Here, I will be working on various projects, such as:
 - **How:** Mostly by hand, but the basic structure by Internet or YouTube
 
 - **Tools:** Basic .h files
+
+## Game
+
+- **Why?:** It's a game who doesn't love games, something like a snake or mine searcher
+
+
