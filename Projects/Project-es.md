@@ -20,3 +20,9 @@ tales como:
 - **Como?:** Mayormente a mano, pero la estructura básica con Internet o YouTube.
 
 - **Herramientas:** Los archivos .h básicos
+
+# Juego
+
+- **Por que?:** Es un juego, quien no ama los juegos?, un juego como la serpiente 
+o el busca mina
+
