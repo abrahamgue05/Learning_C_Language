@@ -27,3 +27,5 @@ tales como:
 o el busca mina
 
 - **Como?:** Videos o a mano, depende del juego
+
+- **Herramientas:** Depende del juego
