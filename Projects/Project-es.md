@@ -26,3 +26,4 @@ tales como:
 - **Por que?:** Es un juego, quien no ama los juegos?, un juego como la serpiente 
 o el busca mina
 
+- **Como?:** Videos o a mano, depende del juego
