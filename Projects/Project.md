@@ -35,3 +35,5 @@ this section is for. Here, I will be working on various projects, such as:
 - **Why?:** C is a memory language, learning malloc and more related memory this as pointers and addresses
 
 - **How?:** Videos or web ideas mostly
+
+- **Tools:** The necessary libraries 
