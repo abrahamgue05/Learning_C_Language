@@ -29,3 +29,5 @@ this section is for. Here, I will be working on various projects, such as:
 - **Tools:** Have to check
 
 ## Extras
+
+- I want to do something that uses mallorca and related
