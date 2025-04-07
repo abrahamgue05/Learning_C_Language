@@ -13,7 +13,7 @@ tales como:
 
 - **Herramientas:** ```libclipboard```.
 
-# Sistema de banco
+## Sistema de banco
 
 - **Por que?:** Una forma de practicar las estructuras de datos.
 
@@ -21,7 +21,7 @@ tales como:
 
 - **Herramientas:** Los archivos .h básicos
 
-# Juego
+## Juego
 
 - **Por que?:** Es un juego, quien no ama los juegos?, un juego como la serpiente 
 o el busca mina
@@ -29,3 +29,14 @@ o el busca mina
 - **Como?:** Videos o a mano, depende del juego
 
 - **Herramientas:** Depende del juego
+
+## Extras
+
+- Quiero hacer programas relacionados con la memoria de las computadoras 
+
+- **Por que?:** C es un lenguaje de memoria, aprender malloc y cosas mas 
+relacionadas con la memoria como punteros y direcciones
+
+- **Como?:** Videos o idead de Internet mayormente
+
+- **Herramientas:** Las librerías necesarias
