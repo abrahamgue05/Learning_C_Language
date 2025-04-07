@@ -30,4 +30,6 @@ this section is for. Here, I will be working on various projects, such as:
 
 ## Extras
 
-- I want to do something that uses mallorca and related
+- I want to do something that uses malloc and related
+
+- **Why?:** C is a memory language, learning malloc and more related memory this as pointers and addresses
