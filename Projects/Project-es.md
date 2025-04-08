@@ -41,4 +41,6 @@ relacionadas con la memoria como punteros y direcciones
 
 - **Herramientas:** Las librerías necesarias
 
-- Esos son los que tengo planeados por el momento, dudo agregar más.
+- Esos son los que tengo planeados por el momento, dudo agregar más
+
+- Próximo paso aprender el lenguaje de programación C++
