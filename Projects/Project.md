@@ -30,9 +30,9 @@ this section is for. Here, I will be working on various projects, such as:
 
 ## Extras
 
-- I want to do something that uses malloc and related
+- I want to do computer memory related programs.
 
-- **Why?:** C is a memory language, learning malloc and more related memory this as pointers and addresses
+- **Why?:** C is a memory language, learning malloc and more related memory things as pointers and addresses
 
 - **How?:** Videos or web ideas mostly
 
