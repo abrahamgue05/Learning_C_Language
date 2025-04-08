@@ -36,4 +36,9 @@ this section is for. Here, I will be working on various projects, such as:
 
 - **How?:** Videos or web ideas mostly
 
-- **Tools:** The necessary libraries 
+- **Tools:** The necessary libraries
+
+
+- Those are the ones I have planned until now, and I don't think of doing more.
+
+
