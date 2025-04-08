@@ -40,3 +40,5 @@ relacionadas con la memoria como punteros y direcciones
 - **Como?:** Videos o idead de Internet mayormente
 
 - **Herramientas:** Las librerías necesarias
+
+- Esos son los que tengo planeados por el momento, dudo agregar más.
