@@ -38,7 +38,6 @@ this section is for. Here, I will be working on various projects, such as:
 
 - **Tools:** The necessary libraries
 
-
 - Those are the ones I have planned until now, and I don't think of doing more
 
 - The next step is C++ programming language 
