@@ -29,14 +29,24 @@ int count = 0;# Tracks numbers stored
 static void calculate(GtkButton *button, gpointer data){# Gets the label of clicked buttons
 	const gchar* text = gtk_button_get_label(button);
 
-	if( (strcmp("+", text)==0) || ... ){
+	if( (strcmp("+", text)==0) ||   (strcmp("-", text)==0) ||  (strcmp("/", text)==0) ||  (strcmp("x", text)==0) ||  (strcmp("=", text)==0) ){
 		num[count] = atof(input_buffer);
 		count++;
 		clear_buffer = true;# Clear screen
 
 		# Operations
-		if(strcmp("+",text)==0){ add = true; }
-		if(strcmp("-",text)==0){ sub = true; }
-		if(strcmp("/",text)==0){ divv = true; }
-		if(strcmp("x",text)==0){ mul = true; }	
+		if(strcmp("+",text)==0){
+			add = true;
+		}
+		if(strcmp("-",text)==0){
+			sub = true;
+		}
+		if(strcmp("/",text)==0){
+			divv = true;
+		}
+		if(strcmp("x",text)==0){
+			mul = true;
+		}
+	}
+
 	
