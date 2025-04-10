@@ -25,3 +25,18 @@ bool add=false, mul = false, divv = false, sub = false;# Operations
 float result = 0.0;# Result
 static float num[SIZE];# Store input numbers
 int count = 0;# Tracks numbers stored
+
+static void calculate(GtkButton *button, gpointer data){# Gets the label of clicked buttons
+	const gchar* text = gtk_button_get_label(button);
+
+	if( (strcmp("+", text)==0) || ... ){
+		num[count] = atof(input_buffer);
+		count++;
+		clear_buffer = true;# Clear screen
+
+		# Operations
+		if(strcmp("+",text)==0){ add = true; }
+		if(strcmp("-",text)==0){ sub = true; }
+		if(strcmp("/",text)==0){ divv = true; }
+		if(strcmp("x",text)==0){ mul = true; }	
+	
