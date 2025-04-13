@@ -101,3 +101,33 @@ foundation.
 
     3.- Recursively apply quick sort to the left and right sub-arrays.
   </details>
+
+## Shell Sort
+
+- Gap-based sorting algorithm (generalization of insertion sort).
+
+- Designed to improve performance over simple quadratic sorts like insertion and
+  bubble.
+
+- Donald Shell 1959.
+
+- *Best case:* O(n log n).
+
+- *Average case:* Between O(n log^2 n) and O(n.^15).
+
+- *Worst case:* O(n^2).
+
+- <details>
+  <summary>Steps</summary>
+
+    1.- Chose a gap sequence (e.g. n/2, n/4, ...,1).
+
+    2.- For each gap:
+
+          - Compare elements that are gap position apart.
+
+          - Use insertion sort logic within these gap-separated elements.
+
+    3.- Reduce the gap and repeat until the gap is 1 (standard insertion sort).
+  </details>
+
