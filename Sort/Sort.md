@@ -9,7 +9,7 @@
 - On the CS50, a little of sort and times of sort was seen, but here I'm going to
 use them and describe them.
 
-# Insertion Sort
+## Insertion Sort
 
 - It isn't formally attributed to a single inventor.
 
@@ -31,7 +31,7 @@ use them and describe them.
     4.- Move to the next position and repeat until the array is sorted.
   </details>
 
-# Selection Sort
+## Selection Sort
 
 - Intuitive sorting algorithm that builds the final sorted array on item at a
 time.
@@ -56,4 +56,25 @@ time.
     4.- Insert the current element into the correct position.
 
     5.- Repeat for all elements.
+  </details>
+
+## Merge sort
+
+- Divide-and-conquer sorting algorithm.
+
+- One of the first sorting algorithms to be developed with a strong theoretical
+foundation.
+
+- John von Neumann 1945.
+
+- *Best/Worst/Average case:* O(n log n).
+
+- <details>
+  <summary>Steps</summary>
+
+    1.- Split the array into two halves.
+
+    2.- Recursively apply merge sort to each half.
+
+    3.- Merge the two sorted halves into one sorted array.
   </details>
