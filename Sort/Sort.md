@@ -156,3 +156,30 @@ foundation.
 
     3.- After the final digit pass, the array is fully sorted.
   </details>
+
+## Counting Sort
+
+- Non-comparative, integer sorting algorithm - ideal when input values fall within
+  a know, small range.
+
+- Extremely fast for sorting integers or objects with integer keys.
+
+- Harold H. Seward 1954.
+
+- *Best/Average/Worst:* O(n + k), where k is the range of input values.
+
+- <details> 
+  <summary>Steps</summary>
+
+    1.- Find the range of the input (i.e., the max value).
+
+    2.- Create a count array to the store frequency of each value.
+
+    3.- Modify the count array to store cumulative counts (optional, but needed
+        for stable sorting).
+
+    4.- Place each element in its correct position in the output array using the
+        count info.
+
+    5.- Copy the output back to the original array (if needed).
+  </details>
