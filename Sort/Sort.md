@@ -17,7 +17,7 @@ use them and describe them.
 
 - Considered one of the classical elementary sorting algorithms.
 
-- O(n^2).
+- *Best/Worst/Average case:* O(n^2).
 
 - <details>
   <summary>Steps</summary>
@@ -29,4 +29,31 @@ use them and describe them.
     3.- Swap it with the current element.
     
     4.- Move to the next position and repeat until the array is sorted.
+  </details>
+
+# Selection Sort
+
+- Intuitive sorting algorithm that builds the final sorted array on item at a
+time.
+
+- Inspired in how people sort cards in their hands.
+
+- Used since the early days of computing.
+
+- *Best case*: O(n).
+
+- *Worst/Average case:* O(n^2)
+
+- <details>
+  <summary>Steps</summary>
+
+    1.- Starts from the second element.
+
+    2.- Compare it with the element(s) before it.
+
+    3.- Shift larger elements one position to the right.
+    
+    4.- Insert the current element into the correct position.
+
+    5.- Repeat for all elements.
   </details>
