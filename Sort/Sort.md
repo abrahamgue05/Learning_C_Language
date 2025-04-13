@@ -78,3 +78,26 @@ foundation.
 
     3.- Merge the two sorted halves into one sorted array.
   </details>
+
+## Quick Sort
+
+- Divide-and-conquer sorting algorithm.
+
+- One of the most efficient and widely used sorted algorithm in practice.
+
+- Tony Hoare in 1959.
+
+- *Best/Average case:* O(n log n).
+
+- *Worst case:* O(n^2).
+
+- <details>
+  <summary>Steps</summary>
+
+    1.- Choose a pivot element from the array.
+
+    2.- Partition the array: Elements less than the pivot go to the left, elements
+        grater go to the right.
+
+    3.- Recursively apply quick sort to the left and right sub-arrays.
+  </details>
