@@ -131,3 +131,28 @@ foundation.
     3.- Reduce the gap and repeat until the gap is 1 (standard insertion sort).
   </details>
 
+## Radix Sort
+
+- Non-comparative sorting algorithm - sort integers (or strings)  by processing
+  individual digits or characters.
+
+- Particularly efficient for fixed-length keys like integers or strings of the 
+  same length.
+
+- Herman Hollerith 1887.
+
+- *Best/Average/Worst:* O(nk), where k is the number of digits or key length.
+
+- <details>
+  <summary>Steps</summary>
+
+    1.- Identify the maximum number of digits (or characters) in the data.
+
+    2.- Sort the data digit, starting from the least significant digit (LSD) to
+        the most significant digit (MSD).
+
+        - Use a stable sorting algorithm (like Counting sort) for each digit
+          position.
+
+    3.- After the final digit pass, the array is fully sorted.
+  </details>
