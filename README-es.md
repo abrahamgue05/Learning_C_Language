@@ -36,7 +36,7 @@ Aquí están las plataformas y materiales que estoy utilizando para aprender C:
 
 - [ ] Calculadora con IGU
 
-- [ ] Game 
+- [ ] Juego 
 
 ## 📝 ¿De qué trata esto?
 
