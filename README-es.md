@@ -32,9 +32,11 @@ Aquí están las plataformas y materiales que estoy utilizando para aprender C:
 ### Proyectos
 
 - [ ] [Bank management system](https://www.geeksforgeeks.org/bank-account-system-in-c-using-file-handling/)
-  Usando algunos videos y códigos ya existentes hare mi propio sistema de banco.
+Usando algunos videos y códigos ya existentes hare mi propio sistema de banco.
 
-- [ ] Calculadora con IGU
+- [ ] [Calculadora con IGU](https://youtu.be/NJyq0KuOu_w?si=sJywIgPOLU7IHRPw) -
+  Este programa es básicamente un calculadora simple, con una buena interfaz
+  gráfica que es fácilmente entendible. Use el language C, con la librería gkt3 
 
 - [ ] Juego 
 
