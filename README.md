@@ -36,6 +36,8 @@ Here are the platforms and materials I'm using to learn C programming:
 - [ ] [Bank management system](https://www.geeksforgeeks.org/bank-account-system-in-c-using-file-handling/)
   Using some already existing videos and code sheets I will make my own bank system.
 
+- [ ] [Simple GUI Calculator using C](https://youtu.be/NJyq0KuOu_w?si=sJywIgPOLU7IHRPw) - This program is basically a simple calculator with a nice graphical user interface which is easily understood. I used the C programming language along with the gtk3 library 
+
 **Note**: All code examples and projects are written in **English**.
 
 ## 📝 What's This About?
