@@ -31,9 +31,11 @@ Aquí están las plataformas y materiales que estoy utilizando para aprender C:
 
 ### Proyectos
 
-- [ ] [Bank management system](https://www.geeksforgeeks.org/bank-account-system-in-c-using-file-handling/) - Usando algunos videos y códigos ya existentes hare mi propio sistema de banco.
+- [ ] [Bank management system](https://www.geeksforgeeks.org/bank-account-system-in-c-using-file-handling/)
+  Usando algunos videos y códigos ya existentes hare mi propio sistema de banco.
 
-- [ ] [Simple GUI Calculator using C](https://youtu.be/NJyq0KuOu_w?si=sJywIgPOLU7IHRPw) - Este programa es básicamente un calculadora simple, con una buena interfaz gráfica que es fácilmente entendible. Use el language C, con la librería gkt3 
+- [ ] [Simple GUI Calculator using C](https://youtu.be/NJyq0KuOu_w?si=sJywIgPOLU7IHRPw)
+  Este programa es básicamente un calculadora simple, con una buena interfaz gráfica que es fácilmente entendible. Use el language C, con la librería gkt3 
 
 - [ ] [Live coding Snake Game in C.](https://youtu.be/t3y2b2_moY8?si=-fKM3aVkfxjzp269) - Programando en vivo juego de la serpiente en C.
 
