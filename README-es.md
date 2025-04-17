@@ -27,18 +27,15 @@ Aquí están las plataformas y materiales que estoy utilizando para aprender C:
 > [!NOTE]
 > Los cursos de Udemy son por una beca, asi su duración tiene limite(28 de febrero)
 
-- [ ] [C programming For beginners - Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/?couponCode=ST18MT12125AROW) c-programming-for-beginners-/. - Programación C aumentara la posibilidad de carreras. Conviértete en un mejor programador en otra lengua aprendiendo C. Punteros explicados.
+- [ ] [C programming For beginners - Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/?couponCode=ST18MT12125AROWc-programming-for-beginners-/) - Programación C aumentara la posibilidad de carreras. Conviértete en un mejor programador en otra lengua aprendiendo C. Punteros explicados.
 
 ### Proyectos
 
-- [ ] [Bank management system](https://www.geeksforgeeks.org/bank-account-system-in-c-using-file-handling/)
-Usando algunos videos y códigos ya existentes hare mi propio sistema de banco.
+- [ ] [Bank management system](https://www.geeksforgeeks.org/bank-account-system-in-c-using-file-handling/) - Usando algunos videos y códigos ya existentes hare mi propio sistema de banco.
 
-- [ ] [Simple GUI Calculator using C](https://youtu.be/NJyq0KuOu_w?si=sJywIgPOLU7IHRPw) -
-Este programa es básicamente un calculadora simple, con una buena interfaz
-gráfica que es fácilmente entendible. Use el language C, con la librería gkt3 
+- [ ] [Simple GUI Calculator using C](https://youtu.be/NJyq0KuOu_w?si=sJywIgPOLU7IHRPw) - Este programa es básicamente un calculadora simple, con una buena interfaz gráfica que es fácilmente entendible. Use el language C, con la librería gkt3 
 
-- [ ] Juego 
+- [ ] [Live coding Snake Game in C.](https://youtu.be/t3y2b2_moY8?si=-fKM3aVkfxjzp269) - Programando en vivo juego de la serpiente en C.
 
 ## 📝 ¿De qué trata esto?
 
