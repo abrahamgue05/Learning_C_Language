@@ -38,6 +38,9 @@ Here are the platforms and materials I'm using to learn C programming:
 
 - [ ] [Simple GUI Calculator using C](https://youtu.be/NJyq0KuOu_w?si=sJywIgPOLU7IHRPw) - This program is basically a simple calculator with a nice graphical user interface which is easily understood. I used the C programming language along with the gtk3 library 
 
+- [ ] [Live coding Snake Game in C.](https://youtu.be/t3y2b2_moY8?si=-fKM3aVkfxjzp269) - Live coding of Snake Game in C.
+
+
 **Note**: All code examples and projects are written in **English**.
 
 ## 📝 What's This About?
