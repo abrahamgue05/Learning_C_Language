@@ -29,16 +29,18 @@ Here are the platforms and materials I'm using to learn C programming:
 >[!NOTE]
 >Udemy is with a scholarship, so i have a limit of time(Feb 28).
 
-- [ ] [C programming For beginners - Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/?couponCode=ST18MT12125AROW) c-programming-for-beginners-/. - C Programming will increase career options. Become a better dev in other languages by learning C. Pointers explained. 
+- [ ] [C programming For beginners - Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/?couponCode=ST18MT12125AROW c-programming-for-beginners-/).
+  C Programming will increase career options. Become a better dev in other languages by learning C. Pointers explained. 
 
 ### Projects
 
-- [ ] [Bank management system](https://www.geeksforgeeks.org/bank-account-system-in-c-using-file-handling/)
+- [ ] [Bank management system](https://www.geeksforgeeks.org/bank-account-system-in-c-using-file-handling/) - 
   Using some already existing videos and code sheets I will make my own bank system.
 
-- [ ] [Simple GUI Calculator using C](https://youtu.be/NJyq0KuOu_w?si=sJywIgPOLU7IHRPw) - This program is basically a simple calculator with a nice graphical user interface which is easily understood. I used the C programming language along with the gtk3 library 
+- [ ] [Simple GUI Calculator using C](https://youtu.be/NJyq0KuOu_w?si=sJywIgPOLU7IHRPw).
+  This program is basically a simple calculator with a nice graphical user interface which is easily understood. I used the C programming language along with the gtk3 library 
 
-- [ ] [Live coding Snake Game in C.](https://youtu.be/t3y2b2_moY8?si=-fKM3aVkfxjzp269) - Live coding of Snake Game in C.
+- [ ] [Live coding Snake Game in C.](https://youtu.be/t3y2b2_moY8?si=-fKM3aVkfxjzp269) Live coding of Snake Game in C.
 
 
 **Note**: All code examples and projects are written in **English**.
