@@ -22,7 +22,7 @@ this section is for. Here, I will be working on various projects, such as:
 
 ## Snake Game
 
-- **Why?:** It's a game who doesn't love games, something like a snake or mine searcher
+- **Why?:** Es un juego básico y bueno para iniciar
 
 - **How?:** Videos or by hand depending on the game
 
