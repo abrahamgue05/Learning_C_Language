@@ -10,7 +10,7 @@ this section is for. Here, I will be working on various projects, such as:
 
 - **How:** YouTube videos due to the lack of time.
 
-- **Tools:** To see.
+- **Tools:** gtk.h
 
 ## Bank system 
 
@@ -18,7 +18,7 @@ this section is for. Here, I will be working on various projects, such as:
 
 - **How:** Mostly by hand, but the basic structure by Internet or YouTube
 
-- **Tools:** Basic .h files
+- **Tools:** To see
 
 ## Snake Game
 
