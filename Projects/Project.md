@@ -26,7 +26,7 @@ this section is for. Here, I will be working on various projects, such as:
 
 - **How?:** Videos or by hand depending on the game
 
-- **Tools:** Required libraries
+- **Tools:** stdio.h, stdlib.h, conio.h and time.h
 
 ## Extras
 
