@@ -11,7 +11,7 @@ tales como:
 
 - **Como?:** Videos de YouTube.
 
-- **Herramientas:** GKT 3.0/2.0
+- **Herramientas:** gtk.h
 
 ## Sistema de banco
 
