@@ -21,14 +21,14 @@ tales como:
 
 - **Herramientas:** Los archivos .h básicos
 
-## Juego
+## Juego de la serpiente
 
 - **Por que?:** Es un juego, quien no ama los juegos?, un juego como la serpiente 
 o el busca mina
 
 - **Como?:** Videos o a mano, depende del juego
 
-- **Herramientas:** Depende del juego
+- **Herramientas:** stdio.h, stdlib.h, conio.h and time.h
 
 ## Extras
 
