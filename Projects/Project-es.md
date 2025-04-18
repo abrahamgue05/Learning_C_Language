@@ -23,8 +23,7 @@ tales como:
 
 ## Juego de la serpiente
 
-- **Por que?:** Es un juego, quien no ama los juegos?, un juego como la serpiente 
-o el busca mina
+- **Por que?:** Es un juego básico y bueno para iniciar.
 
 - **Como?:** Videos o a mano, depende del juego
 
