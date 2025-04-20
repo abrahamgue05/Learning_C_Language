@@ -6,10 +6,13 @@
 #include<stdbool.h># Manage the boolean variable
 
 typedef struct{
-	GtkWidget *window;# Pointer to gtk window(scree)
-	GtkWidget *grid;# Grid lets to lay out child widgets
-	GtkWidget *button[17];
-}calc;# Gtk instructions for the calculator
+	GtkWidget *window;            // Main application window
+	GtkWidget *grid;              // Grid container to arrange buttons
+	GtkWidget *button[17];        // Array to hold 17 calculator buttons
+}calc;
+
+GtkWidget *box; // Entry box to show input/output text
+
 
 GtkWidget *box;# Draws a box for the calculator
 
