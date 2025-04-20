@@ -47,3 +47,35 @@ static void calculate(GtkButton *button, gpointer data){
 	if(strcmp("x",text)==0){ mul = true; }
 		}
 	}
+
+	if(strcmp("=",text)==0){
+		int x = sizeof(num)/sizeof(num[0]); // Get number of elements in num[]
+		
+		// Perform operation based on flag
+		if(add){
+			for(int i=0; i<x; i++){
+				result += num[i];  // Add all elements
+			}
+		}
+		if(divv){
+			result = num[0]/num[1];  // Divide first two elements
+		}
+		if(sub){
+			if(result == 0.0){
+				result = num[0]*2;  // Adjust result before subtracting
+			}
+			for(int i=0; i<x; i++){
+				result -= num[i];  // Subtract all from result
+			}
+		}
+		if(mul){
+			result = num[0]*num[1]; // Multiply first two
+		}
+		// Reset all flags
+		add = false; mul = false; divv = false; sub = false;
+		// Display result
+		gtk_entry_set_text(GTK_ENTRY(box), "");
+		sprintf(output_buffer, "%.3f", result); // Format result
+		gtk_entry_set_text(GTK_ENTRY(box), output_buffer);
+		result = 0.0; // Reset result
+	}
