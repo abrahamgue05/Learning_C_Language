@@ -1,33 +1,33 @@
 # Libraries
-#include<gtk/gtk.h># Using gtk for the GUI part
+#include<gtk/gtk.h>// Using gtk for the GUI part
 
-#include<stdlib.h># Memory allocation, process control, conversion, and more
-#include<string.h># Perform tasks on strings
-#include<stdbool.h># Manage the boolean variable
+#include<stdlib.h>// Memory allocation, process control, conversion, and more
+#include<string.h>// Perform tasks on strings
+#include<stdbool.h>// Manage the boolean variable
 
 typedef struct{
-	GtkWidget *window;            // Main application window
-	GtkWidget *grid;              // Grid container to arrange buttons
-	GtkWidget *button[17];        // Array to hold 17 calculator buttons
+	GtkWidget *window;// Main application window
+	GtkWidget *grid;// Grid container to arrange buttons
+	GtkWidget *button[17];// Array to hold 17 calculator buttons
 }calc;
 
 GtkWidget *box; // Entry box to show input/output text
 
+#define SIZE 10
 
-GtkWidget *box;# Draws a box for the calculator
+char input_buffer[100] = {0};    // Holds the current number being typed
+char output_buffer[100] = {0};   // Holds the entire display content
 
-# Variables
-#define SIZE 10# Max numbers to operate
+bool clear_buffer = false;       // Flag to clear input buffer after operator
+bool add=false;                  // Addition operation flag
+bool mul = false;                // Multiplication operation flag
+bool divv = false;               // Division operation flag
+bool sub = false;                // Subtraction operation flag
 
-# Input and Output numbers on scree
-char input_buffer[100] = {0};
-char output_buffer[100] = {0};
+float result = 0.0;              // Final result of the calculation
+static float num[SIZE];          // Array to hold numbers for calculation
+int count = 0;                   // Index for num[] to track how many values entered
 
-bool clear_buffer = false;# Cleans screen
-bool add=false, mul = false, divv = false, sub = false;# Operations
-float result = 0.0;# Result
-static float num[SIZE];# Store input numbers
-int count = 0;# Tracks numbers stored
 
 static void calculate(GtkButton *button, gpointer data){# Gets the label of clicked buttons
 	const gchar* text = gtk_button_get_label(button);
