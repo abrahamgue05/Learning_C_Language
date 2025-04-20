@@ -32,7 +32,18 @@ int count = 0;// Index for num[] to track how many values entered
 static void calculate(GtkButton *button, gpointer data){
 	const gchar* text = gtk_button_get_label(button);// Get text from clicked button
 
+	if( (strcmp("+", text)==0) || (strcmp("-", text)==0) || 
+	(strcmp("/", text)==0) || (strcmp("x", text)==0) || 
+	(strcmp("=", text)==0) ){
 
+	num[count] = atof(input_buffer);// Convert input string to float and store
+	count++;// Move to next position in num[]
+	clear_buffer = true;// Next input should clear buffer
 
-
-	
+	// Set appropriate operation flag
+	if(strcmp("+",text)==0){ add = true; }
+	if(strcmp("-",text)==0){ sub = true; }
+	if(strcmp("/",text)==0){ divv = true; }
+	if(strcmp("x",text)==0){ mul = true; }
+		}
+	}
