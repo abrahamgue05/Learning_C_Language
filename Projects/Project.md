@@ -22,7 +22,7 @@ this section is for. Here, I will be working on various projects, such as:
 
 ## Snake Game
 
-- **Why?:** Es un juego básico y bueno para iniciar
+- **Why?:** A famous game and a good way to start
 
 - **How?:** Videos or by hand depending on the game
 
