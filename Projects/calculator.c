@@ -108,3 +108,7 @@ static void calculate(GtkButton *button, gpointer data){
 		divv = false;
 		sub = false;
 	}
+
+// Callback for GTK application activation
+static void activate(GtkApplication *app, gpointer user_data){
+	calc widget;
