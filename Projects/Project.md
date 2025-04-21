@@ -10,7 +10,7 @@ this section is for. Here, I will be working on various projects, such as:
 
 - **How:** YouTube videos due to the lack of time.
 
-- **Tools:** gtk.h
+- **Tools:** gtk.h, string.h
 
 ## Bank system 
 
