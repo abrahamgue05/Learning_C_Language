@@ -11,7 +11,7 @@ tales como:
 
 - **Como?:** Videos de YouTube.
 
-- **Herramientas:** gtk.h, string.h, stdbool.h
+- **Herramientas:** gtk.h, string.h, stdbool.h, st
 
 ## Sistema de banco
 
