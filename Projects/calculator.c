@@ -78,7 +78,7 @@ static void calculate(GtkButton *button, gpointer data){
 		sprintf(output_buffer, "%.3f", result); // Format result
 		gtk_entry_set_text(GTK_ENTRY(box), output_buffer);
 		result = 0.0; // Reset result
-	}else{  // If number or "." is pressed
+	}	else{  // If number or "." is pressed
 		if(clear_buffer){
 			memset(input_buffer,0,strlen(input_buffer));  // Clear input buffer
 			clear_buffer = false;
@@ -88,4 +88,23 @@ static void calculate(GtkButton *button, gpointer data){
 		
 		strncat(output_buffer,text, 1);  // Add to display buffer
 		gtk_entry_set_text(GTK_ENTRY(box), output_buffer);  // Update display
+	}
+
+	// If "C" is pressed, reset everything
+	if(strcmp("C",text)==0){
+		gtk_entry_set_text(GTK_ENTRY(box), "");  // Clear display
+		memset(input_buffer,0,strlen(input_buffer));
+		memset(output_buffer,0,strlen(output_buffer));
+
+		count = 0;
+		int x = sizeof(num)/sizeof(num[0]);
+		for(int i=0; i<x; i++){
+			num[i] = 0;  // Reset numbers
+		}
+
+		// Reset flags
+		add = false;
+		mul = false;
+		divv = false;
+		sub = false;
 	}
