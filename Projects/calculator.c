@@ -78,4 +78,14 @@ static void calculate(GtkButton *button, gpointer data){
 		sprintf(output_buffer, "%.3f", result); // Format result
 		gtk_entry_set_text(GTK_ENTRY(box), output_buffer);
 		result = 0.0; // Reset result
+	}else{  // If number or "." is pressed
+		if(clear_buffer){
+			memset(input_buffer,0,strlen(input_buffer));  // Clear input buffer
+			clear_buffer = false;
+		}else{
+			strncat(input_buffer,text, 1);  // Add character to input buffer
+		}
+		
+		strncat(output_buffer,text, 1);  // Add to display buffer
+		gtk_entry_set_text(GTK_ENTRY(box), output_buffer);  // Update display
 	}
