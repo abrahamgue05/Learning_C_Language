@@ -119,3 +119,8 @@ static void activate(GtkApplication *app, gpointer user_data){
 	gtk_window_set_title(GTK_WINDOW(widget.window),"Las Creations Calculator");
 	gtk_window_set_default_size(GTK_WINDOW(widget.window), 200, 200);
 	gtk_container_set_border_width(GTK_CONTAINER(widget.window),10);
+
+	// Create a grid layout
+	widget.grid = gtk_grid_new();
+	gtk_container_add(GTK_CONTAINER(widget.window),widget.grid);
+
