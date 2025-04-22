@@ -124,3 +124,6 @@ static void activate(GtkApplication *app, gpointer user_data){
 	widget.grid = gtk_grid_new();
 	gtk_container_add(GTK_CONTAINER(widget.window),widget.grid);
 
+	// Create entry box and make it non-editable
+	box = gtk_entry_new();
+	gtk_editable_set_editable(GTK_EDITABLE(box), FALSE);
