@@ -127,3 +127,22 @@ static void activate(GtkApplication *app, gpointer user_data){
 	// Create entry box and make it non-editable
 	box = gtk_entry_new();
 	gtk_editable_set_editable(GTK_EDITABLE(box), FALSE);
+
+// Create all 17 buttons with appropriate labels
+widget.button[0] = gtk_button_new_with_label("0");
+widget.button[1] = gtk_button_new_with_label("1");
+widget.button[2] = gtk_button_new_with_label("2");
+widget.button[3] = gtk_button_new_with_label("3");
+widget.button[4] = gtk_button_new_with_label("4");
+widget.button[5] = gtk_button_new_with_label("5");
+widget.button[6] = gtk_button_new_with_label("6");
+widget.button[7] = gtk_button_new_with_label("7");
+widget.button[8] = gtk_button_new_with_label("8");
+widget.button[9] = gtk_button_new_with_label("9");
+widget.button[10] = gtk_button_new_with_label(".");
+widget.button[11] = gtk_button_new_with_label("+");
+widget.button[12] = gtk_button_new_with_label("-");
+widget.button[13] = gtk_button_new_with_label("x");
+widget.button[14] = gtk_button_new_with_label("/");
+widget.button[15] = gtk_button_new_with_label("C");
+widget.button[16] = gtk_button_new_with_label("=");
