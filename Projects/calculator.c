@@ -146,3 +146,6 @@ widget.button[13] = gtk_button_new_with_label("x");
 widget.button[14] = gtk_button_new_with_label("/");
 widget.button[15] = gtk_button_new_with_label("C");
 widget.button[16] = gtk_button_new_with_label("=");
+
+// Attach widgets to the grid layout
+gtk_grid_attach(GTK_GRID(widget.grid),box,0,0,4,1); // Entry display
