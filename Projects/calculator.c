@@ -166,3 +166,9 @@ static void activate(GtkApplication *app, gpointer user_data){
 	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[5],1,3,1,1);
 	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[6],2,3,1,1);
 	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[12],3,3,1,1);
+
+	// Row 4: 1,2,3,+
+	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[1],0,4,1,1);
+	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[2],1,4,1,1);
+	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[3],2,4,1,1);
+	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[11],3,4,1,1);
