@@ -151,24 +151,23 @@ static void activate(GtkApplication *app, gpointer user_data){
 	gtk_grid_attach(GTK_GRID(widget.grid),box,0,0,4,1); // Entry display
 
 
-	// Row 1: C, C, C, /
-	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[15],0,1,3,1);
-	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[14],3,1,1,1);
+	// Add the calculator buttons to the grid.
+	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[15],0,1,3,1);  // "C" button
+	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[14],3,1,1,1);  // "/" button
+	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[7],0,2,1,1);   // "7" button
+	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[8],1,2,1,1);   // "8" button
+	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[9],2,2,1,1);   // "9" button
+	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[13],3,2,1,1);  // "x" button
+	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[4],0,3,1,1);   // "4" button
+	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[5],1,3,1,1);   // "5" button
+	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[6],2,3,1,1);   // "6" button
+	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[12],3,3,1,1);  // "-" button
+	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[1],0,4,1,1);   // "1" button
+	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[2],1,4,1,1);   // "2" button
+	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[3],2,4,1,1);   // "3" button
+	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[11],3,4,1,1);  // "+" button
+	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[0],0,5,2,1);   // "0" button
+	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[10],2,5,1,1);  // "." button
+	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[16],3,5,1,1);  // "=" button
 
-	// Row 2: 7,8,9,x
-	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[7],0,2,1,1);
-	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[8],1,2,1,1);
-	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[9],2,2,1,1);
-	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[13],3,2,1,1);
-
-	// Row 3: 4,5,6,-
-	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[4],0,3,1,1);
-	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[5],1,3,1,1);
-	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[6],2,3,1,1);
-	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[12],3,3,1,1);
-
-	// Row 4: 1,2,3,+
-	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[1],0,4,1,1);
-	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[2],1,4,1,1);
-	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[3],2,4,1,1);
-	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[11],3,4,1,1);
+}
