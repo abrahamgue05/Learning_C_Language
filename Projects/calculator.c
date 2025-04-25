@@ -192,3 +192,19 @@ static void activate(GtkApplication *app, gpointer user_data){
 	// Show all widgets in the window.
 	gtk_widget_show_all(widget.window);
 }
+
+// Main function that starts the GTK application.
+int main(int argc, char **argv){
+	GtkApplication *app;
+
+	gtk_init(&argc, &argv);  // Initialize GTK library.
+
+	int status;
+	app = gtk_application_new("org.gtk.calculator", G_APPLICATION_FLAGS_NONE);  // Create a new GTK application.
+
+	g_signal_connect(app,"activate", G_CALLBACK(activate), NULL);  // Connect the 'activate' signal to the 'activate' function.
+	status = g_application_run(G_APPLICATION(app), argc, argv);  // Run the GTK application.
+	g_object_unref(app);  // Release the application object.
+
+	return status;  // Return the status of the application.
+}
