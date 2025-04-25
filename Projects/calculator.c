@@ -170,4 +170,22 @@ static void activate(GtkApplication *app, gpointer user_data){
 	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[10],2,5,1,1);  // "." button
 	gtk_grid_attach(GTK_GRID(widget.grid),widget.button[16],3,5,1,1);  // "=" button
 
+	// Connect button clicks to the 'calculate' function.
+	g_signal_connect(widget.button[0],"clicked",G_CALLBACK(calculate), NULL);
+	g_signal_connect(widget.button[1],"clicked",G_CALLBACK(calculate), NULL);
+	g_signal_connect(widget.button[2],"clicked",G_CALLBACK(calculate), NULL);
+	g_signal_connect(widget.button[3],"clicked",G_CALLBACK(calculate), NULL);
+	g_signal_connect(widget.button[4],"clicked",G_CALLBACK(calculate), NULL);
+	g_signal_connect(widget.button[5],"clicked",G_CALLBACK(calculate), NULL);
+	g_signal_connect(widget.button[6],"clicked",G_CALLBACK(calculate), NULL);
+	g_signal_connect(widget.button[7],"clicked",G_CALLBACK(calculate), NULL);
+	g_signal_connect(widget.button[8],"clicked",G_CALLBACK(calculate), NULL);
+	g_signal_connect(widget.button[9],"clicked",G_CALLBACK(calculate), NULL);
+	g_signal_connect(widget.button[10],"clicked",G_CALLBACK(calculate), NULL);
+	g_signal_connect(widget.button[11],"clicked",G_CALLBACK(calculate), NULL);
+	g_signal_connect(widget.button[12],"clicked",G_CALLBACK(calculate), NULL);
+	g_signal_connect(widget.button[13],"clicked",G_CALLBACK(calculate), NULL);
+	g_signal_connect(widget.button[14],"clicked",G_CALLBACK(calculate), NULL);
+	g_signal_connect(widget.button[15],"clicked",G_CALLBACK(calculate), NULL);
+	g_signal_connect(widget.button[16],"clicked",G_CALLBACK(calculate), NULL);
 }
