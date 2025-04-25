@@ -188,4 +188,7 @@ static void activate(GtkApplication *app, gpointer user_data){
 	g_signal_connect(widget.button[14],"clicked",G_CALLBACK(calculate), NULL);
 	g_signal_connect(widget.button[15],"clicked",G_CALLBACK(calculate), NULL);
 	g_signal_connect(widget.button[16],"clicked",G_CALLBACK(calculate), NULL);
+
+	// Show all widgets in the window.
+	gtk_widget_show_all(widget.window);
 }
