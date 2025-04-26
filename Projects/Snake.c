@@ -15,3 +15,6 @@
 #define cols 25// Size of board
 #define rows 25// Size of boards
 #define foods 50// Food
+
+// One-dimensional char array to store the board (cols x rows)
+char board[cols * rows];
