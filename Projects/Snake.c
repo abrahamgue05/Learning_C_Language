@@ -21,3 +21,18 @@ char board[cols * rows];
 
 // Game state flag
 int isGameOver = 0;
+
+// Fills the board with walls ('#') on the edges and spaces inside
+void fill_board() {
+  int x, y;
+
+  for(y = 0; y < rows; y++) {
+      for(x = 0; x < cols; x++) {
+          if(x == 0 || y == 0 || x == cols - 1 || y == rows - 1) {
+              board[y * cols + x] = '#';  // Border
+          } else {
+              board[y * cols + x] = ' ';  // Empty space
+          }
+      }
+  }
+}
