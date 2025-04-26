@@ -4,3 +4,8 @@
 // You can use it as you like.
 
 // Libraries
+
+#include <stdio.h>     // Standard I/O for printf, etc.
+#include <stdlib.h>    // For rand, srand, system, etc.
+#include <conio.h>     // For getch() - captures keyboard input without Enter
+#include <time.h>      // For seeding the random number generator
