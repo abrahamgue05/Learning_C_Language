@@ -18,3 +18,6 @@
 
 // One-dimensional char array to store the board (cols x rows)
 char board[cols * rows];
+
+// Game state flag
+int isGameOver = 0;
