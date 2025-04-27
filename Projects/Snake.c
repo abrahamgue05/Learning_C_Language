@@ -70,3 +70,9 @@ struct Snake {
 
 // Declare the snake
 struct Snake snake;
+
+// Struct for food items
+struct Food {
+    int x, y;         // Position
+    int consumed;     // 0 = not eaten, 1 = eaten
+};
