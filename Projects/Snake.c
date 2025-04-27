@@ -53,3 +53,6 @@ void print_board() {
         putch('\n');  // Newline at end of each row
     }
 }
+
+// Max length of the snake
+#define SNAKE_MAX_LEN 256
