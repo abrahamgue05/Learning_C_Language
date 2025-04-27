@@ -67,3 +67,6 @@ struct Snake {
     int length;
     struct SnakePart part[SNAKE_MAX_LEN];
 };
+
+// Declare the snake
+struct Snake snake;
