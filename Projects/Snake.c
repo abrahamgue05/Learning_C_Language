@@ -97,3 +97,14 @@ void move_snake(int deltaX, int deltaY) {
     snake.part[0].x += deltaX; // Move head in X direction
     snake.part[0].y += deltaY; // Move head in Y direction
 }
+
+// Read keyboard input and move snake accordingly
+void read_keyboard() {
+    int ch = getch(); // Get character input
+    switch(ch) {
+        case 'w': move_snake( 0,-1); break; // Up
+        case 's': move_snake( 0, 1); break; // Down
+        case 'a': move_snake(-1, 0); break; // Left
+        case 'd': move_snake( 1, 0); break; // Right
+    }
+}
