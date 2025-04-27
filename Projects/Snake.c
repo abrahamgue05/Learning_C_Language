@@ -73,6 +73,8 @@ struct Snake snake;
 
 // Struct for food items
 struct Food {
-    int x, y;         // Position
-    int consumed;     // 0 = not eaten, 1 = eaten
+    int x, y;// Position
+    int consumed;// 0 = not eaten, 1 = eaten
 };
+
+struct Food food[foods];// Array of food items
