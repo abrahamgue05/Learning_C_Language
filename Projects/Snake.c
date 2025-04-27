@@ -56,3 +56,8 @@ void print_board() {
 
 // Max length of the snake
 #define SNAKE_MAX_LEN 256
+
+// SnakePart struct holds x, y coordinates of a part of the snake
+struct SnakePart {
+    int x, y;
+};
