@@ -87,3 +87,13 @@ void draw_snake() {
     }
     board[snake.part[0].y*cols + snake.part[0].x] = '@'; // Head
 }
+
+// Move the snake by shifting body parts and updating head
+void move_snake(int deltaX, int deltaY) {
+    int i;
+    for(i=snake.length-1; i>0; i--) {
+        snake.part[i] = snake.part[i-1]; // Shift each part to the previous one
+    }
+    snake.part[0].x += deltaX; // Move head in X direction
+    snake.part[0].y += deltaY; // Move head in Y direction
+}
