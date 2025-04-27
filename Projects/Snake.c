@@ -61,3 +61,9 @@ void print_board() {
 struct SnakePart {
     int x, y;
 };
+
+// The Snake struct contains the snake length and an array of parts
+struct Snake {
+    int length;
+    struct SnakePart part[SNAKE_MAX_LEN];
+};
