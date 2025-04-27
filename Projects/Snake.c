@@ -78,3 +78,12 @@ struct Food {
 };
 
 struct Food food[foods];// Array of food items
+
+// Draw the snake on the board
+void draw_snake() {
+    int i;
+    for(i=snake.length-1; i>0; i--) {
+        board[snake.part[i].y*cols + snake.part[i].x] = '*'; // Body
+    }
+    board[snake.part[0].y*cols + snake.part[0].x] = '@'; // Head
+}
