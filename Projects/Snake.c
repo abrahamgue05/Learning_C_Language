@@ -36,3 +36,8 @@ void fill_board() {
       }
   }
 }
+
+// Clear the console screen (GNU-specific implementation)
+void clear_screen() {
+    system("clear");// On Windows use: system("cls");
+}
