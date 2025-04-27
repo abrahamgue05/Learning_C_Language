@@ -108,3 +108,13 @@ void read_keyboard() {
         case 'd': move_snake( 1, 0); break; // Right
     }
 }
+
+// Draw food on the board
+void draw_food() {
+    int i;
+    for(i=0; i<foods; i++) {
+        if(!food[i].consumed) {
+            board[food[i].y*cols + food[i].x] = '+'; // Place food
+        }
+    }
+}
