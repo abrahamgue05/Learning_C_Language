@@ -41,3 +41,15 @@ void fill_board() {
 void clear_screen() {
     system("clear");// On Windows use: system("cls");
 }
+
+// Print the current state of the game board
+void print_board() {
+    int x, y;
+
+    for(y = 0; y < rows; y++) {
+        for(x = 0; x < cols; x++) {
+            putch(board[y * cols + x]);  // Print each character
+        }
+        putch('\n');  // Newline at end of each row
+    }
+}
