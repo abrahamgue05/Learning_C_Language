@@ -118,3 +118,14 @@ void draw_food() {
         }
     }
 }
+
+// Randomly place food on the board
+void setup_food() {
+    int i;
+    
+    for(i = 0; i < foods; i++) {
+        food[i].x = 1 + rand() % (cols - 2);  // Avoid walls
+        food[i].y = 1 + rand() % (rows - 2);
+        food[i].consumed = 0;
+    }
+}
