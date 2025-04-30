@@ -129,3 +129,10 @@ void setup_food() {
         food[i].consumed = 0;
     }
 }
+
+// Initialize the snake in a random location
+void setup_snake() {
+    snake.length = 1;  // Start with 1 segment
+    snake.part[0].x = 1 + rand() % (cols - 2);  // Avoid walls
+    snake.part[0].y = 1 + rand() % (rows - 2);
+}
