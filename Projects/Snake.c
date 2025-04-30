@@ -151,4 +151,8 @@ void game_rules() {
             }
         }
     }
-}
+    // Check collision with walls
+    if(snake.part[0].x == 0 || snake.part[0].x == cols - 1 ||
+        snake.part[0].y == 0 || snake.part[0].y == rows - 1) {
+         isGameOver = 1;
+     }
