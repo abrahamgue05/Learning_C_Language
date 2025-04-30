@@ -136,3 +136,19 @@ void setup_snake() {
     snake.part[0].x = 1 + rand() % (cols - 2);  // Avoid walls
     snake.part[0].y = 1 + rand() % (rows - 2);
 }
+
+// Apply game logic: eating food, collisions, etc.
+void game_rules() {
+    int i;
+    
+    // Check if snake eats food
+    for(i = 0; i < foods; i++) {
+        if(!food[i].consumed) {
+            if(food[i].x == snake.part[0].x &&
+               food[i].y == snake.part[0].y) {
+                food[i].consumed = 1;  // Mark food as eaten
+                snake.length++;        // Increase snake length
+            }
+        }
+    }
+}
