@@ -66,3 +66,29 @@ void stopMotors() {
   analogWrite(ENA, 0);
   analogWrite(ENB, 0);
 }
+
+// =========================
+// ULTRASONIC SENSOR FUNCTIONS
+// =========================
+
+// Measure distance using ultrasonic sensor
+long checkDistance() {
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(2);
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
+
+  float distance = pulseIn(echoPin, HIGH) / 58.0; // Convert time to cm
+  delay(10);
+  return distance;
+}
+
+// Print distance to serial monitor
+void displayDistance() {
+  int distance = checkDistance();
+  Serial.print("Distance: ");
+  Serial.print(distance);
+  Serial.println(" cm");
+  delay(100);
+}
