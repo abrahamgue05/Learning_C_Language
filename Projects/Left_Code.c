@@ -34,3 +34,35 @@ void setup() {
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
 }
+
+// =========================
+// MOTOR CONTROL FUNCTIONS
+// =========================
+
+// Move forward
+void moveForward() {
+  digitalWrite(IN1, HIGH);
+  analogWrite(ENA, motorSpeed);
+
+  digitalWrite(IN2, LOW);
+  analogWrite(ENB, motorSpeed);
+}
+
+// Turn left in place
+void turnLeftInPlace() {
+  Serial.println("Turning left...");
+
+  digitalWrite(IN1, LOW);         // Left motor backward
+  analogWrite(ENA, turnSpeed);
+
+  digitalWrite(IN2, LOW);         // Right motor forward
+  analogWrite(ENB, turnSpeed);
+
+  delay(1200); // Adjust for ~90° turn
+}
+
+// Stop both motors
+void stopMotors() {
+  analogWrite(ENA, 0);
+  analogWrite(ENB, 0);
+}
