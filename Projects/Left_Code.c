@@ -17,3 +17,20 @@ const int echoPin = 13;
 // =========================
 const int motorSpeed = 200; // Forward speed
 const int turnSpeed = 200;  // Turning speed
+
+// =========================
+// INITIAL SETUP
+// =========================
+void setup() {
+  Serial.begin(9600);
+
+  // Motor pins
+  pinMode(IN1, OUTPUT);
+  pinMode(ENA, OUTPUT);
+  pinMode(IN2, OUTPUT);
+  pinMode(ENB, OUTPUT);
+
+  // Ultrasonic sensor pins
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+}
