@@ -92,3 +92,21 @@ void displayDistance() {
   Serial.println(" cm");
   delay(100);
 }
+
+// =========================
+// MAIN LOOP
+// =========================
+void loop() {
+  int distance = checkDistance();
+  displayDistance();
+
+  if (distance < 15) {
+    stopMotors();         // Stop if obstacle is too close
+    delay(300);
+    turnLeftInPlace();    // Turn left to avoid obstacle
+    stopMotors();
+  } else {
+    moveForward();        // Move forward if path is clear
+    delay(10);
+  }
+}
